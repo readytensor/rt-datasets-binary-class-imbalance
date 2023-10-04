@@ -816,33 +816,30 @@
       "description": "description not available",
       "dataType": "CATEGORICAL",
       "categories": [
-        "?",
         "no",
         "yes"
       ],
-      "nullable": false
+      "nullable": true
     },
     {
       "name": "proof_on_ctd_ink",
       "description": "description not available",
       "dataType": "CATEGORICAL",
       "categories": [
-        "?",
         "no",
         "yes"
       ],
-      "nullable": false
+      "nullable": true
     },
     {
       "name": "blade_mfg",
       "description": "description not available",
       "dataType": "CATEGORICAL",
       "categories": [
-        "?",
         "benton",
         "uddeholm"
       ],
-      "nullable": false
+      "nullable": true
     },
     {
       "name": "paper_type",
@@ -871,34 +868,31 @@
       "description": "description not available",
       "dataType": "CATEGORICAL",
       "categories": [
-        "?",
         "no",
         "yes"
       ],
-      "nullable": false
+      "nullable": true
     },
     {
       "name": "solvent_type",
       "description": "description not available",
       "dataType": "CATEGORICAL",
       "categories": [
-        "?",
         "line",
         "naptha",
         "xylol"
       ],
-      "nullable": false
+      "nullable": true
     },
     {
       "name": "type_on_cylinder",
       "description": "description not available",
       "dataType": "CATEGORICAL",
       "categories": [
-        "?",
         "no",
         "yes"
       ],
-      "nullable": false
+      "nullable": true
     },
     {
       "name": "press_type",
@@ -948,37 +942,34 @@
       "description": "description not available",
       "dataType": "CATEGORICAL",
       "categories": [
-        "?",
         "catalog",
         "spiegel",
         "tabloid"
       ],
-      "nullable": false
+      "nullable": true
     },
     {
       "name": "paper_mill_location",
       "description": "description not available",
       "dataType": "CATEGORICAL",
       "categories": [
-        "?",
         "canadian",
         "mideuropean",
         "northus",
         "scandanavian",
         "southus"
       ],
-      "nullable": false
+      "nullable": true
     },
     {
       "name": "plating_tank",
       "description": "description not available",
       "dataType": "CATEGORICAL",
       "categories": [
-        "1910",
-        "1911",
-        "?"
+        1910.0,
+        1911.0
       ],
-      "nullable": false
+      "nullable": true
     },
     {
       "name": "proof_cut",
@@ -998,8 +989,8 @@
       "name": "caliper",
       "description": "description not available",
       "dataType": "NUMERIC",
-      "example": "0.2",
-      "nullable": false
+      "example": 0.2,
+      "nullable": true
     },
     {
       "name": "ink_temperature",
@@ -1096,8 +1087,8 @@
       "name": "current_density",
       "description": "description not available",
       "dataType": "NUMERIC",
-      "example": "40",
-      "nullable": false
+      "example": 40.0,
+      "nullable": true
     },
     {
       "name": "anode_space_ratio",
@@ -1110,8 +1101,8 @@
       "name": "chrome_content",
       "description": "description not available",
       "dataType": "NUMERIC",
-      "example": "100",
-      "nullable": false
+      "example": 100.0,
+      "nullable": true
     }
   ]
 }

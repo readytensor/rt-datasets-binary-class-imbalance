@@ -19,10 +19,10 @@
       "unit_number": 2.0,
       "cylinder_size": "tabloid",
       "paper_mill_location": "northus",
-      "plating_tank": "1911",
+      "plating_tank": 1911.0,
       "proof_cut": 55.0,
       "viscosity": 46.0,
-      "caliper": "0.2",
+      "caliper": 0.2,
       "ink_temperature": 17.0,
       "humifity": 78.0,
       "roughness": 0.75,
@@ -36,9 +36,9 @@
       "wax": 2.5,
       "hardener": 1.0,
       "roller_durometer": 34.0,
-      "current_density": "40",
+      "current_density": 40.0,
       "anode_space_ratio": 105.0,
-      "chrome_content": "100"
+      "chrome_content": 100.0
     }
   ]
 }

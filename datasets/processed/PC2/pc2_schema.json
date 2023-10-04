@@ -11,10 +11,10 @@
   },
   "target": {
     "name": "c",
-    "description": "TRUE or FALSE",
+    "description": "True or False",
     "classes": [
-      "FALSE",
-      "TRUE"
+      "False",
+      "True"
     ]
   },
   "features": [

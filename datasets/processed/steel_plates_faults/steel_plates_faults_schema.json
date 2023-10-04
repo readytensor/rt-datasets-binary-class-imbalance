@@ -11,11 +11,271 @@
   },
   "target": {
     "name": "Class",
-    "description": "binary class (0 or 1) 0 indicates one of the seven faults and 1 indicates other faults",
+    "description": "binary class (1 or 2) 1 indicates one of the seven faults and 2 indicates other faults",
     "classes": [
-      "0",
-      "1"
+      "1",
+      "2"
     ]
   },
-  "features": []
+  "features": [
+    {
+      "name": "V1",
+      "description": "V1: X_Minimum",
+      "dataType": "NUMERIC",
+      "example": 42.0,
+      "nullable": false
+    },
+    {
+      "name": "V2",
+      "description": "V2: X_Maximum",
+      "dataType": "NUMERIC",
+      "example": 50.0,
+      "nullable": false
+    },
+    {
+      "name": "V3",
+      "description": "V3: Y_Minimum",
+      "dataType": "NUMERIC",
+      "example": 270900.0,
+      "nullable": false
+    },
+    {
+      "name": "V4",
+      "description": "V4: Y_Maximum",
+      "dataType": "NUMERIC",
+      "example": 270944.0,
+      "nullable": false
+    },
+    {
+      "name": "V5",
+      "description": "V5: Pixels_Areas",
+      "dataType": "NUMERIC",
+      "example": 267.0,
+      "nullable": false
+    },
+    {
+      "name": "V6",
+      "description": "V6: X_Perimeter",
+      "dataType": "NUMERIC",
+      "example": 17.0,
+      "nullable": false
+    },
+    {
+      "name": "V7",
+      "description": "V7: Y_Perimeter",
+      "dataType": "NUMERIC",
+      "example": 44.0,
+      "nullable": false
+    },
+    {
+      "name": "V8",
+      "description": "V8: Sum_of_Luminosity",
+      "dataType": "NUMERIC",
+      "example": 24220.0,
+      "nullable": false
+    },
+    {
+      "name": "V9",
+      "description": "V9: Minimum_of_Luminosity",
+      "dataType": "NUMERIC",
+      "example": 76.0,
+      "nullable": false
+    },
+    {
+      "name": "V10",
+      "description": "V10: Maximum_of_Luminosity",
+      "dataType": "NUMERIC",
+      "example": 108.0,
+      "nullable": false
+    },
+    {
+      "name": "V11",
+      "description": "V11: Length_of_Conveyer",
+      "dataType": "NUMERIC",
+      "example": 1687.0,
+      "nullable": false
+    },
+    {
+      "name": "V12",
+      "description": "V12: TypeOfSteel_A300",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        1.0
+      ],
+      "nullable": false
+    },
+    {
+      "name": "V13",
+      "description": "V13: TypeOfSteel_A400",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        1.0
+      ],
+      "nullable": false
+    },
+    {
+      "name": "V14",
+      "description": "V14: Steel_Plate_Thickness",
+      "dataType": "NUMERIC",
+      "example": 80.0,
+      "nullable": false
+    },
+    {
+      "name": "V15",
+      "description": "V15: Edges_Index",
+      "dataType": "NUMERIC",
+      "example": 0.0498,
+      "nullable": false
+    },
+    {
+      "name": "V16",
+      "description": "V16: Empty_Index",
+      "dataType": "NUMERIC",
+      "example": 0.2415,
+      "nullable": false
+    },
+    {
+      "name": "V17",
+      "description": "V17: Square_Index",
+      "dataType": "NUMERIC",
+      "example": 0.1818,
+      "nullable": false
+    },
+    {
+      "name": "V18",
+      "description": "V18: Outside_X_Index",
+      "dataType": "NUMERIC",
+      "example": 0.0047,
+      "nullable": false
+    },
+    {
+      "name": "V19",
+      "description": "V19: Edges_X_Index",
+      "dataType": "NUMERIC",
+      "example": 0.4706,
+      "nullable": false
+    },
+    {
+      "name": "V20",
+      "description": "V20: Edges_Y_Index",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "V21",
+      "description": "V21: Outside_Global_Index",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "nullable": false
+    },
+    {
+      "name": "V22",
+      "description": "V22: LogOfAreas",
+      "dataType": "NUMERIC",
+      "example": 2.4265,
+      "nullable": false
+    },
+    {
+      "name": "V23",
+      "description": "V23: Log_X_Index",
+      "dataType": "NUMERIC",
+      "example": 0.9031,
+      "nullable": false
+    },
+    {
+      "name": "V24",
+      "description": "V24: Log_Y_Index",
+      "dataType": "NUMERIC",
+      "example": 1.6435,
+      "nullable": false
+    },
+    {
+      "name": "V25",
+      "description": "V25: Orientation_Index",
+      "dataType": "NUMERIC",
+      "example": 0.8182,
+      "nullable": false
+    },
+    {
+      "name": "V26",
+      "description": "V26: Luminosity_Index",
+      "dataType": "NUMERIC",
+      "example": -0.2913,
+      "nullable": false
+    },
+    {
+      "name": "V27",
+      "description": "V27: SigmoidOfAreas",
+      "dataType": "NUMERIC",
+      "example": 0.5822,
+      "nullable": false
+    },
+    {
+      "name": "V28",
+      "description": "V28: Pastry",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        1.0
+      ],
+      "nullable": false
+    },
+    {
+      "name": "V29",
+      "description": "V29: Z_Scratch",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        1.0
+      ],
+      "nullable": false
+    },
+    {
+      "name": "V30",
+      "description": "V30: K_Scatch",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        1.0
+      ],
+      "nullable": false
+    },
+    {
+      "name": "V31",
+      "description": "V31: Stains",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        1.0
+      ],
+      "nullable": false
+    },
+    {
+      "name": "V32",
+      "description": "V32: Dirtiness",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        1.0
+      ],
+      "nullable": false
+    },
+    {
+      "name": "V33",
+      "description": "V33: Bumps",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        1.0
+      ],
+      "nullable": false
+    }
+  ]
 }

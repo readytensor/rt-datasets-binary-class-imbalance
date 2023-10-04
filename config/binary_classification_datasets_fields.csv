@@ -43,7 +43,7 @@ binary_classification,QSAR_biodegradation,41,V39,feature,NUMERIC,SM6_B(m): Spect
 binary_classification,QSAR_biodegradation,42,V40,feature,NUMERIC,nArCOOR: Number of esters (aromatic)
 binary_classification,QSAR_biodegradation,43,V41,feature,NUMERIC,nX: Number of halogen atoms
 binary_classification,ozone_level_detection,1,id,id,TEXT,unique identifier 
-binary_classification,ozone_level_detection,2,Class,target,CATEGORICAL,"1,0 | two classes 1: ozone day, 0: normal day"
+binary_classification,ozone_level_detection,2,Class,target,CATEGORICAL,"2,1 | two classes 2: ozone day, 1: normal day"
 binary_classification,ozone_level_detection,3,V1,feature,NUMERIC,WSR0: All attributes starting with WS indicate the wind speed at various time.
 binary_classification,ozone_level_detection,4,V2,feature,NUMERIC,WSR1
 binary_classification,ozone_level_detection,5,V3,feature,NUMERIC,WSR2
@@ -409,41 +409,41 @@ binary_classification,online_shopping,16,Region,feature,CATEGORICAL,Region of th
 binary_classification,online_shopping,17,TrafficType,feature,CATEGORICAL,Traffic type (categories 1 to 20) - information of types not provided in dataset
 binary_classification,online_shopping,18,VisitorType,feature,CATEGORICAL,Returning or new visitor
 binary_classification,online_shopping,19,Weekend,feature,CATEGORICAL,Is the session on weekend or weekday
-binary_classification,Steel Plates Faults,1,id,id,TEXT,unique identifier
-binary_classification,Steel Plates Faults,2,Class,target,CATEGORICAL,Class: Other_Faults
-binary_classification,Steel Plates Faults,3,V1,feature,NUMERIC,V1: X_Minimum
-binary_classification,Steel Plates Faults,4,V2,feature,NUMERIC,V2: X_Maximum
-binary_classification,Steel Plates Faults,5,V3,feature,NUMERIC,V3: Y_Minimum
-binary_classification,Steel Plates Faults,6,V4,feature,NUMERIC,V4: Y_Maximum
-binary_classification,Steel Plates Faults,7,V5,feature,NUMERIC,V5: Pixels_Areas
-binary_classification,Steel Plates Faults,8,V6,feature,NUMERIC,V6: X_Perimeter
-binary_classification,Steel Plates Faults,9,V7,feature,NUMERIC,V7: Y_Perimeter
-binary_classification,Steel Plates Faults,10,V8,feature,NUMERIC,V8: Sum_of_Luminosity
-binary_classification,Steel Plates Faults,11,V9,feature,NUMERIC,V9: Minimum_of_Luminosity
-binary_classification,Steel Plates Faults,12,V10,feature,NUMERIC,V10: Maximum_of_Luminosity
-binary_classification,Steel Plates Faults,13,V11,feature,NUMERIC,V11: Length_of_Conveyer
-binary_classification,Steel Plates Faults,14,V12,feature,CATEGORICAL,V12: TypeOfSteel_A300
-binary_classification,Steel Plates Faults,15,V13,feature,CATEGORICAL,V13: TypeOfSteel_A400
-binary_classification,Steel Plates Faults,16,V14,feature,NUMERIC,V14: Steel_Plate_Thickness
-binary_classification,Steel Plates Faults,17,V15,feature,NUMERIC,V15: Edges_Index
-binary_classification,Steel Plates Faults,18,V16,feature,NUMERIC,V16: Empty_Index
-binary_classification,Steel Plates Faults,19,V17,feature,NUMERIC,V17: Square_Index
-binary_classification,Steel Plates Faults,20,V18,feature,NUMERIC,V18: Outside_X_Index
-binary_classification,Steel Plates Faults,21,V19,feature,NUMERIC,V19: Edges_X_Index
-binary_classification,Steel Plates Faults,22,V20,feature,NUMERIC,V20: Edges_Y_Index
-binary_classification,Steel Plates Faults,23,V21,feature,CATEGORICAL,V21: Outside_Global_Index
-binary_classification,Steel Plates Faults,24,V22,feature,NUMERIC,V22: LogOfAreas
-binary_classification,Steel Plates Faults,25,V23,feature,NUMERIC,V23: Log_X_Index
-binary_classification,Steel Plates Faults,26,V24,feature,NUMERIC,V24: Log_Y_Index
-binary_classification,Steel Plates Faults,27,V25,feature,NUMERIC,V25: Orientation_Index
-binary_classification,Steel Plates Faults,28,V26,feature,NUMERIC,V26: Luminosity_Index
-binary_classification,Steel Plates Faults,29,V27,feature,NUMERIC,V27: SigmoidOfAreas
-binary_classification,Steel Plates Faults,30,V28,feature,CATEGORICAL,V28: Pastry
-binary_classification,Steel Plates Faults,31,V29,feature,CATEGORICAL,V29: Z_Scratch
-binary_classification,Steel Plates Faults,32,V30,feature,CATEGORICAL,V30: K_Scatch
-binary_classification,Steel Plates Faults,33,V31,feature,CATEGORICAL,V31: Stains
-binary_classification,Steel Plates Faults,34,V32,feature,CATEGORICAL,V32: Dirtiness
-binary_classification,Steel Plates Faults,35,V33,feature,CATEGORICAL,V33: Bumps
+binary_classification,steel_plates_faults,1,id,id,TEXT,unique identifier
+binary_classification,steel_plates_faults,2,Class,target,CATEGORICAL,Class: Other_Faults
+binary_classification,steel_plates_faults,3,V1,feature,NUMERIC,V1: X_Minimum
+binary_classification,steel_plates_faults,4,V2,feature,NUMERIC,V2: X_Maximum
+binary_classification,steel_plates_faults,5,V3,feature,NUMERIC,V3: Y_Minimum
+binary_classification,steel_plates_faults,6,V4,feature,NUMERIC,V4: Y_Maximum
+binary_classification,steel_plates_faults,7,V5,feature,NUMERIC,V5: Pixels_Areas
+binary_classification,steel_plates_faults,8,V6,feature,NUMERIC,V6: X_Perimeter
+binary_classification,steel_plates_faults,9,V7,feature,NUMERIC,V7: Y_Perimeter
+binary_classification,steel_plates_faults,10,V8,feature,NUMERIC,V8: Sum_of_Luminosity
+binary_classification,steel_plates_faults,11,V9,feature,NUMERIC,V9: Minimum_of_Luminosity
+binary_classification,steel_plates_faults,12,V10,feature,NUMERIC,V10: Maximum_of_Luminosity
+binary_classification,steel_plates_faults,13,V11,feature,NUMERIC,V11: Length_of_Conveyer
+binary_classification,steel_plates_faults,14,V12,feature,CATEGORICAL,V12: TypeOfSteel_A300
+binary_classification,steel_plates_faults,15,V13,feature,CATEGORICAL,V13: TypeOfSteel_A400
+binary_classification,steel_plates_faults,16,V14,feature,NUMERIC,V14: Steel_Plate_Thickness
+binary_classification,steel_plates_faults,17,V15,feature,NUMERIC,V15: Edges_Index
+binary_classification,steel_plates_faults,18,V16,feature,NUMERIC,V16: Empty_Index
+binary_classification,steel_plates_faults,19,V17,feature,NUMERIC,V17: Square_Index
+binary_classification,steel_plates_faults,20,V18,feature,NUMERIC,V18: Outside_X_Index
+binary_classification,steel_plates_faults,21,V19,feature,NUMERIC,V19: Edges_X_Index
+binary_classification,steel_plates_faults,22,V20,feature,NUMERIC,V20: Edges_Y_Index
+binary_classification,steel_plates_faults,23,V21,feature,CATEGORICAL,V21: Outside_Global_Index
+binary_classification,steel_plates_faults,24,V22,feature,NUMERIC,V22: LogOfAreas
+binary_classification,steel_plates_faults,25,V23,feature,NUMERIC,V23: Log_X_Index
+binary_classification,steel_plates_faults,26,V24,feature,NUMERIC,V24: Log_Y_Index
+binary_classification,steel_plates_faults,27,V25,feature,NUMERIC,V25: Orientation_Index
+binary_classification,steel_plates_faults,28,V26,feature,NUMERIC,V26: Luminosity_Index
+binary_classification,steel_plates_faults,29,V27,feature,NUMERIC,V27: SigmoidOfAreas
+binary_classification,steel_plates_faults,30,V28,feature,CATEGORICAL,V28: Pastry
+binary_classification,steel_plates_faults,31,V29,feature,CATEGORICAL,V29: Z_Scratch
+binary_classification,steel_plates_faults,32,V30,feature,CATEGORICAL,V30: K_Scatch
+binary_classification,steel_plates_faults,33,V31,feature,CATEGORICAL,V31: Stains
+binary_classification,steel_plates_faults,34,V32,feature,CATEGORICAL,V32: Dirtiness
+binary_classification,steel_plates_faults,35,V33,feature,CATEGORICAL,V33: Bumps
 binary_classification,smoke_test_bc,1,id,id,TEXT,unique identifier
 binary_classification,smoke_test_bc,2,target,target,CATEGORICAL,binary class (0 or 1)
 binary_classification,smoke_test_bc,3,color,feature,CATEGORICAL,color feature
