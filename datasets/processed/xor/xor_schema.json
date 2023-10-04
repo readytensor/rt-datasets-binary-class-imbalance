@@ -1,0 +1,57 @@
+{
+  "title": "Exclusive-Or dataset",
+  "description": "Synthetically generated 5-dimensional Exclusive-Or (XOR) dataset.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier"
+  },
+  "target": {
+    "name": "target",
+    "description": "binary class (0 or 1)",
+    "classes": [
+      "0",
+      "1"
+    ]
+  },
+  "features": [
+    {
+      "name": "x1",
+      "description": "feature 1 of synthetic XOR data",
+      "dataType": "NUMERIC",
+      "example": 0.8179,
+      "nullable": false
+    },
+    {
+      "name": "x2",
+      "description": "feature 2 of synthetic XOR data",
+      "dataType": "NUMERIC",
+      "example": 0.551,
+      "nullable": false
+    },
+    {
+      "name": "x3",
+      "description": "feature 3 of synthetic XOR data",
+      "dataType": "NUMERIC",
+      "example": 0.4198,
+      "nullable": false
+    },
+    {
+      "name": "x4",
+      "description": "feature 4 of synthetic XOR data",
+      "dataType": "NUMERIC",
+      "example": 0.0987,
+      "nullable": false
+    },
+    {
+      "name": "x5",
+      "description": "feature 5 of synthetic XOR data",
+      "dataType": "NUMERIC",
+      "example": 0.811,
+      "nullable": false
+    }
+  ]
+}
