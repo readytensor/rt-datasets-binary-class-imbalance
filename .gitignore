@@ -1,0 +1,19 @@
+tmp/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+.idea/
+
+test.ipynb
+.DS_Store
