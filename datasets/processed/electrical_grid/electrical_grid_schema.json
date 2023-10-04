@@ -1,0 +1,106 @@
+{
+  "title": "Electrical Grid Stability Simulated Data Data Set",
+  "description": "The local stability analysis of the 4-node star system (electricity producer is in the center) implementing Decentral Smart Grid Control concept.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique record identifier"
+  },
+  "target": {
+    "name": "stabf",
+    "description": "the stability label of the system : stable or unstable",
+    "classes": [
+      "stable",
+      "unstable"
+    ]
+  },
+  "features": [
+    {
+      "name": "tau1",
+      "description": "reaction time of participant (real from the range [0.5,10]s). Tau1 - the value for electricity producer.",
+      "dataType": "NUMERIC",
+      "example": 2.959060025,
+      "nullable": false
+    },
+    {
+      "name": "tau2",
+      "description": "reaction time of participant (real from the range [0.5,10]s). Tau1 - the value for electricity producer.",
+      "dataType": "NUMERIC",
+      "example": 3.079885204,
+      "nullable": false
+    },
+    {
+      "name": "tau3",
+      "description": "reaction time of participant (real from the range [0.5,10]s). Tau1 - the value for electricity producer.",
+      "dataType": "NUMERIC",
+      "example": 8.381025392,
+      "nullable": false
+    },
+    {
+      "name": "tau4",
+      "description": "reaction time of participant (real from the range [0.5,10]s). Tau1 - the value for electricity producer.",
+      "dataType": "NUMERIC",
+      "example": 9.780754432,
+      "nullable": false
+    },
+    {
+      "name": "p1",
+      "description": "nominal power consumed(negative)/produced(positive)(real). For consumers from the range [-0.5,-2]s^-2; p1 = abs(p2 + p3 + p4)",
+      "dataType": "NUMERIC",
+      "example": 3.763084772,
+      "nullable": false
+    },
+    {
+      "name": "p2",
+      "description": "nominal power consumed(negative)/produced(positive)(real). For consumers from the range [-0.5,-2]s^-2; p1 = abs(p2 + p3 + p4)",
+      "dataType": "NUMERIC",
+      "example": -0.782603631,
+      "nullable": false
+    },
+    {
+      "name": "p3",
+      "description": "nominal power consumed(negative)/produced(positive)(real). For consumers from the range [-0.5,-2]s^-2; p1 = abs(p2 + p3 + p4)",
+      "dataType": "NUMERIC",
+      "example": -1.25739483,
+      "nullable": false
+    },
+    {
+      "name": "p4",
+      "description": "nominal power consumed(negative)/produced(positive)(real). For consumers from the range [-0.5,-2]s^-2; p1 = abs(p2 + p3 + p4)",
+      "dataType": "NUMERIC",
+      "example": -1.723086311,
+      "nullable": false
+    },
+    {
+      "name": "g1",
+      "description": "coefficient (gamma) proportional to price elasticity (real from the range [0.05,1]s^-1). g1 - the value for electricity producer.",
+      "dataType": "NUMERIC",
+      "example": 0.650456461,
+      "nullable": false
+    },
+    {
+      "name": "g2",
+      "description": "coefficient (gamma) proportional to price elasticity (real from the range [0.05,1]s^-1). g1 - the value for electricity producer.",
+      "dataType": "NUMERIC",
+      "example": 0.859578106,
+      "nullable": false
+    },
+    {
+      "name": "g3",
+      "description": "coefficient (gamma) proportional to price elasticity (real from the range [0.05,1]s^-1). g1 - the value for electricity producer.",
+      "dataType": "NUMERIC",
+      "example": 0.887444921,
+      "nullable": false
+    },
+    {
+      "name": "g4",
+      "description": "coefficient (gamma) proportional to price elasticity (real from the range [0.05,1]s^-1). g1 - the value for electricity producer.",
+      "dataType": "NUMERIC",
+      "example": 0.958033988,
+      "nullable": false
+    }
+  ]
+}
