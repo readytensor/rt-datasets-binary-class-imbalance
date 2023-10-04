@@ -1,0 +1,14 @@
+{
+  "instances": [
+    {
+      "id": "0",
+      "pclass": 1,
+      "sex": "female",
+      "age": 29.0,
+      "sibsp": 0,
+      "parch": 0,
+      "fare": 211.3375,
+      "embarked": "S"
+    }
+  ]
+}
