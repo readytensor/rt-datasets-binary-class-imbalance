@@ -1,0 +1,26 @@
+{
+  "instances": [
+    {
+      "id": "0",
+      "state": 16.0,
+      "account_length": 128.0,
+      "area_code": 415,
+      "international_plan": 0,
+      "voice_mail_plan": 1,
+      "number_vmail_messages": 25.0,
+      "total_day_minutes": 265.1,
+      "total_day_calls": 110.0,
+      "total_day_charge": 45.07,
+      "total_eve_minutes": 197.4,
+      "total_eve_calls": 99.0,
+      "total_eve_charge": 16.78,
+      "total_night_minutes": 244.7,
+      "total_night_calls": 91.0,
+      "total_night_charge": 11.01,
+      "total_intl_minutes": 10.0,
+      "total_intl_calls": 3.0,
+      "total_intl_charge": 2.7,
+      "number_customer_service_calls": 1
+    }
+  ]
+}

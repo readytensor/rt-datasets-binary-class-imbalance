@@ -1,0 +1,50 @@
+{
+  "title": "Banknote Authentication",
+  "description": "Dataset about distinguishing genuine and forged banknotes. Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. A Wavelet Transform tool was used to extract features from these images.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier"
+  },
+  "target": {
+    "name": "Class",
+    "description": "binary class (1 or 2). Presumably 1 for genuine and 2 for forged",
+    "classes": [
+      "1",
+      "2"
+    ]
+  },
+  "features": [
+    {
+      "name": "V1",
+      "description": "variance of Wavelet Transformed image",
+      "dataType": "NUMERIC",
+      "example": 3.6216,
+      "nullable": false
+    },
+    {
+      "name": "V2",
+      "description": "skewness of Wavelet Transformed image",
+      "dataType": "NUMERIC",
+      "example": 8.6661,
+      "nullable": false
+    },
+    {
+      "name": "V3",
+      "description": "curtosis of Wavelet Transformed image",
+      "dataType": "NUMERIC",
+      "example": -2.8073,
+      "nullable": false
+    },
+    {
+      "name": "V4",
+      "description": "entropy of image",
+      "dataType": "NUMERIC",
+      "example": -0.44699,
+      "nullable": false
+    }
+  ]
+}
