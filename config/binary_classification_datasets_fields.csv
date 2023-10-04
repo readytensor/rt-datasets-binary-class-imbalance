@@ -1,121 +1,121 @@
 model_category,name,field_num,field_name,field_type,data_type,field_description
-binary_classification,QSAR_biodegradation,1,id,id,TEXT,unique identifier 
-binary_classification,QSAR_biodegradation,2,Class,target,CATEGORICAL,experimental class: ready biodegradable (RB) and not ready biodegradable (NRB)
-binary_classification,QSAR_biodegradation,3,V1,feature,NUMERIC,SpMax_L: Leading eigenvalue from Laplace matrix
-binary_classification,QSAR_biodegradation,4,V2,feature,NUMERIC,J_Dz(e): Balaban-like index from Barysz matrix weighted by Sanderson electronegativity
-binary_classification,QSAR_biodegradation,5,V3,feature,NUMERIC,nHM: Number of heavy atoms
-binary_classification,QSAR_biodegradation,6,V4,feature,NUMERIC,F01[N-N]: Frequency of N-N at topological distance 1
-binary_classification,QSAR_biodegradation,7,V5,feature,NUMERIC,F04[C-N]: Frequency of C-N at topological distance 4
-binary_classification,QSAR_biodegradation,8,V6,feature,NUMERIC,NssssC: Number of atoms of type ssssC
-binary_classification,QSAR_biodegradation,9,V7,feature,NUMERIC,nCb-: Number of substituted benzene C(sp2)
-binary_classification,QSAR_biodegradation,10,V8,feature,NUMERIC,C%: Percentage of C atoms
-binary_classification,QSAR_biodegradation,11,V9,feature,NUMERIC,nCp: Number of terminal primary C(sp3)
-binary_classification,QSAR_biodegradation,12,V10,feature,NUMERIC,nO: Number of oxygen atoms
-binary_classification,QSAR_biodegradation,13,V11,feature,NUMERIC,F03[C-N]: Frequency of C-N at topological distance 3
-binary_classification,QSAR_biodegradation,14,V12,feature,NUMERIC,SdssC: Sum of dssC E-states
-binary_classification,QSAR_biodegradation,15,V13,feature,NUMERIC,HyWi_B(m): Hyper-Wiener-like index (log function) from Burden matrix weighted by mass
-binary_classification,QSAR_biodegradation,16,V14,feature,NUMERIC,LOC: Lopping centric index
-binary_classification,QSAR_biodegradation,17,V15,feature,NUMERIC,SM6_L: Spectral moment of order 6 from Laplace matrix
-binary_classification,QSAR_biodegradation,18,V16,feature,NUMERIC,F03[C-O]: Frequency of C - O at topological distance 3
-binary_classification,QSAR_biodegradation,19,V17,feature,NUMERIC,Me: Mean atomic Sanderson electronegativity (scaled on Carbon atom)
-binary_classification,QSAR_biodegradation,20,V18,feature,NUMERIC,Mi: Mean first ionization potential (scaled on Carbon atom)
-binary_classification,QSAR_biodegradation,21,V19,feature,NUMERIC,nN-N: Number of N hydrazines
-binary_classification,QSAR_biodegradation,22,V20,feature,NUMERIC,nArNO2: Number of nitro groups (aromatic)
-binary_classification,QSAR_biodegradation,23,V21,feature,NUMERIC,nCRX3: Number of CRX3
-binary_classification,QSAR_biodegradation,24,V22,feature,NUMERIC,SpPosA_B(p): Normalized spectral positive sum from Burden matrix weighted by polarizability
-binary_classification,QSAR_biodegradation,25,V23,feature,NUMERIC,nCIR: Number of circuits
-binary_classification,QSAR_biodegradation,26,V24,feature,CATEGORICAL,B01[C-Br]: Presence/absence of C - Br at topological distance 1
-binary_classification,QSAR_biodegradation,27,V25,feature,CATEGORICAL,B03[C-Cl]: Presence/absence of C - Cl at topological distance 3
-binary_classification,QSAR_biodegradation,28,V26,feature,CATEGORICAL,N-073: Ar2NH / Ar3N / Ar2N-Al / R..N..R
-binary_classification,QSAR_biodegradation,29,V27,feature,NUMERIC,SpMax_A: Leading eigenvalue from adjacency matrix (Lovasz-Pelikan index)
-binary_classification,QSAR_biodegradation,30,V28,feature,NUMERIC,Psi_i_1d: Intrinsic state pseudoconnectivity index - type 1d
-binary_classification,QSAR_biodegradation,31,V29,feature,CATEGORICAL,B04[C-Br]: Presence/absence of C - Br at topological distance 4
-binary_classification,QSAR_biodegradation,32,V30,feature,NUMERIC,SdO: Sum of dO E-states
-binary_classification,QSAR_biodegradation,33,V31,feature,NUMERIC,TI2_L: Second Mohar index from Laplace matrix
-binary_classification,QSAR_biodegradation,34,V32,feature,NUMERIC,nCrt: Number of ring tertiary C(sp3)
-binary_classification,QSAR_biodegradation,35,V33,feature,NUMERIC,C-026: R--CX--R
-binary_classification,QSAR_biodegradation,36,V34,feature,NUMERIC,F02[C-N]: Frequency of C - N at topological distance 2
-binary_classification,QSAR_biodegradation,37,V35,feature,NUMERIC,nHDon: Number of donor atoms for H-bonds (N and O)
-binary_classification,QSAR_biodegradation,38,V36,feature,NUMERIC,SpMax_B(m): Leading eigenvalue from Burden matrix weighted by mass
-binary_classification,QSAR_biodegradation,39,V37,feature,NUMERIC,Psi_i_A: Intrinsic state pseudoconnectivity index - type S average
-binary_classification,QSAR_biodegradation,40,V38,feature,NUMERIC,nN: Number of Nitrogen atoms
-binary_classification,QSAR_biodegradation,41,V39,feature,NUMERIC,SM6_B(m): Spectral moment of order 6 from Burden matrix weighted by mass
-binary_classification,QSAR_biodegradation,42,V40,feature,NUMERIC,nArCOOR: Number of esters (aromatic)
-binary_classification,QSAR_biodegradation,43,V41,feature,NUMERIC,nX: Number of halogen atoms
-binary_classification,ozone_level_detection,1,id,id,TEXT,unique identifier 
-binary_classification,ozone_level_detection,2,Class,target,CATEGORICAL,"2,1 | two classes 2: ozone day, 1: normal day"
-binary_classification,ozone_level_detection,3,V1,feature,NUMERIC,WSR0: All attributes starting with WS indicate the wind speed at various time.
-binary_classification,ozone_level_detection,4,V2,feature,NUMERIC,WSR1
-binary_classification,ozone_level_detection,5,V3,feature,NUMERIC,WSR2
-binary_classification,ozone_level_detection,6,V4,feature,NUMERIC,WSR3
-binary_classification,ozone_level_detection,7,V5,feature,NUMERIC,WSR4
-binary_classification,ozone_level_detection,8,V6,feature,NUMERIC,WSR5
-binary_classification,ozone_level_detection,9,V7,feature,NUMERIC,WSR6
-binary_classification,ozone_level_detection,10,V8,feature,NUMERIC,WSR7
-binary_classification,ozone_level_detection,11,V9,feature,NUMERIC,WSR8
-binary_classification,ozone_level_detection,12,V10,feature,NUMERIC,WSR9
-binary_classification,ozone_level_detection,13,V11,feature,NUMERIC,WSR10
-binary_classification,ozone_level_detection,14,V12,feature,NUMERIC,WSR11
-binary_classification,ozone_level_detection,15,V13,feature,NUMERIC,WSR12
-binary_classification,ozone_level_detection,16,V14,feature,NUMERIC,WSR13
-binary_classification,ozone_level_detection,17,V15,feature,NUMERIC,WSR14
-binary_classification,ozone_level_detection,18,V16,feature,NUMERIC,WSR15
-binary_classification,ozone_level_detection,19,V17,feature,NUMERIC,WSR16
-binary_classification,ozone_level_detection,20,V18,feature,NUMERIC,WSR17
-binary_classification,ozone_level_detection,21,V19,feature,NUMERIC,WSR18
-binary_classification,ozone_level_detection,22,V20,feature,NUMERIC,WSR19
-binary_classification,ozone_level_detection,23,V21,feature,NUMERIC,WSR20
-binary_classification,ozone_level_detection,24,V22,feature,NUMERIC,WSR21
-binary_classification,ozone_level_detection,25,V23,feature,NUMERIC,WSR22
-binary_classification,ozone_level_detection,26,V24,feature,NUMERIC,WSR23
-binary_classification,ozone_level_detection,27,V25,feature,NUMERIC,WSR_PK peek wind speed
-binary_classification,ozone_level_detection,28,V26,feature,NUMERIC,WSR_AV average wind speed
-binary_classification,ozone_level_detection,29,V27,feature,NUMERIC,T0: All the attribute start with T means the temperature measured at different time throughout the day
-binary_classification,ozone_level_detection,30,V28,feature,NUMERIC,T1
-binary_classification,ozone_level_detection,31,V29,feature,NUMERIC,T2
-binary_classification,ozone_level_detection,32,V30,feature,NUMERIC,T3
-binary_classification,ozone_level_detection,33,V31,feature,NUMERIC,T4
-binary_classification,ozone_level_detection,34,V32,feature,NUMERIC,T5
-binary_classification,ozone_level_detection,35,V33,feature,NUMERIC,T6
-binary_classification,ozone_level_detection,36,V34,feature,NUMERIC,T7
-binary_classification,ozone_level_detection,37,V35,feature,NUMERIC,T8
-binary_classification,ozone_level_detection,38,V36,feature,NUMERIC,T9
-binary_classification,ozone_level_detection,39,V37,feature,NUMERIC,T10
-binary_classification,ozone_level_detection,40,V38,feature,NUMERIC,T11
-binary_classification,ozone_level_detection,41,V39,feature,NUMERIC,T12
-binary_classification,ozone_level_detection,42,V40,feature,NUMERIC,T13
-binary_classification,ozone_level_detection,43,V41,feature,NUMERIC,T14
-binary_classification,ozone_level_detection,44,V42,feature,NUMERIC,T15
-binary_classification,ozone_level_detection,45,V43,feature,NUMERIC,T16
-binary_classification,ozone_level_detection,46,V44,feature,NUMERIC,T17
-binary_classification,ozone_level_detection,47,V45,feature,NUMERIC,T18
-binary_classification,ozone_level_detection,48,V46,feature,NUMERIC,T19
-binary_classification,ozone_level_detection,49,V47,feature,NUMERIC,T20
-binary_classification,ozone_level_detection,50,V48,feature,NUMERIC,T21
-binary_classification,ozone_level_detection,51,V49,feature,NUMERIC,T22
-binary_classification,ozone_level_detection,52,V50,feature,NUMERIC,T23
-binary_classification,ozone_level_detection,53,V51,feature,NUMERIC,T_PK Peak T
-binary_classification,ozone_level_detection,54,V52,feature,NUMERIC,T_AV Average T
-binary_classification,ozone_level_detection,55,V53,feature,NUMERIC,T85: T at 850 hpa level (or about 1500 m height)
-binary_classification,ozone_level_detection,56,V54,feature,NUMERIC,RH85:  Relative Humidity at 850 hpa
-binary_classification,ozone_level_detection,57,V55,feature,NUMERIC,U85:  (U wind - east-west direction wind at 850 hpa)
-binary_classification,ozone_level_detection,58,V56,feature,NUMERIC,V85: V wind - N-S direction wind at 850
-binary_classification,ozone_level_detection,59,V57,feature,NUMERIC,"HT85: Geopotential height at 850 hpa, it is about the same as height at low altitude"
-binary_classification,ozone_level_detection,60,V58,feature,NUMERIC,T70: T at 700 hpa level (roughly 3100 m height)
-binary_classification,ozone_level_detection,61,V59,feature,NUMERIC,RH70:   
-binary_classification,ozone_level_detection,62,V60,feature,NUMERIC,U70:    
-binary_classification,ozone_level_detection,63,V61,feature,NUMERIC,V70:     
-binary_classification,ozone_level_detection,64,V62,feature,NUMERIC,HT70:   
-binary_classification,ozone_level_detection,65,V63,feature,NUMERIC,T50: T at 500 hpa level (roughly at 5500 m height)
-binary_classification,ozone_level_detection,66,V64,feature,NUMERIC,RH50: 
-binary_classification,ozone_level_detection,67,V65,feature,NUMERIC,U50:   
-binary_classification,ozone_level_detection,68,V66,feature,NUMERIC,V50:    
-binary_classification,ozone_level_detection,69,V67,feature,NUMERIC,HT50:   
-binary_classification,ozone_level_detection,70,V68,feature,NUMERIC,KI: K-Index http://www.weather.gov/glossary/index.php?letter=k
-binary_classification,ozone_level_detection,71,V69,feature,NUMERIC,TT: T-Totals http://www.theweatherprediction.com/habyhints/302/
-binary_classification,ozone_level_detection,72,V70,feature,NUMERIC,SLP: Sea level pressure
-binary_classification,ozone_level_detection,73,V71,feature,NUMERIC,SLP_: SLP change from previous day
-binary_classification,ozone_level_detection,74,V72,feature,NUMERIC,Precp: precipitation
+binary_classification,qasr_biodegradation,1,id,id,TEXT,unique identifier 
+binary_classification,qasr_biodegradation,2,Class,target,CATEGORICAL,experimental class: ready biodegradable (RB) and not ready biodegradable (NRB)
+binary_classification,qasr_biodegradation,3,V1,feature,NUMERIC,SpMax_L: Leading eigenvalue from Laplace matrix
+binary_classification,qasr_biodegradation,4,V2,feature,NUMERIC,J_Dz(e): Balaban-like index from Barysz matrix weighted by Sanderson electronegativity
+binary_classification,qasr_biodegradation,5,V3,feature,NUMERIC,nHM: Number of heavy atoms
+binary_classification,qasr_biodegradation,6,V4,feature,NUMERIC,F01[N-N]: Frequency of N-N at topological distance 1
+binary_classification,qasr_biodegradation,7,V5,feature,NUMERIC,F04[C-N]: Frequency of C-N at topological distance 4
+binary_classification,qasr_biodegradation,8,V6,feature,NUMERIC,NssssC: Number of atoms of type ssssC
+binary_classification,qasr_biodegradation,9,V7,feature,NUMERIC,nCb-: Number of substituted benzene C(sp2)
+binary_classification,qasr_biodegradation,10,V8,feature,NUMERIC,C%: Percentage of C atoms
+binary_classification,qasr_biodegradation,11,V9,feature,NUMERIC,nCp: Number of terminal primary C(sp3)
+binary_classification,qasr_biodegradation,12,V10,feature,NUMERIC,nO: Number of oxygen atoms
+binary_classification,qasr_biodegradation,13,V11,feature,NUMERIC,F03[C-N]: Frequency of C-N at topological distance 3
+binary_classification,qasr_biodegradation,14,V12,feature,NUMERIC,SdssC: Sum of dssC E-states
+binary_classification,qasr_biodegradation,15,V13,feature,NUMERIC,HyWi_B(m): Hyper-Wiener-like index (log function) from Burden matrix weighted by mass
+binary_classification,qasr_biodegradation,16,V14,feature,NUMERIC,LOC: Lopping centric index
+binary_classification,qasr_biodegradation,17,V15,feature,NUMERIC,SM6_L: Spectral moment of order 6 from Laplace matrix
+binary_classification,qasr_biodegradation,18,V16,feature,NUMERIC,F03[C-O]: Frequency of C - O at topological distance 3
+binary_classification,qasr_biodegradation,19,V17,feature,NUMERIC,Me: Mean atomic Sanderson electronegativity (scaled on Carbon atom)
+binary_classification,qasr_biodegradation,20,V18,feature,NUMERIC,Mi: Mean first ionization potential (scaled on Carbon atom)
+binary_classification,qasr_biodegradation,21,V19,feature,NUMERIC,nN-N: Number of N hydrazines
+binary_classification,qasr_biodegradation,22,V20,feature,NUMERIC,nArNO2: Number of nitro groups (aromatic)
+binary_classification,qasr_biodegradation,23,V21,feature,NUMERIC,nCRX3: Number of CRX3
+binary_classification,qasr_biodegradation,24,V22,feature,NUMERIC,SpPosA_B(p): Normalized spectral positive sum from Burden matrix weighted by polarizability
+binary_classification,qasr_biodegradation,25,V23,feature,NUMERIC,nCIR: Number of circuits
+binary_classification,qasr_biodegradation,26,V24,feature,CATEGORICAL,B01[C-Br]: Presence/absence of C - Br at topological distance 1
+binary_classification,qasr_biodegradation,27,V25,feature,CATEGORICAL,B03[C-Cl]: Presence/absence of C - Cl at topological distance 3
+binary_classification,qasr_biodegradation,28,V26,feature,CATEGORICAL,N-073: Ar2NH / Ar3N / Ar2N-Al / R..N..R
+binary_classification,qasr_biodegradation,29,V27,feature,NUMERIC,SpMax_A: Leading eigenvalue from adjacency matrix (Lovasz-Pelikan index)
+binary_classification,qasr_biodegradation,30,V28,feature,NUMERIC,Psi_i_1d: Intrinsic state pseudoconnectivity index - type 1d
+binary_classification,qasr_biodegradation,31,V29,feature,CATEGORICAL,B04[C-Br]: Presence/absence of C - Br at topological distance 4
+binary_classification,qasr_biodegradation,32,V30,feature,NUMERIC,SdO: Sum of dO E-states
+binary_classification,qasr_biodegradation,33,V31,feature,NUMERIC,TI2_L: Second Mohar index from Laplace matrix
+binary_classification,qasr_biodegradation,34,V32,feature,NUMERIC,nCrt: Number of ring tertiary C(sp3)
+binary_classification,qasr_biodegradation,35,V33,feature,NUMERIC,C-026: R--CX--R
+binary_classification,qasr_biodegradation,36,V34,feature,NUMERIC,F02[C-N]: Frequency of C - N at topological distance 2
+binary_classification,qasr_biodegradation,37,V35,feature,NUMERIC,nHDon: Number of donor atoms for H-bonds (N and O)
+binary_classification,qasr_biodegradation,38,V36,feature,NUMERIC,SpMax_B(m): Leading eigenvalue from Burden matrix weighted by mass
+binary_classification,qasr_biodegradation,39,V37,feature,NUMERIC,Psi_i_A: Intrinsic state pseudoconnectivity index - type S average
+binary_classification,qasr_biodegradation,40,V38,feature,NUMERIC,nN: Number of Nitrogen atoms
+binary_classification,qasr_biodegradation,41,V39,feature,NUMERIC,SM6_B(m): Spectral moment of order 6 from Burden matrix weighted by mass
+binary_classification,qasr_biodegradation,42,V40,feature,NUMERIC,nArCOOR: Number of esters (aromatic)
+binary_classification,qasr_biodegradation,43,V41,feature,NUMERIC,nX: Number of halogen atoms
+binary_classification,ozone_level,1,id,id,TEXT,unique identifier 
+binary_classification,ozone_level,2,Class,target,CATEGORICAL,"2,1 | two classes 2: ozone day, 1: normal day"
+binary_classification,ozone_level,3,V1,feature,NUMERIC,WSR0: All attributes starting with WS indicate the wind speed at various time.
+binary_classification,ozone_level,4,V2,feature,NUMERIC,WSR1
+binary_classification,ozone_level,5,V3,feature,NUMERIC,WSR2
+binary_classification,ozone_level,6,V4,feature,NUMERIC,WSR3
+binary_classification,ozone_level,7,V5,feature,NUMERIC,WSR4
+binary_classification,ozone_level,8,V6,feature,NUMERIC,WSR5
+binary_classification,ozone_level,9,V7,feature,NUMERIC,WSR6
+binary_classification,ozone_level,10,V8,feature,NUMERIC,WSR7
+binary_classification,ozone_level,11,V9,feature,NUMERIC,WSR8
+binary_classification,ozone_level,12,V10,feature,NUMERIC,WSR9
+binary_classification,ozone_level,13,V11,feature,NUMERIC,WSR10
+binary_classification,ozone_level,14,V12,feature,NUMERIC,WSR11
+binary_classification,ozone_level,15,V13,feature,NUMERIC,WSR12
+binary_classification,ozone_level,16,V14,feature,NUMERIC,WSR13
+binary_classification,ozone_level,17,V15,feature,NUMERIC,WSR14
+binary_classification,ozone_level,18,V16,feature,NUMERIC,WSR15
+binary_classification,ozone_level,19,V17,feature,NUMERIC,WSR16
+binary_classification,ozone_level,20,V18,feature,NUMERIC,WSR17
+binary_classification,ozone_level,21,V19,feature,NUMERIC,WSR18
+binary_classification,ozone_level,22,V20,feature,NUMERIC,WSR19
+binary_classification,ozone_level,23,V21,feature,NUMERIC,WSR20
+binary_classification,ozone_level,24,V22,feature,NUMERIC,WSR21
+binary_classification,ozone_level,25,V23,feature,NUMERIC,WSR22
+binary_classification,ozone_level,26,V24,feature,NUMERIC,WSR23
+binary_classification,ozone_level,27,V25,feature,NUMERIC,WSR_PK peek wind speed
+binary_classification,ozone_level,28,V26,feature,NUMERIC,WSR_AV average wind speed
+binary_classification,ozone_level,29,V27,feature,NUMERIC,T0: All the attribute start with T means the temperature measured at different time throughout the day
+binary_classification,ozone_level,30,V28,feature,NUMERIC,T1
+binary_classification,ozone_level,31,V29,feature,NUMERIC,T2
+binary_classification,ozone_level,32,V30,feature,NUMERIC,T3
+binary_classification,ozone_level,33,V31,feature,NUMERIC,T4
+binary_classification,ozone_level,34,V32,feature,NUMERIC,T5
+binary_classification,ozone_level,35,V33,feature,NUMERIC,T6
+binary_classification,ozone_level,36,V34,feature,NUMERIC,T7
+binary_classification,ozone_level,37,V35,feature,NUMERIC,T8
+binary_classification,ozone_level,38,V36,feature,NUMERIC,T9
+binary_classification,ozone_level,39,V37,feature,NUMERIC,T10
+binary_classification,ozone_level,40,V38,feature,NUMERIC,T11
+binary_classification,ozone_level,41,V39,feature,NUMERIC,T12
+binary_classification,ozone_level,42,V40,feature,NUMERIC,T13
+binary_classification,ozone_level,43,V41,feature,NUMERIC,T14
+binary_classification,ozone_level,44,V42,feature,NUMERIC,T15
+binary_classification,ozone_level,45,V43,feature,NUMERIC,T16
+binary_classification,ozone_level,46,V44,feature,NUMERIC,T17
+binary_classification,ozone_level,47,V45,feature,NUMERIC,T18
+binary_classification,ozone_level,48,V46,feature,NUMERIC,T19
+binary_classification,ozone_level,49,V47,feature,NUMERIC,T20
+binary_classification,ozone_level,50,V48,feature,NUMERIC,T21
+binary_classification,ozone_level,51,V49,feature,NUMERIC,T22
+binary_classification,ozone_level,52,V50,feature,NUMERIC,T23
+binary_classification,ozone_level,53,V51,feature,NUMERIC,T_PK Peak T
+binary_classification,ozone_level,54,V52,feature,NUMERIC,T_AV Average T
+binary_classification,ozone_level,55,V53,feature,NUMERIC,T85: T at 850 hpa level (or about 1500 m height)
+binary_classification,ozone_level,56,V54,feature,NUMERIC,RH85:  Relative Humidity at 850 hpa
+binary_classification,ozone_level,57,V55,feature,NUMERIC,U85:  (U wind - east-west direction wind at 850 hpa)
+binary_classification,ozone_level,58,V56,feature,NUMERIC,V85: V wind - N-S direction wind at 850
+binary_classification,ozone_level,59,V57,feature,NUMERIC,"HT85: Geopotential height at 850 hpa, it is about the same as height at low altitude"
+binary_classification,ozone_level,60,V58,feature,NUMERIC,T70: T at 700 hpa level (roughly 3100 m height)
+binary_classification,ozone_level,61,V59,feature,NUMERIC,RH70:   
+binary_classification,ozone_level,62,V60,feature,NUMERIC,U70:    
+binary_classification,ozone_level,63,V61,feature,NUMERIC,V70:     
+binary_classification,ozone_level,64,V62,feature,NUMERIC,HT70:   
+binary_classification,ozone_level,65,V63,feature,NUMERIC,T50: T at 500 hpa level (roughly at 5500 m height)
+binary_classification,ozone_level,66,V64,feature,NUMERIC,RH50: 
+binary_classification,ozone_level,67,V65,feature,NUMERIC,U50:   
+binary_classification,ozone_level,68,V66,feature,NUMERIC,V50:    
+binary_classification,ozone_level,69,V67,feature,NUMERIC,HT50:   
+binary_classification,ozone_level,70,V68,feature,NUMERIC,KI: K-Index http://www.weather.gov/glossary/index.php?letter=k
+binary_classification,ozone_level,71,V69,feature,NUMERIC,TT: T-Totals http://www.theweatherprediction.com/habyhints/302/
+binary_classification,ozone_level,72,V70,feature,NUMERIC,SLP: Sea level pressure
+binary_classification,ozone_level,73,V71,feature,NUMERIC,SLP_: SLP change from previous day
+binary_classification,ozone_level,74,V72,feature,NUMERIC,Precp: precipitation
 binary_classification,xor,1,id,id,TEXT,unique identifier 
 binary_classification,xor,2,target,target,CATEGORICAL,binary class (0 or 1)
 binary_classification,xor,3,x1,feature,NUMERIC,feature 1 of synthetic XOR data
@@ -123,13 +123,13 @@ binary_classification,xor,4,x2,feature,NUMERIC,feature 2 of synthetic XOR data
 binary_classification,xor,5,x3,feature,NUMERIC,feature 3 of synthetic XOR data
 binary_classification,xor,6,x4,feature,NUMERIC,feature 4 of synthetic XOR data
 binary_classification,xor,7,x5,feature,NUMERIC,feature 5 of synthetic XOR data
-binary_classification,Wilt,1,id,id,TEXT,unique identifier
-binary_classification,Wilt,2,class,target,CATEGORICAL,description not available
-binary_classification,Wilt,3,GLCM_Pan,feature,NUMERIC,GLCM mean texture (Pan band)
-binary_classification,Wilt,4,Mean_G,feature,NUMERIC,Mean green value
-binary_classification,Wilt,5,Mean_R,feature,NUMERIC,Mean red value
-binary_classification,Wilt,6,Mean_NIR,feature,NUMERIC,Mean NIR value
-binary_classification,Wilt,7,SD_Plan,feature,NUMERIC,Standard deviation (Pan band)
+binary_classification,wilt,1,id,id,TEXT,unique identifier
+binary_classification,wilt,2,class,target,CATEGORICAL,description not available
+binary_classification,wilt,3,GLCM_Pan,feature,NUMERIC,GLCM mean texture (Pan band)
+binary_classification,wilt,4,Mean_G,feature,NUMERIC,Mean green value
+binary_classification,wilt,5,Mean_R,feature,NUMERIC,Mean red value
+binary_classification,wilt,6,Mean_NIR,feature,NUMERIC,Mean NIR value
+binary_classification,wilt,7,SD_Plan,feature,NUMERIC,Standard deviation (Pan band)
 binary_classification,image_segmentation,1,id,id,TEXT,unique identifier 
 binary_classification,image_segmentation,2,binaryClass,target,CATEGORICAL,Positive class (P) and negative class (N)
 binary_classification,image_segmentation,3,region-centroid-col,feature,NUMERIC,the column of the center pixel of the region.
@@ -261,24 +261,24 @@ binary_classification,eeg_eye_state,13,FC6,feature,NUMERIC,recorded measurement 
 binary_classification,eeg_eye_state,14,F4,feature,NUMERIC,recorded measurement at F4 location
 binary_classification,eeg_eye_state,15,F8,feature,NUMERIC,recorded measurement at F8 location
 binary_classification,eeg_eye_state,16,AF4,feature,NUMERIC,recorded measurement at AF4 location
-binary_classification,Thoracic Surgery,1,id,id,TEXT,unique identifier
-binary_classification,Thoracic Surgery,2,Class,target,CATEGORICAL,"Risk1Y: 1 year survival period - (T)rue value if died (T,F)"
-binary_classification,Thoracic Surgery,3,V1,feature,CATEGORICAL,"DGN: Diagnosis - specific combination of ICD-10 codes for primary and secondary as well multiple tumours if any (DGN3,DGN2,DGN4,DGN6,DGN5,DGN8,DGN1)"
-binary_classification,Thoracic Surgery,4,V2,feature,NUMERIC,PRE4: Forced vital capacity - FVC (numeric)
-binary_classification,Thoracic Surgery,5,V3,feature,NUMERIC,PRE5: Volume that has been exhaled at the end of the first second of forced expiration - FEV1 (numeric)
-binary_classification,Thoracic Surgery,6,V4,feature,CATEGORICAL,"PRE6: Performance status - Zubrod scale (PRZ2,PRZ1,PRZ0)"
-binary_classification,Thoracic Surgery,7,V5,feature,CATEGORICAL,"PRE7: Pain before surgery (T,F)"
-binary_classification,Thoracic Surgery,8,V6,feature,CATEGORICAL,"PRE8: Haemoptysis before surgery (T,F)"
-binary_classification,Thoracic Surgery,9,V7,feature,CATEGORICAL,"PRE9: Dyspnoea before surgery (T,F)"
-binary_classification,Thoracic Surgery,10,V8,feature,CATEGORICAL,"PRE10: Cough before surgery (T,F)"
-binary_classification,Thoracic Surgery,11,V9,feature,CATEGORICAL,"PRE11: Weakness before surgery (T,F)"
-binary_classification,Thoracic Surgery,12,V10,feature,CATEGORICAL,"PRE14: T in clinical TNM - size of the original tumour, from OC11 (smallest) to OC14 (largest) (OC11,OC14,OC12,OC13)"
-binary_classification,Thoracic Surgery,13,V11,feature,CATEGORICAL,"PRE17: Type 2 DM - diabetes mellitus (T,F)"
-binary_classification,Thoracic Surgery,14,V12,feature,CATEGORICAL,"PRE19: MI up to 6 months (T,F)"
-binary_classification,Thoracic Surgery,15,V13,feature,CATEGORICAL,"PRE25: PAD - peripheral arterial diseases (T,F)"
-binary_classification,Thoracic Surgery,16,V14,feature,CATEGORICAL,"PRE30: Smoking (T,F)"
-binary_classification,Thoracic Surgery,17,V15,feature,CATEGORICAL,"PRE32: Asthma (T,F)"
-binary_classification,Thoracic Surgery,18,V16,feature,NUMERIC,AGE: Age at surgery (numeric)
+binary_classification,thoracic_surgery,1,id,id,TEXT,unique identifier
+binary_classification,thoracic_surgery,2,Class,target,CATEGORICAL,"Risk1Y: 1 year survival period - (T)rue value if died (T,F)"
+binary_classification,thoracic_surgery,3,V1,feature,CATEGORICAL,"DGN: Diagnosis - specific combination of ICD-10 codes for primary and secondary as well multiple tumours if any (DGN3,DGN2,DGN4,DGN6,DGN5,DGN8,DGN1)"
+binary_classification,thoracic_surgery,4,V2,feature,NUMERIC,PRE4: Forced vital capacity - FVC (numeric)
+binary_classification,thoracic_surgery,5,V3,feature,NUMERIC,PRE5: Volume that has been exhaled at the end of the first second of forced expiration - FEV1 (numeric)
+binary_classification,thoracic_surgery,6,V4,feature,CATEGORICAL,"PRE6: Performance status - Zubrod scale (PRZ2,PRZ1,PRZ0)"
+binary_classification,thoracic_surgery,7,V5,feature,CATEGORICAL,"PRE7: Pain before surgery (T,F)"
+binary_classification,thoracic_surgery,8,V6,feature,CATEGORICAL,"PRE8: Haemoptysis before surgery (T,F)"
+binary_classification,thoracic_surgery,9,V7,feature,CATEGORICAL,"PRE9: Dyspnoea before surgery (T,F)"
+binary_classification,thoracic_surgery,10,V8,feature,CATEGORICAL,"PRE10: Cough before surgery (T,F)"
+binary_classification,thoracic_surgery,11,V9,feature,CATEGORICAL,"PRE11: Weakness before surgery (T,F)"
+binary_classification,thoracic_surgery,12,V10,feature,CATEGORICAL,"PRE14: T in clinical TNM - size of the original tumour, from OC11 (smallest) to OC14 (largest) (OC11,OC14,OC12,OC13)"
+binary_classification,thoracic_surgery,13,V11,feature,CATEGORICAL,"PRE17: Type 2 DM - diabetes mellitus (T,F)"
+binary_classification,thoracic_surgery,14,V12,feature,CATEGORICAL,"PRE19: MI up to 6 months (T,F)"
+binary_classification,thoracic_surgery,15,V13,feature,CATEGORICAL,"PRE25: PAD - peripheral arterial diseases (T,F)"
+binary_classification,thoracic_surgery,16,V14,feature,CATEGORICAL,"PRE30: Smoking (T,F)"
+binary_classification,thoracic_surgery,17,V15,feature,CATEGORICAL,"PRE32: Asthma (T,F)"
+binary_classification,thoracic_surgery,18,V16,feature,NUMERIC,AGE: Age at surgery (numeric)
 binary_classification,pc2,1,id,id,TEXT,unique identifier
 binary_classification,pc2,2,c,target,CATEGORICAL,description not available
 binary_classification,pc2,3,BRANCH_COUNT,feature,NUMERIC,description not available
@@ -409,41 +409,41 @@ binary_classification,online_shopping,16,Region,feature,CATEGORICAL,Region of th
 binary_classification,online_shopping,17,TrafficType,feature,CATEGORICAL,Traffic type (categories 1 to 20) - information of types not provided in dataset
 binary_classification,online_shopping,18,VisitorType,feature,CATEGORICAL,Returning or new visitor
 binary_classification,online_shopping,19,Weekend,feature,CATEGORICAL,Is the session on weekend or weekday
-binary_classification,steel_plates_faults,1,id,id,TEXT,unique identifier
-binary_classification,steel_plates_faults,2,Class,target,CATEGORICAL,Class: Other_Faults
-binary_classification,steel_plates_faults,3,V1,feature,NUMERIC,V1: X_Minimum
-binary_classification,steel_plates_faults,4,V2,feature,NUMERIC,V2: X_Maximum
-binary_classification,steel_plates_faults,5,V3,feature,NUMERIC,V3: Y_Minimum
-binary_classification,steel_plates_faults,6,V4,feature,NUMERIC,V4: Y_Maximum
-binary_classification,steel_plates_faults,7,V5,feature,NUMERIC,V5: Pixels_Areas
-binary_classification,steel_plates_faults,8,V6,feature,NUMERIC,V6: X_Perimeter
-binary_classification,steel_plates_faults,9,V7,feature,NUMERIC,V7: Y_Perimeter
-binary_classification,steel_plates_faults,10,V8,feature,NUMERIC,V8: Sum_of_Luminosity
-binary_classification,steel_plates_faults,11,V9,feature,NUMERIC,V9: Minimum_of_Luminosity
-binary_classification,steel_plates_faults,12,V10,feature,NUMERIC,V10: Maximum_of_Luminosity
-binary_classification,steel_plates_faults,13,V11,feature,NUMERIC,V11: Length_of_Conveyer
-binary_classification,steel_plates_faults,14,V12,feature,CATEGORICAL,V12: TypeOfSteel_A300
-binary_classification,steel_plates_faults,15,V13,feature,CATEGORICAL,V13: TypeOfSteel_A400
-binary_classification,steel_plates_faults,16,V14,feature,NUMERIC,V14: Steel_Plate_Thickness
-binary_classification,steel_plates_faults,17,V15,feature,NUMERIC,V15: Edges_Index
-binary_classification,steel_plates_faults,18,V16,feature,NUMERIC,V16: Empty_Index
-binary_classification,steel_plates_faults,19,V17,feature,NUMERIC,V17: Square_Index
-binary_classification,steel_plates_faults,20,V18,feature,NUMERIC,V18: Outside_X_Index
-binary_classification,steel_plates_faults,21,V19,feature,NUMERIC,V19: Edges_X_Index
-binary_classification,steel_plates_faults,22,V20,feature,NUMERIC,V20: Edges_Y_Index
-binary_classification,steel_plates_faults,23,V21,feature,CATEGORICAL,V21: Outside_Global_Index
-binary_classification,steel_plates_faults,24,V22,feature,NUMERIC,V22: LogOfAreas
-binary_classification,steel_plates_faults,25,V23,feature,NUMERIC,V23: Log_X_Index
-binary_classification,steel_plates_faults,26,V24,feature,NUMERIC,V24: Log_Y_Index
-binary_classification,steel_plates_faults,27,V25,feature,NUMERIC,V25: Orientation_Index
-binary_classification,steel_plates_faults,28,V26,feature,NUMERIC,V26: Luminosity_Index
-binary_classification,steel_plates_faults,29,V27,feature,NUMERIC,V27: SigmoidOfAreas
-binary_classification,steel_plates_faults,30,V28,feature,CATEGORICAL,V28: Pastry
-binary_classification,steel_plates_faults,31,V29,feature,CATEGORICAL,V29: Z_Scratch
-binary_classification,steel_plates_faults,32,V30,feature,CATEGORICAL,V30: K_Scatch
-binary_classification,steel_plates_faults,33,V31,feature,CATEGORICAL,V31: Stains
-binary_classification,steel_plates_faults,34,V32,feature,CATEGORICAL,V32: Dirtiness
-binary_classification,steel_plates_faults,35,V33,feature,CATEGORICAL,V33: Bumps
+binary_classification,steel_plates,1,id,id,TEXT,unique identifier
+binary_classification,steel_plates,2,Class,target,CATEGORICAL,Class: Other_Faults
+binary_classification,steel_plates,3,V1,feature,NUMERIC,V1: X_Minimum
+binary_classification,steel_plates,4,V2,feature,NUMERIC,V2: X_Maximum
+binary_classification,steel_plates,5,V3,feature,NUMERIC,V3: Y_Minimum
+binary_classification,steel_plates,6,V4,feature,NUMERIC,V4: Y_Maximum
+binary_classification,steel_plates,7,V5,feature,NUMERIC,V5: Pixels_Areas
+binary_classification,steel_plates,8,V6,feature,NUMERIC,V6: X_Perimeter
+binary_classification,steel_plates,9,V7,feature,NUMERIC,V7: Y_Perimeter
+binary_classification,steel_plates,10,V8,feature,NUMERIC,V8: Sum_of_Luminosity
+binary_classification,steel_plates,11,V9,feature,NUMERIC,V9: Minimum_of_Luminosity
+binary_classification,steel_plates,12,V10,feature,NUMERIC,V10: Maximum_of_Luminosity
+binary_classification,steel_plates,13,V11,feature,NUMERIC,V11: Length_of_Conveyer
+binary_classification,steel_plates,14,V12,feature,CATEGORICAL,V12: TypeOfSteel_A300
+binary_classification,steel_plates,15,V13,feature,CATEGORICAL,V13: TypeOfSteel_A400
+binary_classification,steel_plates,16,V14,feature,NUMERIC,V14: Steel_Plate_Thickness
+binary_classification,steel_plates,17,V15,feature,NUMERIC,V15: Edges_Index
+binary_classification,steel_plates,18,V16,feature,NUMERIC,V16: Empty_Index
+binary_classification,steel_plates,19,V17,feature,NUMERIC,V17: Square_Index
+binary_classification,steel_plates,20,V18,feature,NUMERIC,V18: Outside_X_Index
+binary_classification,steel_plates,21,V19,feature,NUMERIC,V19: Edges_X_Index
+binary_classification,steel_plates,22,V20,feature,NUMERIC,V20: Edges_Y_Index
+binary_classification,steel_plates,23,V21,feature,CATEGORICAL,V21: Outside_Global_Index
+binary_classification,steel_plates,24,V22,feature,NUMERIC,V22: LogOfAreas
+binary_classification,steel_plates,25,V23,feature,NUMERIC,V23: Log_X_Index
+binary_classification,steel_plates,26,V24,feature,NUMERIC,V24: Log_Y_Index
+binary_classification,steel_plates,27,V25,feature,NUMERIC,V25: Orientation_Index
+binary_classification,steel_plates,28,V26,feature,NUMERIC,V26: Luminosity_Index
+binary_classification,steel_plates,29,V27,feature,NUMERIC,V27: SigmoidOfAreas
+binary_classification,steel_plates,30,V28,feature,CATEGORICAL,V28: Pastry
+binary_classification,steel_plates,31,V29,feature,CATEGORICAL,V29: Z_Scratch
+binary_classification,steel_plates,32,V30,feature,CATEGORICAL,V30: K_Scatch
+binary_classification,steel_plates,33,V31,feature,CATEGORICAL,V31: Stains
+binary_classification,steel_plates,34,V32,feature,CATEGORICAL,V32: Dirtiness
+binary_classification,steel_plates,35,V33,feature,CATEGORICAL,V33: Bumps
 binary_classification,smoke_test_bc,1,id,id,TEXT,unique identifier
 binary_classification,smoke_test_bc,2,target,target,CATEGORICAL,binary class (0 or 1)
 binary_classification,smoke_test_bc,3,color,feature,CATEGORICAL,color feature
@@ -497,44 +497,44 @@ binary_classification,employee_attrition,8,Work_accident,feature,CATEGORICAL,not
 binary_classification,employee_attrition,9,promotion_last_5years,feature,CATEGORICAL,not available
 binary_classification,employee_attrition,10,department,feature,CATEGORICAL,not available
 binary_classification,employee_attrition,11,salary,feature,CATEGORICAL,not available
-binary_classification,Satellite,1,id,id,TEXT,unique identifier
-binary_classification,Satellite,2,Target,target,CATEGORICAL,description not available
-binary_classification,Satellite,3,V1,feature,NUMERIC,description not available
-binary_classification,Satellite,4,V2,feature,NUMERIC,description not available
-binary_classification,Satellite,5,V3,feature,NUMERIC,description not available
-binary_classification,Satellite,6,V4,feature,NUMERIC,description not available
-binary_classification,Satellite,7,V5,feature,NUMERIC,description not available
-binary_classification,Satellite,8,V6,feature,NUMERIC,description not available
-binary_classification,Satellite,9,V7,feature,NUMERIC,description not available
-binary_classification,Satellite,10,V8,feature,NUMERIC,description not available
-binary_classification,Satellite,11,V9,feature,NUMERIC,description not available
-binary_classification,Satellite,12,V10,feature,NUMERIC,description not available
-binary_classification,Satellite,13,V11,feature,NUMERIC,description not available
-binary_classification,Satellite,14,V12,feature,NUMERIC,description not available
-binary_classification,Satellite,15,V13,feature,NUMERIC,description not available
-binary_classification,Satellite,16,V14,feature,NUMERIC,description not available
-binary_classification,Satellite,17,V15,feature,NUMERIC,description not available
-binary_classification,Satellite,18,V16,feature,NUMERIC,description not available
-binary_classification,Satellite,19,V17,feature,NUMERIC,description not available
-binary_classification,Satellite,20,V18,feature,NUMERIC,description not available
-binary_classification,Satellite,21,V19,feature,NUMERIC,description not available
-binary_classification,Satellite,22,V20,feature,NUMERIC,description not available
-binary_classification,Satellite,23,V21,feature,NUMERIC,description not available
-binary_classification,Satellite,24,V22,feature,NUMERIC,description not available
-binary_classification,Satellite,25,V23,feature,NUMERIC,description not available
-binary_classification,Satellite,26,V24,feature,NUMERIC,description not available
-binary_classification,Satellite,27,V25,feature,NUMERIC,description not available
-binary_classification,Satellite,28,V26,feature,NUMERIC,description not available
-binary_classification,Satellite,29,V27,feature,NUMERIC,description not available
-binary_classification,Satellite,30,V28,feature,NUMERIC,description not available
-binary_classification,Satellite,31,V29,feature,NUMERIC,description not available
-binary_classification,Satellite,32,V30,feature,NUMERIC,description not available
-binary_classification,Satellite,33,V31,feature,NUMERIC,description not available
-binary_classification,Satellite,34,V32,feature,NUMERIC,description not available
-binary_classification,Satellite,35,V33,feature,NUMERIC,description not available
-binary_classification,Satellite,36,V34,feature,NUMERIC,description not available
-binary_classification,Satellite,37,V35,feature,NUMERIC,description not available
-binary_classification,Satellite,38,V36,feature,NUMERIC,description not available
+binary_classification,satellite,1,id,id,TEXT,unique identifier
+binary_classification,satellite,2,Target,target,CATEGORICAL,description not available
+binary_classification,satellite,3,V1,feature,NUMERIC,description not available
+binary_classification,satellite,4,V2,feature,NUMERIC,description not available
+binary_classification,satellite,5,V3,feature,NUMERIC,description not available
+binary_classification,satellite,6,V4,feature,NUMERIC,description not available
+binary_classification,satellite,7,V5,feature,NUMERIC,description not available
+binary_classification,satellite,8,V6,feature,NUMERIC,description not available
+binary_classification,satellite,9,V7,feature,NUMERIC,description not available
+binary_classification,satellite,10,V8,feature,NUMERIC,description not available
+binary_classification,satellite,11,V9,feature,NUMERIC,description not available
+binary_classification,satellite,12,V10,feature,NUMERIC,description not available
+binary_classification,satellite,13,V11,feature,NUMERIC,description not available
+binary_classification,satellite,14,V12,feature,NUMERIC,description not available
+binary_classification,satellite,15,V13,feature,NUMERIC,description not available
+binary_classification,satellite,16,V14,feature,NUMERIC,description not available
+binary_classification,satellite,17,V15,feature,NUMERIC,description not available
+binary_classification,satellite,18,V16,feature,NUMERIC,description not available
+binary_classification,satellite,19,V17,feature,NUMERIC,description not available
+binary_classification,satellite,20,V18,feature,NUMERIC,description not available
+binary_classification,satellite,21,V19,feature,NUMERIC,description not available
+binary_classification,satellite,22,V20,feature,NUMERIC,description not available
+binary_classification,satellite,23,V21,feature,NUMERIC,description not available
+binary_classification,satellite,24,V22,feature,NUMERIC,description not available
+binary_classification,satellite,25,V23,feature,NUMERIC,description not available
+binary_classification,satellite,26,V24,feature,NUMERIC,description not available
+binary_classification,satellite,27,V25,feature,NUMERIC,description not available
+binary_classification,satellite,28,V26,feature,NUMERIC,description not available
+binary_classification,satellite,29,V27,feature,NUMERIC,description not available
+binary_classification,satellite,30,V28,feature,NUMERIC,description not available
+binary_classification,satellite,31,V29,feature,NUMERIC,description not available
+binary_classification,satellite,32,V30,feature,NUMERIC,description not available
+binary_classification,satellite,33,V31,feature,NUMERIC,description not available
+binary_classification,satellite,34,V32,feature,NUMERIC,description not available
+binary_classification,satellite,35,V33,feature,NUMERIC,description not available
+binary_classification,satellite,36,V34,feature,NUMERIC,description not available
+binary_classification,satellite,37,V35,feature,NUMERIC,description not available
+binary_classification,satellite,38,V36,feature,NUMERIC,description not available
 binary_classification,titanic,1,id,id,TEXT,Unique identifier per passenger
 binary_classification,titanic,2,embarked,target,CATEGORICAL,Port of embarkation
 binary_classification,titanic,3,pclass,feature,CATEGORICAL,Ticket class
@@ -555,28 +555,28 @@ binary_classification,concentric_spheres,8,dummy_3,feature,NUMERIC,dummy feature
 binary_classification,concentric_spheres,9,corr_x,feature,NUMERIC,feature correlated with x coordinate
 binary_classification,concentric_spheres,10,corr_y,feature,NUMERIC,feature correlated with y coordinate
 binary_classification,concentric_spheres,11,corr_z,feature,NUMERIC,feature correlated with z coordinate
-binary_classification,climate_model_simulation_crashes,1,id,id,TEXT,unique identifier
-binary_classification,climate_model_simulation_crashes,2,outcome,target,CATEGORICAL,"outcome (0 = failure, 1 = success)"
-binary_classification,climate_model_simulation_crashes,3,Study,feature,CATEGORICAL,Latin hypercube study ID (study 1 to study 3)
-binary_classification,climate_model_simulation_crashes,4,Run,feature,NUMERIC,simulation ID (run 1 to run 180)
-binary_classification,climate_model_simulation_crashes,5,vconst_corr,feature,NUMERIC,"Columns 4-20: values of 18 climate model parameters scaled in the interval [0, 1]"
-binary_classification,climate_model_simulation_crashes,6,vconst_2,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,7,vconst_3,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,8,vconst_4,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,9,vconst_5,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,10,vconst_7,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,11,ah_corr,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,12,ah_bolus,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,13,slm_corr,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,14,efficiency_factor,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,15,tidal_mix_max,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,16,vertical_decay_scale,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,17,convect_corr,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,18,bckgrnd_vdc1,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,19,bckgrnd_vdc_ban,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,20,bckgrnd_vdc_eq,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,21,bckgrnd_vdc_psim,feature,NUMERIC,description not available
-binary_classification,climate_model_simulation_crashes,22,Prandtl,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,1,id,id,TEXT,unique identifier
+binary_classification,climate_simulation_crashes,2,outcome,target,CATEGORICAL,"outcome (0 = failure, 1 = success)"
+binary_classification,climate_simulation_crashes,3,Study,feature,CATEGORICAL,Latin hypercube study ID (study 1 to study 3)
+binary_classification,climate_simulation_crashes,4,Run,feature,NUMERIC,simulation ID (run 1 to run 180)
+binary_classification,climate_simulation_crashes,5,vconst_corr,feature,NUMERIC,"Columns 4-20: values of 18 climate model parameters scaled in the interval [0, 1]"
+binary_classification,climate_simulation_crashes,6,vconst_2,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,7,vconst_3,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,8,vconst_4,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,9,vconst_5,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,10,vconst_7,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,11,ah_corr,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,12,ah_bolus,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,13,slm_corr,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,14,efficiency_factor,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,15,tidal_mix_max,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,16,vertical_decay_scale,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,17,convect_corr,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,18,bckgrnd_vdc1,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,19,bckgrnd_vdc_ban,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,20,bckgrnd_vdc_eq,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,21,bckgrnd_vdc_psim,feature,NUMERIC,description not available
+binary_classification,climate_simulation_crashes,22,Prandtl,feature,NUMERIC,description not available
 binary_classification,seismic_bumps,1,id,id,TEXT,unique identifier
 binary_classification,seismic_bumps,2,class,target,CATEGORICAL,"the decision attribute - ""1"" means that high energy seismic bump occurred in the next shift (""hazardous state""), ""0"" means that no high energy seismic bumps occurred in the next shift (""non-hazardous state"")."
 binary_classification,seismic_bumps,3,seismic,feature,CATEGORICAL,"seismic: result of shift seismic hazard assessment in the mine working obtained by the seismic method (a - lack of hazard, b - low hazard, c - high hazard, d - danger state);"
@@ -653,35 +653,35 @@ binary_classification,phishing_websites,29,Page_Rank,feature,CATEGORICAL,Feature
 binary_classification,phishing_websites,30,Google_Index,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
 binary_classification,phishing_websites,31,Links_pointing_to_page,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
 binary_classification,phishing_websites,32,Statistical_report,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,Thyroid Disease,1,id,id,TEXT,unique identifier
-binary_classification,Thyroid Disease,2,Class,target,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,3,age,feature,NUMERIC,description not available
-binary_classification,Thyroid Disease,4,sex,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,5,on_thyroxine,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,6,query_on_thyroxine,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,7,on_antithyroid_medication,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,8,sick,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,9,pregnant,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,10,thyroid_surgery,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,11,I131_treatment,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,12,query_hypothyroid,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,13,query_hyperthyroid,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,14,lithium,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,15,goitre,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,16,tumor,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,17,hypopituitary,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,18,psych,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,19,TSH_measured,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,20,TSH,feature,NUMERIC,description not available
-binary_classification,Thyroid Disease,21,T3_measured,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,22,T3,feature,NUMERIC,description not available
-binary_classification,Thyroid Disease,23,TT4_measured,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,24,TT4,feature,NUMERIC,description not available
-binary_classification,Thyroid Disease,25,T4U_measured,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,26,T4U,feature,NUMERIC,description not available
-binary_classification,Thyroid Disease,27,FTI_measured,feature,CATEGORICAL,description not available
-binary_classification,Thyroid Disease,28,FTI,feature,NUMERIC,description not available
-binary_classification,Thyroid Disease,29,referral_source,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,1,id,id,TEXT,unique identifier
+binary_classification,thyroid_disease,2,Class,target,CATEGORICAL,description not available
+binary_classification,thyroid_disease,3,age,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,4,sex,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,5,on_thyroxine,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,6,query_on_thyroxine,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,7,on_antithyroid_medication,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,8,sick,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,9,pregnant,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,10,thyroid_surgery,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,11,I131_treatment,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,12,query_hypothyroid,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,13,query_hyperthyroid,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,14,lithium,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,15,goitre,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,16,tumor,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,17,hypopituitary,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,18,psych,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,19,TSH_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,20,TSH,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,21,T3_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,22,T3,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,23,TT4_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,24,TT4,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,25,T4U_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,26,T4U,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,27,FTI_measured,feature,CATEGORICAL,description not available
+binary_classification,thyroid_disease,28,FTI,feature,NUMERIC,description not available
+binary_classification,thyroid_disease,29,referral_source,feature,CATEGORICAL,description not available
 binary_classification,breast_cancer,1,id,id,TEXT,ID number
 binary_classification,breast_cancer,2,diagnosis,target,CATEGORICAL,"diagnosis (M = malignant, B = benign)"
 binary_classification,breast_cancer,3,radius_mean,feature,NUMERIC,mean radius (mean of distances from center to points on the perimeter)
