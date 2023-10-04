@@ -1,0 +1,421 @@
+{
+  "title": "Spambase Data Set",
+  "description": "Classifying Email as Spam or Non-Spam.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique record identifier"
+  },
+  "target": {
+    "name": "class",
+    "description": "spam (1) or not (0)",
+    "classes": [
+      "0",
+      "1"
+    ]
+  },
+  "features": [
+    {
+      "name": "word_freq_make",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_address",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.64,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_all",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.64,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_3d",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_our",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.32,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_over",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_remove",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_internet",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_order",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_mail",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_receive",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_will",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.64,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_people",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_report",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_addresses",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_free",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.32,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_business",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_email",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 1.29,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_you",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 1.93,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_credit",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_your",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.96,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_font",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_000",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_money",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_hp",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_hpl",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_george",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_650",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_lab",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_labs",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_telnet",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_857",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_data",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_415",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_85",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_technology",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_1999",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_parts",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_pm",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_direct",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_cs",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_meeting",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_original",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_project",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_re",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_edu",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_table",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "word_freq_conference",
+      "description": "Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A \"word\" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "char_freq_%3B",
+      "description": "Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "char_freq_%28",
+      "description": "Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "char_freq_%5B",
+      "description": "Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "char_freq_%21",
+      "description": "Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail",
+      "dataType": "NUMERIC",
+      "example": 0.778,
+      "nullable": false
+    },
+    {
+      "name": "char_freq_%24",
+      "description": "Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "char_freq_%23",
+      "description": "Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "capital_run_length_average",
+      "description": "average length of uninterrupted sequences of capital letters",
+      "dataType": "NUMERIC",
+      "example": 3.756,
+      "nullable": false
+    },
+    {
+      "name": "capital_run_length_longest",
+      "description": "length of longest uninterrupted sequence of capital letters",
+      "dataType": "NUMERIC",
+      "example": 61,
+      "nullable": false
+    },
+    {
+      "name": "capital_run_length_total",
+      "description": "total number of capital letters in the e-mail",
+      "dataType": "NUMERIC",
+      "example": 278,
+      "nullable": false
+    }
+  ]
+}
