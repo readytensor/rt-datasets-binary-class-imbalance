@@ -1,0 +1,106 @@
+{
+  "title": "Employee Attrition dataset from PyCaret",
+  "description": "The task is to predict whether an employee underwent attrition using predictor features such as satisfaction_level, salary category, department, average monthly hours, promotion in last 5 years, etc.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier for employee"
+  },
+  "target": {
+    "name": "left",
+    "description": "Binary variable indicating attrition (1) or no attrition (0)",
+    "classes": [
+      "0",
+      "1"
+    ]
+  },
+  "features": [
+    {
+      "name": "satisfaction_level",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 0.38,
+      "nullable": false
+    },
+    {
+      "name": "last_evaluation",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 0.53,
+      "nullable": false
+    },
+    {
+      "name": "number_project",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "average_montly_hours",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 157,
+      "nullable": false
+    },
+    {
+      "name": "time_spend_company",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 3,
+      "nullable": false
+    },
+    {
+      "name": "Work_accident",
+      "description": "not available",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "promotion_last_5years",
+      "description": "not available",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "department",
+      "description": "not available",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "IT",
+        "RandD",
+        "accounting",
+        "hr",
+        "management",
+        "marketing",
+        "product_mng",
+        "sales",
+        "support",
+        "technical"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "salary",
+      "description": "not available",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "high",
+        "low",
+        "medium"
+      ],
+      "nullable": false
+    }
+  ]
+}
