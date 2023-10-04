@@ -1,0 +1,21 @@
+{
+  "title": "QSAR biodegradation",
+  "description": "The QSAR biodegradation dataset was built in the Milano Chemometrics and QSAR Research Group (Universit\ufffd\ufffd degli Studi Milano \ufffd\ufffd\ufffd Bicocca, Milano, Italy). The research leading to these results has received funding from the European Community\ufffd\u06eas Seventh Framework Programme [FP7/2007-2013] under Grant Agreement n. 238701 of Marie Curie ITN Environmental Chemoinformatics (ECO) project. The data have been used to develop QSAR (Quantitative Structure Activity Relationships) models for the study of the relationships between chemical structure and biodegradation of molecules. Biodegradation experimental values of 1055 chemicals were collected from the webpage of the National Institute of Technology and Evaluation of Japan (NITE). Classification models were developed in order to discriminate ready (356) and not ready (699) biodegradable molecules by means of three different modelling methods: k Nearest Neighbours, Partial Least Squares Discriminant Analysis and Support Vector Machines. Details on attributes (molecular descriptors) selected in each model can be found in the quoted reference: Mansouri, K., Ringsted, T., Ballabio, D., Todeschini, R., Consonni, V. (2013). Quantitative Structure - Activity Relationship models for ready biodegradability of chemicals. Journal of Chemical Information and Modeling, 53, 867-878.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier"
+  },
+  "target": {
+    "name": "Class",
+    "description": "binary class (1 or 2)",
+    "classes": [
+      "1",
+      "2"
+    ]
+  },
+  "features": []
+}
