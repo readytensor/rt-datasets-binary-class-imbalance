@@ -1,0 +1,274 @@
+{
+  "title": "PC2 Softwaredefect prediction",
+  "description": "One of the NASA Metrics Data Program defect data sets. Data from flight software for earth orbiting satellite. Data comes from McCabe and Halstead features extractors of source code. These features were defined in the 70s in an attempt to objectively characterize code features that are associated with software quality.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier"
+  },
+  "target": {
+    "name": "c",
+    "description": "TRUE or FALSE",
+    "classes": [
+      "FALSE",
+      "TRUE"
+    ]
+  },
+  "features": [
+    {
+      "name": "BRANCH_COUNT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "CALL_PAIRS",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "LOC_CODE_AND_COMMENT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "LOC_COMMENTS",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "CONDITION_COUNT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "CYCLOMATIC_COMPLEXITY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "CYCLOMATIC_DENSITY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "DECISION_COUNT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "DECISION_DENSITY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "DESIGN_COMPLEXITY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "DESIGN_DENSITY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "EDGE_COUNT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "ESSENTIAL_COMPLEXITY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "ESSENTIAL_DENSITY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "LOC_EXECUTABLE",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "PARAMETER_COUNT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 2.0,
+      "nullable": false
+    },
+    {
+      "name": "HALSTEAD_CONTENT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 5.33,
+      "nullable": false
+    },
+    {
+      "name": "HALSTEAD_DIFFICULTY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.5,
+      "nullable": false
+    },
+    {
+      "name": "HALSTEAD_EFFORT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 12.0,
+      "nullable": false
+    },
+    {
+      "name": "HALSTEAD_ERROR_EST",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "HALSTEAD_LENGTH",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 4.0,
+      "nullable": false
+    },
+    {
+      "name": "HALSTEAD_LEVEL",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.67,
+      "nullable": false
+    },
+    {
+      "name": "HALSTEAD_PROG_TIME",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.67,
+      "nullable": false
+    },
+    {
+      "name": "HALSTEAD_VOLUME",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 8.0,
+      "nullable": false
+    },
+    {
+      "name": "MAINTENANCE_SEVERITY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "MODIFIED_CONDITION_COUNT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "MULTIPLE_CONDITION_COUNT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "NODE_COUNT",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 2.0,
+      "nullable": false
+    },
+    {
+      "name": "NORMALIZED_CYLOMATIC_COMPLEXITY",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.5,
+      "nullable": false
+    },
+    {
+      "name": "NUM_OPERANDS",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "NUM_OPERATORS",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 3.0,
+      "nullable": false
+    },
+    {
+      "name": "NUM_UNIQUE_OPERANDS",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "NUM_UNIQUE_OPERATORS",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 3.0,
+      "nullable": false
+    },
+    {
+      "name": "NUMBER_OF_LINES",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 2.0,
+      "nullable": false
+    },
+    {
+      "name": "PERCENT_COMMENTS",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "LOC_TOTAL",
+      "description": "description not available",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    }
+  ]
+}

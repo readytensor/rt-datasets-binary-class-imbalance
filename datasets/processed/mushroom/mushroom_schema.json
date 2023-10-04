@@ -1,0 +1,315 @@
+{
+  "title": "Mushroom Data Set",
+  "description": "From Audobon Society Field Guide; mushrooms described in terms of physical characteristics; classification: poisonous or edible.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier"
+  },
+  "target": {
+    "name": "class",
+    "description": "Classification of mushrooms - poisonous (p) or edible (e )",
+    "classes": [
+      "e",
+      "p"
+    ]
+  },
+  "features": [
+    {
+      "name": "cap-shape",
+      "description": "cap-shape: bell=b,conical=c,convex=x,flat=f, knobbed=k,sunken=s ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "b",
+        "c",
+        "f",
+        "k",
+        "s",
+        "x"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "cap-surface",
+      "description": "cap-surface: fibrous=f,grooves=g,scaly=y,smooth=s ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "f",
+        "g",
+        "s",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "cap-color",
+      "description": "cap-color: brown=n,buff=b,cinnamon=c,gray=g,green=r, pink=p,purple=u,red=e,white=w,yellow=y ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "b",
+        "c",
+        "e",
+        "g",
+        "n",
+        "p",
+        "r",
+        "u",
+        "w",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "bruises%3F",
+      "description": "bruises?: bruises=t,no=f ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "f",
+        "t"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "odor",
+      "description": "odor: almond=a,anise=l,creosote=c,fishy=y,foul=f, musty=m,none=n,pungent=p,spicy=s ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "a",
+        "c",
+        "f",
+        "l",
+        "m",
+        "n",
+        "p",
+        "s",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "gill-attachment",
+      "description": "gill-attachment: attached=a,descending=d,free=f,notched=n ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "a",
+        "f"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "gill-spacing",
+      "description": "gill-spacing: close=c,crowded=w,distant=d ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "c",
+        "w"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "gill-size",
+      "description": "gill-size: broad=b,narrow=n ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "b",
+        "n"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "gill-color",
+      "description": "gill-color: black=k,brown=n,buff=b,chocolate=h,gray=g, green=r,orange=o,pink=p,purple=u,red=e, white=w,yellow=y ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "b",
+        "e",
+        "g",
+        "h",
+        "k",
+        "n",
+        "o",
+        "p",
+        "r",
+        "u",
+        "w",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "stalk-shape",
+      "description": "stalk-shape: enlarging=e,tapering=t ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "e",
+        "t"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "stalk-root",
+      "description": "stalk-root: bulbous=b,club=c,cup=u,equal=e, rhizomorphs=z,rooted=r,missing=? ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "?",
+        "b",
+        "c",
+        "e",
+        "r"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "stalk-surface-above-ring",
+      "description": "stalk-surface-above-ring: fibrous=f,scaly=y,silky=k,smooth=s ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "f",
+        "k",
+        "s",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "stalk-surface-below-ring",
+      "description": "stalk-surface-below-ring: fibrous=f,scaly=y,silky=k,smooth=s ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "f",
+        "k",
+        "s",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "stalk-color-above-ring",
+      "description": "stalk-color-above-ring: brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "b",
+        "c",
+        "e",
+        "g",
+        "n",
+        "o",
+        "p",
+        "w",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "stalk-color-below-ring",
+      "description": "stalk-color-below-ring: brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "b",
+        "c",
+        "e",
+        "g",
+        "n",
+        "o",
+        "p",
+        "w",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "veil-type",
+      "description": "veil-type: partial=p,universal=u ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "p"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "veil-color",
+      "description": "veil-color: brown=n,orange=o,white=w,yellow=y ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "n",
+        "o",
+        "w",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "ring-number",
+      "description": "ring-number: none=n,one=o,two=t ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "n",
+        "o",
+        "t"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "ring-type",
+      "description": "ring-type: cobwebby=c,evanescent=e,flaring=f,large=l, none=n,pendant=p,sheathing=s,zone=z ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "e",
+        "f",
+        "l",
+        "n",
+        "p"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "spore-print-color",
+      "description": "spore-print-color: black=k,brown=n,buff=b,chocolate=h,green=r, orange=o,purple=u,white=w,yellow=y ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "b",
+        "h",
+        "k",
+        "n",
+        "o",
+        "r",
+        "u",
+        "w",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "population",
+      "description": "population: abundant=a,clustered=c,numerous=n, scattered=s,several=v,solitary=y ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "a",
+        "c",
+        "n",
+        "s",
+        "v",
+        "y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "habitat",
+      "description": "habitat: grasses=g,leaves=l,meadows=m,paths=p, urban=u,waste=w,woods=d",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "d",
+        "g",
+        "l",
+        "m",
+        "p",
+        "u",
+        "w"
+      ],
+      "nullable": false
+    }
+  ]
+}

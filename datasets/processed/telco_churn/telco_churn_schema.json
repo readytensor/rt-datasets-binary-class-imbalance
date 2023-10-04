@@ -1,0 +1,214 @@
+{
+  "title": "Telco customer churn",
+  "description": "A fictional telco company's customer churn based on a variety of possible factors. The churn column indicates whether or not the customer left within the last month.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "customerID",
+    "description": "unique customer identifier"
+  },
+  "target": {
+    "name": "Churn",
+    "description": "Whether customer churned within the last month (Yes) or not (No)",
+    "classes": [
+      "No",
+      "Yes"
+    ]
+  },
+  "features": [
+    {
+      "name": "gender",
+      "description": "The customer's gender: Male, Female",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Female",
+        "Male"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "SeniorCitizen",
+      "description": "Indicates if the customer is 65 or older: Yes, No",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Partner",
+      "description": "Whether the customer has a partner or not (Yes, No)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Dependents",
+      "description": "Indicates if the customer lives with any dependents: Yes, No. Dependents could be children, parents, grandparents, etc.",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "tenure",
+      "description": "Indicates the total amount of months that the customer has been with the company by the end of the quarter specified above.",
+      "dataType": "NUMERIC",
+      "example": 1,
+      "nullable": false
+    },
+    {
+      "name": "PhoneService",
+      "description": "Whether the customer has a phone service or not (Yes, No)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "MultipleLines",
+      "description": "Whether the customer has multiple lines or not (Yes, No, No phone service)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "No phone service",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "InternetService",
+      "description": "Customers internet service provider (DSL, Fiber optic, No)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "DSL",
+        "Fiber optic",
+        "No"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "OnlineSecurity",
+      "description": "Whether the customer has online security or not (Yes, No, No internet service)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "No internet service",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "OnlineBackup",
+      "description": "Indicates if the customer subscribes to an additional online backup service provided by the company: Yes, No",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "No internet service",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "DeviceProtection",
+      "description": "Indicates if the customer subscribes to an additional device protection plan for their Internet equipment provided by the company: Yes, No",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "No internet service",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "TechSupport",
+      "description": "Indicates if the customer subscribes to an additional technical support plan from the company with reduced wait times: Yes, No",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "No internet service",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "StreamingTV",
+      "description": "Indicates if the customer uses their Internet service to stream television programing from a third party provider: Yes, No. The company does not charge an additional fee for this service.",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "No internet service",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "StreamingMovies",
+      "description": "Indicates if the customer uses their Internet service to stream movies from a third party provider: Yes, No. The company does not charge an additional fee for this service.",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "No internet service",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Contract",
+      "description": "Indicates the customer's current contract type: Month-to-Month, One Year, Two Year.",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Month-to-month",
+        "One year",
+        "Two year"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "PaperlessBilling",
+      "description": "Indicates if the customer has chosen paperless billing: Yes, No",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "No",
+        "Yes"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "PaymentMethod",
+      "description": "Indicates how the customer pays their bill: Bank Withdrawal, Credit Card, Mailed Check",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Bank transfer (automatic)",
+        "Credit card (automatic)",
+        "Electronic check",
+        "Mailed check"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "MonthlyCharges",
+      "description": "Indicates the customer's current total monthly charge for all their services from the company.",
+      "dataType": "NUMERIC",
+      "example": 29.85,
+      "nullable": false
+    },
+    {
+      "name": "TotalCharges",
+      "description": "Indicates the customer's total charges, calculated to the end of the quarter specified above.",
+      "dataType": "NUMERIC",
+      "example": 29.85,
+      "nullable": true
+    }
+  ]
+}

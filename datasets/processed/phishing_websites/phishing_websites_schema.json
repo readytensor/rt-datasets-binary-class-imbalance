@@ -1,0 +1,330 @@
+{
+  "title": "Phishing Websites",
+  "description": "One of the challenges faced by our research was the unavailability of reliable training datasets. In fact this challenge faces any researcher in the field. However, although plenty of articles about predicting phishing websites have been disseminated these days, no reliable training dataset has been published publically, may be because there is no agreement in literature on the definitive features that characterize phishing webpages, hence it is difficult to shape a dataset that covers all possible features. In this dataset, we shed light on the important features that have proved to be sound and effective in predicting phishing websites. In addition, we propose some new features.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier"
+  },
+  "target": {
+    "name": "Result",
+    "description": "binary class (-1 or 1)",
+    "classes": [
+      "-1",
+      "1"
+    ]
+  },
+  "features": [
+    {
+      "name": "having_IP_Address",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "URL_Length",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Shortining_Service",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "having_At_Symbol",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "double_slash_redirecting",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Prefix_Suffix",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "having_Sub_Domain",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "SSLfinal_State",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Domain_registeration_length",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Favicon",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "port",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "HTTPS_token",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Request_URL",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "URL_of_Anchor",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Links_in_tags",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "SFH",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Submitting_to_email",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Abnormal_URL",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Redirect",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "on_mouseover",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "RightClick",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "popUpWidnow",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Iframe",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "age_of_domain",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "DNSRecord",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "web_traffic",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Page_Rank",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Google_Index",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Links_pointing_to_page",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Statistical_report",
+      "description": "Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        -1,
+        1
+      ],
+      "nullable": false
+    }
+  ]
+}

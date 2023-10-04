@@ -1,0 +1,21 @@
+{
+  "title": "Steel Plates Faults",
+  "description": "A dataset of steel plates' faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier"
+  },
+  "target": {
+    "name": "Class",
+    "description": "binary class (0 or 1) 0 indicates one of the seven faults and 1 indicates other faults",
+    "classes": [
+      "0",
+      "1"
+    ]
+  },
+  "features": []
+}

@@ -681,8 +681,7 @@ binary_classification,Thyroid Disease,25,T4U_measured,feature,CATEGORICAL,descri
 binary_classification,Thyroid Disease,26,T4U,feature,NUMERIC,description not available
 binary_classification,Thyroid Disease,27,FTI_measured,feature,CATEGORICAL,description not available
 binary_classification,Thyroid Disease,28,FTI,feature,NUMERIC,description not available
-binary_classification,Thyroid Disease,29,TBG,feature,NUMERIC,description not available
-binary_classification,Thyroid Disease,30,referral_source,feature,CATEGORICAL,description not available
+binary_classification,Thyroid Disease,29,referral_source,feature,CATEGORICAL,description not available
 binary_classification,breast_cancer,1,id,id,TEXT,ID number
 binary_classification,breast_cancer,2,diagnosis,target,CATEGORICAL,"diagnosis (M = malignant, B = benign)"
 binary_classification,breast_cancer,3,radius_mean,feature,NUMERIC,mean radius (mean of distances from center to points on the perimeter)

@@ -1,0 +1,343 @@
+{
+  "title": "In-vehicle coupon recommendation",
+  "description": "This data studies whether a person will accept the coupon recommended to them in different driving scenarios.",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "responded id"
+  },
+  "target": {
+    "name": "accept_coupon",
+    "description": "Binary variable indicating responding will accept the coupon recommendation (1) or not (0)",
+    "classes": [
+      "0",
+      "1"
+    ]
+  },
+  "features": [
+    {
+      "name": "destination",
+      "description": "destination: No Urgent Place, Home, Work",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Home",
+        "No Urgent Place",
+        "Work"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "passenger",
+      "description": "passenger: Alone, Friend(s), Kid(s), Partner (who are the passengers in the car)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Alone",
+        "Friend(s)",
+        "Kid(s)",
+        "Partner"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "weather",
+      "description": "weather: Sunny, Rainy, Snowy",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Rainy",
+        "Snowy",
+        "Sunny"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "temperature",
+      "description": "temperature:55, 80, 30",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        30,
+        55,
+        80
+      ],
+      "nullable": false
+    },
+    {
+      "name": "time",
+      "description": "time: 2PM, 10AM, 6PM, 7AM, 10PM",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "10AM",
+        "10PM",
+        "2PM",
+        "6PM",
+        "7AM"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "coupon",
+      "description": "coupon: Restaurant(<$20), Coffee House, Carry out & Take away, Bar, Restaurant($20-$50)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Bar",
+        "Carry out & Take away",
+        "Coffee House",
+        "Restaurant(20-50)",
+        "Restaurant(<20)"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "expiration",
+      "description": "expiration: 1d, 2h (the coupon expires in 1 day or in 2 hours)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1d",
+        "2h"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "gender",
+      "description": "gender: Female, Male",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Female",
+        "Male"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "age",
+      "description": "age: 21, 46, 26, 31, 41, 50plus, 36, below21",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "21",
+        "26",
+        "31",
+        "36",
+        "41",
+        "46",
+        "50plus",
+        "below21"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "maritalStatus",
+      "description": "maritalStatus: Unmarried partner, Single, Married partner, Divorced, Widowed",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Divorced",
+        "Married partner",
+        "Single",
+        "Unmarried partner",
+        "Widowed"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "has_children",
+      "description": "has_Children:1, 0",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "education",
+      "description": "education: Some college - no degree, Bachelors degree, Associates degree, High School Graduate, Graduate degree (Masters or Doctorate), Some High School",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Associates degree",
+        "Bachelors degree",
+        "Graduate degree (Masters or Doctorate)",
+        "High School Graduate",
+        "Some High School",
+        "Some college - no degree"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "occupation",
+      "description": "occupation: Unemployed, Architecture & Engineering, Student,",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Architecture & Engineering",
+        "Arts Design Entertainment Sports & Media",
+        "Building & Grounds Cleaning & Maintenance",
+        "Business & Financial",
+        "Community & Social Services",
+        "Computer & Mathematical",
+        "Construction & Extraction",
+        "Education&Training&Library",
+        "Farming Fishing & Forestry",
+        "Food Preparation & Serving Related",
+        "Healthcare Practitioners & Technical",
+        "Healthcare Support",
+        "Installation Maintenance & Repair",
+        "Legal",
+        "Life Physical Social Science",
+        "Management",
+        "Office & Administrative Support",
+        "Personal Care & Service",
+        "Production Occupations",
+        "Protective Service",
+        "Retired",
+        "Sales & Related",
+        "Student",
+        "Transportation & Material Moving",
+        "Unemployed"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "income",
+      "description": "income: $37500 - $49999, $62500 - $74999, $12500 - $24999, $75000 - $87499,",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "$100000 or More",
+        "$12500 - $24999",
+        "$25000 - $37499",
+        "$37500 - $49999",
+        "$50000 - $62499",
+        "$62500 - $74999",
+        "$75000 - $87499",
+        "$87500 - $99999",
+        "Less than $12500"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "car",
+      "description": "$50000 - $62499, $25000 - $37499, $100000 or More, $87500 - $99999, Less than $12500",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Car that is too old to install Onstar :D",
+        "Mazda5",
+        "Scooter and motorcycle",
+        "crossover",
+        "do not drive"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "Bar",
+      "description": "Bar: never, less1, 1~3, gt8, nan4~8 (feature meaning: how many times do you go to a bar every month?)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1~3",
+        "4~8",
+        "gt8",
+        "less1",
+        "never"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "CoffeeHouse",
+      "description": "CoffeeHouse: never, less1, 4~8, 1~3, gt8, nan (feature meaning: how many times do you go to a coffeehouse every month?)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1~3",
+        "4~8",
+        "gt8",
+        "less1",
+        "never"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "CarryAway",
+      "description": "CarryAway:n4~8, 1~3, gt8, less1, never (feature meaning: how many times do you get take-away food every month?)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1~3",
+        "4~8",
+        "gt8",
+        "less1",
+        "never"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "RestaurantLessThan20",
+      "description": "RestaurantLessThan20: 4~8, 1~3, less1, gt8, never (feature meaning: how many times do you go to a restaurant with an average expense per person of less than $20 every month?)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1~3",
+        "4~8",
+        "gt8",
+        "less1",
+        "never"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "Restaurant20To50",
+      "description": "Restaurant20To50: 1~3, less1, never, gt8, 4~8, nan (feature meaning: how many times do you go to a restaurant with average expense per person of $20 - $50 every month?)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1~3",
+        "4~8",
+        "gt8",
+        "less1",
+        "never"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "toCoupon_GEQ5min",
+      "description": "toCoupon_GEQ5min:0,1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 5 minutes)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "toCoupon_GEQ15min",
+      "description": "toCoupon_GEQ15min:0,1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 15 minutes)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "toCoupon_GEQ25min",
+      "description": "toCoupon_GEQ25min:0, 1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 25 minutes)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "direction_same",
+      "description": "direction_same:0, 1 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "direction_opp",
+      "description": "direction_opp:1, 0 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    }
+  ]
+}
