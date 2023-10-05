@@ -31,6 +31,7 @@ def create_feature_section(
     features = []
     features_df = features_config[(features_config["name"]==dataset_name)
                                   & (features_config["field_type"]=="feature")]
+    
     for _, feature_row in features_df.iterrows():
         feature = {
             "name": feature_row['field_name'],
@@ -69,7 +70,7 @@ def generate_schemas(
 
         if dataset_row["use_dataset"] == 0:
             continue
-
+        
         dataset_name = dataset_row["name"]
         print("Creating schema for dataset", dataset_name)
         schema = {}
