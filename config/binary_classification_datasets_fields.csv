@@ -409,41 +409,15 @@ binary_classification,online_shopping,16,Region,feature,CATEGORICAL,Region of th
 binary_classification,online_shopping,17,TrafficType,feature,CATEGORICAL,Traffic type (categories 1 to 20) - information of types not provided in dataset
 binary_classification,online_shopping,18,VisitorType,feature,CATEGORICAL,Returning or new visitor
 binary_classification,online_shopping,19,Weekend,feature,CATEGORICAL,Is the session on weekend or weekday
-binary_classification,steel_plates,1,id,id,TEXT,unique identifier
-binary_classification,steel_plates,2,Class,target,CATEGORICAL,Class: Other_Faults
-binary_classification,steel_plates,3,V1,feature,NUMERIC,V1: X_Minimum
-binary_classification,steel_plates,4,V2,feature,NUMERIC,V2: X_Maximum
-binary_classification,steel_plates,5,V3,feature,NUMERIC,V3: Y_Minimum
-binary_classification,steel_plates,6,V4,feature,NUMERIC,V4: Y_Maximum
-binary_classification,steel_plates,7,V5,feature,NUMERIC,V5: Pixels_Areas
-binary_classification,steel_plates,8,V6,feature,NUMERIC,V6: X_Perimeter
-binary_classification,steel_plates,9,V7,feature,NUMERIC,V7: Y_Perimeter
-binary_classification,steel_plates,10,V8,feature,NUMERIC,V8: Sum_of_Luminosity
-binary_classification,steel_plates,11,V9,feature,NUMERIC,V9: Minimum_of_Luminosity
-binary_classification,steel_plates,12,V10,feature,NUMERIC,V10: Maximum_of_Luminosity
-binary_classification,steel_plates,13,V11,feature,NUMERIC,V11: Length_of_Conveyer
-binary_classification,steel_plates,14,V12,feature,CATEGORICAL,V12: TypeOfSteel_A300
-binary_classification,steel_plates,15,V13,feature,CATEGORICAL,V13: TypeOfSteel_A400
-binary_classification,steel_plates,16,V14,feature,NUMERIC,V14: Steel_Plate_Thickness
-binary_classification,steel_plates,17,V15,feature,NUMERIC,V15: Edges_Index
-binary_classification,steel_plates,18,V16,feature,NUMERIC,V16: Empty_Index
-binary_classification,steel_plates,19,V17,feature,NUMERIC,V17: Square_Index
-binary_classification,steel_plates,20,V18,feature,NUMERIC,V18: Outside_X_Index
-binary_classification,steel_plates,21,V19,feature,NUMERIC,V19: Edges_X_Index
-binary_classification,steel_plates,22,V20,feature,NUMERIC,V20: Edges_Y_Index
-binary_classification,steel_plates,23,V21,feature,CATEGORICAL,V21: Outside_Global_Index
-binary_classification,steel_plates,24,V22,feature,NUMERIC,V22: LogOfAreas
-binary_classification,steel_plates,25,V23,feature,NUMERIC,V23: Log_X_Index
-binary_classification,steel_plates,26,V24,feature,NUMERIC,V24: Log_Y_Index
-binary_classification,steel_plates,27,V25,feature,NUMERIC,V25: Orientation_Index
-binary_classification,steel_plates,28,V26,feature,NUMERIC,V26: Luminosity_Index
-binary_classification,steel_plates,29,V27,feature,NUMERIC,V27: SigmoidOfAreas
-binary_classification,steel_plates,30,V28,feature,CATEGORICAL,V28: Pastry
-binary_classification,steel_plates,31,V29,feature,CATEGORICAL,V29: Z_Scratch
-binary_classification,steel_plates,32,V30,feature,CATEGORICAL,V30: K_Scatch
-binary_classification,steel_plates,33,V31,feature,CATEGORICAL,V31: Stains
-binary_classification,steel_plates,34,V32,feature,CATEGORICAL,V32: Dirtiness
-binary_classification,steel_plates,35,V33,feature,CATEGORICAL,V33: Bumps
+binary_classification,auction,1,id,id,TEXT,unique identifier
+binary_classification,auction,2,verification.result,target,CATEGORICAL,Binary verification result - is the verified outcome possible?
+binary_classification,auction,3,process.b1.capacity,feature,NUMERIC,Capacity (max number of products to win) of Bidder 1.
+binary_classification,auction,4,process.b2.capacity,feature,NUMERIC,Capacity (max number of products to win) of Bidder 2.
+binary_classification,auction,5,process.b3.capacity,feature,NUMERIC,Capacity (max number of products to win) of Bidder 3.
+binary_classification,auction,6,process.b4.capacity,feature,NUMERIC,Capacity (max number of products to win) of Bidder 4.
+binary_classification,auction,7,property.price,feature,NUMERIC,Price currently verified.
+binary_classification,auction,8,property.product,feature,NUMERIC,Product currently verified.
+binary_classification,auction,9,property.winner,feature,NUMERIC,Bidder currently verified as winner of the product (0 if only price verified).
 binary_classification,smoke_test_bc,1,id,id,TEXT,unique identifier
 binary_classification,smoke_test_bc,2,target,target,CATEGORICAL,binary class (0 or 1)
 binary_classification,smoke_test_bc,3,color,feature,CATEGORICAL,color feature
@@ -714,24 +688,24 @@ binary_classification,breast_cancer,29,concavity_worst,feature,NUMERIC,worst (la
 binary_classification,breast_cancer,30,concave points_worst,feature,NUMERIC,worst (largest)  concave points (number of concave portions of the contour)
 binary_classification,breast_cancer,31,symmetry_worst,feature,NUMERIC,worst (largest)  symmetry
 binary_classification,breast_cancer,32,fractal_dimension_worst,feature,NUMERIC,"worst (largest)  fractal dimension (""coastline approximation"" - 1)"
-binary_classification,churn,1,id,id,TEXT,unique identifier
-binary_classification,churn,2,class,target,CATEGORICAL,description not available
-binary_classification,churn,3,state,feature,NUMERIC,description not available
-binary_classification,churn,4,account_length,feature,NUMERIC,description not available
-binary_classification,churn,5,area_code,feature,CATEGORICAL,description not available
-binary_classification,churn,6,international_plan,feature,CATEGORICAL,description not available
-binary_classification,churn,7,voice_mail_plan,feature,CATEGORICAL,description not available
-binary_classification,churn,8,number_vmail_messages,feature,NUMERIC,description not available
-binary_classification,churn,9,total_day_minutes,feature,NUMERIC,description not available
-binary_classification,churn,10,total_day_calls,feature,NUMERIC,description not available
-binary_classification,churn,11,total_day_charge,feature,NUMERIC,description not available
-binary_classification,churn,12,total_eve_minutes,feature,NUMERIC,description not available
-binary_classification,churn,13,total_eve_calls,feature,NUMERIC,description not available
-binary_classification,churn,14,total_eve_charge,feature,NUMERIC,description not available
-binary_classification,churn,15,total_night_minutes,feature,NUMERIC,description not available
-binary_classification,churn,16,total_night_calls,feature,NUMERIC,description not available
-binary_classification,churn,17,total_night_charge,feature,NUMERIC,description not available
-binary_classification,churn,18,total_intl_minutes,feature,NUMERIC,description not available
-binary_classification,churn,19,total_intl_calls,feature,NUMERIC,description not available
-binary_classification,churn,20,total_intl_charge,feature,NUMERIC,description not available
-binary_classification,churn,21,number_customer_service_calls,feature,CATEGORICAL,description not available
+binary_classification,blood_transfusion,1,id,id,TEXT,unique identifier
+binary_classification,blood_transfusion,2,Class,target,CATEGORICAL,binary variable representing whether he/she donated blood in March 2007
+binary_classification,blood_transfusion,3,V1,feature,NUMERIC,Recency - months since last donation
+binary_classification,blood_transfusion,4,V2,feature,NUMERIC,Frequency - total number of donation
+binary_classification,blood_transfusion,5,V3,feature,NUMERIC,Monetary - total blood donated in c.c.
+binary_classification,blood_transfusion,6,V4,feature,NUMERIC,Time - months since first donation
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
+binary_classification,,,,,,
