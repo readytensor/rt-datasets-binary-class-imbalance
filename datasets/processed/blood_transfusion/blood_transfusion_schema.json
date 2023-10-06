@@ -1,0 +1,50 @@
+{
+  "title": "Blood Transfusion Service Center",
+  "description": "o demonstrate the RFMTC marketing model (a modified version of RFM), this study adopted the donor database of Blood Transfusion Service Center in Hsin-Chu City in Taiwan. The center passes their blood transfusion service bus to one university in Hsin-Chu City to gather blood donated about every three months. To build a FRMTC model, we selected 748 donors at random from the donor database. These 748 donor data, each one included R (Recency - months since last donation), F (Frequency - total number of donation), M (Monetary - total blood donated in c.c.), T (Time - months since first donation), and a binary variable representing whether he/she donated blood in March 2007 (1 stand for donating blood; 0 stands for not donating blood). ",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier"
+  },
+  "target": {
+    "name": "Class",
+    "description": "binary class (1 or 2)  (2 stands for donating blood; 1 stands for not donating blood)",
+    "classes": [
+      "1",
+      "2"
+    ]
+  },
+  "features": [
+    {
+      "name": "V1",
+      "description": "Recency - months since last donation",
+      "dataType": "NUMERIC",
+      "example": 2.0,
+      "nullable": false
+    },
+    {
+      "name": "V2",
+      "description": "Frequency - total number of donation",
+      "dataType": "NUMERIC",
+      "example": 50.0,
+      "nullable": false
+    },
+    {
+      "name": "V3",
+      "description": "Monetary - total blood donated in c.c.",
+      "dataType": "NUMERIC",
+      "example": 12500.0,
+      "nullable": false
+    },
+    {
+      "name": "V4",
+      "description": "Time - months since first donation",
+      "dataType": "NUMERIC",
+      "example": 98.0,
+      "nullable": false
+    }
+  ]
+}
