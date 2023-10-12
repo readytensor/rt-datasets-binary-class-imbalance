@@ -1,0 +1,85 @@
+{
+  "title": "Statlog (Shuttle)",
+  "description": "not available",
+  "modelCategory": "binary_classification",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "id": {
+    "name": "id",
+    "description": "unique identifier"
+  },
+  "target": {
+    "name": "Class",
+    "description": "binary class (negative or positive)",
+    "classes": [
+      "negative",
+      "positive"
+    ]
+  },
+  "features": [
+    {
+      "name": "A1",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 49,
+      "nullable": false
+    },
+    {
+      "name": "A2",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "A3",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 79,
+      "nullable": false
+    },
+    {
+      "name": "A4",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "A5",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 46,
+      "nullable": false
+    },
+    {
+      "name": "A6",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": -5,
+      "nullable": false
+    },
+    {
+      "name": "A7",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 30,
+      "nullable": false
+    },
+    {
+      "name": "A8",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 32,
+      "nullable": false
+    },
+    {
+      "name": "A9",
+      "description": "not available",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    }
+  ]
+}
