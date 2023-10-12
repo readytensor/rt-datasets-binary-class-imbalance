@@ -1,0 +1,13 @@
+{
+  "instances": [
+    {
+      "id": "0",
+      "White_king_col": "c",
+      "White_king_row": 1,
+      "White_rook_col": "a",
+      "White_rook_row": 3,
+      "Black_king_col": "a",
+      "Black_king_row": 1
+    }
+  ]
+}

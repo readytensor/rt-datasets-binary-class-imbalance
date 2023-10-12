@@ -30,7 +30,7 @@ binary_classification,28,auction,Auction Verification,"The dataset was created a
 binary_classification,29,thoracic_surgery,Thoracic Surgery,"The data was collected retrospectively at Wroclaw Thoracic Surgery Centre for patients who underwent major lung resections for primary lung cancer in the years 2007ï¿½ï¿½ï¿½2011. The Centre is associated with the Department of Thoracic Surgery of the Medical University of Wroclaw and Lower-Silesian Centre for Pulmonary Diseases, Poland, while the research database constitutes a part of the National Lung Cancer Registry, administered by the Institute of Tuberculosis and Pulmonary Diseases in Warsaw, Poland.",id,unique identifier,Class,"binary class (1 or 2) class 1 - death within one year after surgery, class 2 - survival",1|2,1,0,utf-8
 binary_classification,30,thyroid_disease,Thyroid Disease,"From Garavan Institute # Documentation: as given by Ross Quinlan # 6 databases from the Garavan Institute in Sydney, Australia",id,unique identifier,Class,binary class (negative or sick),negative|sick,1,0,utf-8
 binary_classification,31,wilt,Wilt,"High-resolution Remote Sensing data set (Quickbird). Small number of training samples of diseased trees, large number for other land cover. Testing data set from stratified random sample of image.",id,unique identifier,class,binary class (1 or 2),1|2,1,0,utf-8
-binary_classification,32,pc1,PC1 Software defect prediction,One of the NASA Metrics Data Program defect data sets. Data from flight software for earth orbiting satellite. Data comes from McCabe and Halstead features extractors of source code. These features were defined in the 70s in an attempt to objectively characterize code features that are associated with software quality.,id,unique identifier,defects,binary class (true or false),false|true,1,0,utf-8
+binary_classification,32,pc1,PC1 Software defect prediction,One of the NASA Metrics Data Program defect data sets. Data from flight software for earth orbiting satellite. Data comes from McCabe and Halstead features extractors of source code. These features were defined in the 70s in an attempt to objectively characterize code features that are associated with software quality.,id,unique identifier,defects,binary class (True or False),False|True,1,0,utf-8
 binary_classification,33,optical_digits,"
 Optical Recognition of Handwritten Digits","We used preprocessing programs made available by NIST to extract normalized bitmaps of handwritten digits from a preprinted form. From a total of 43 people, 30 contributed to the training set and different 13 to the test set. 32x32 bitmaps are divided into nonoverlapping blocks of 4x4 and the number of on pixels are counted in each block. This generates an input matrix of 8x8 where each element is an integer in the range 0..16. This reduces dimensionality and gives invariance to small distortions.
 
@@ -42,8 +42,8 @@ binary_classification,37,sick_euthyroid,Sick euthyroid,not available,id,unique i
 binary_classification,38,car_eval_34,Car Evaluation,"Car Evaluation Database was derived from a simple hierarchical decision model originally developed for the demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. Sistemica 1(1), pp. 145-157, 1990.).",id,unique identifier,target,binary class (-1 or 1),-1|1,1,0,utf-8
 binary_classification,38,pie_chart,Pie Chart 3,not available,id,unique identifier,def,binary class (N or Y),N|Y,1,0,utf-8
 binary_classification,39,us_crime,Communities and Crime,not available,id,unique identifier,target,binary class (-1 or 1),-1|1,1,0,utf-8
-binary_classification,40,yeast3,Yeast,"Predicting the Cellular Localization Sites of Proteins
-",id,unique identifier,Class,binary class (negative or positive),negative|positive,1,0,utf-8
+binary_classification,40,yeast,Yeast,"Predicting the Cellular Localization Sites of Proteins
+",id,unique identifier,Class,binary class (negative or positive), negative| positive,1,0,utf-8
 binary_classification,41,chess,Chess (King-Rook vs. King),Chess Endgame Database for White King and Rook against Black King (KRK).,id,unique identifier,Class,binary class (negative or positive),negative|positive,1,0,utf-8
 binary_classification,42,coil_2000,Insurance Company Benchmark (COIL 2000),This data set used in the CoIL 2000 Challenge contains information on customers of an insurance company. The data consists of 86 variables and includes product usage data and socio-demographic data,id,unique identifier,target,binary class (-1 or 1),-1|1,1,0,utf-8
 binary_classification,43,solar_flare,Solar Flare,"Each class attribute counts the number of solar flares of a certain class that occur in a 24 hour period
@@ -53,11 +53,11 @@ binary_classification,45,mammography,Mammography,not available,id,unique identif
 binary_classification,46,letter_img,Letter Recognition,"Database of character image features; try to identify the letter
 ",id,unique identifier,target,binary class (-1 or 1),-1|1,1,0,utf-8
 binary_classification,47,shuttle,Statlog (Shuttle),not available,id,unique identifier,Class,binary class (negative or positive),negative|positive,1,0,utf-8
-binary_classification,48,page_blocks,Page Blocks,not available,id,unique identifier,Class,binary class (negative or positive),negative|positive,1,0,utf-8
-binary_classification,49,vowel,Connectionist Bench (Vowel Recognition - Deterding Data),not available,id,unique identifier,Class,binary class (negative or positive),negative|positive,1,0,utf-8
+binary_classification,48,page_blocks,Page Blocks,not available,id,unique identifier,Class,binary class (negative or positive), negative| positive,1,0,utf-8
+binary_classification,49,vowel,Connectionist Bench (Vowel Recognition - Deterding Data),not available,id,unique identifier,Class,binary class (negative or positive), negative| positive,1,0,utf-8
 binary_classification,50,kc1,KC1,"One of the NASA Metrics Data Program defect data sets. Data from software for storage management for receiving and processing ground data. Data comes from McCabe and Halstead features extractors of source code. These features were defined in the 70s in an attempt to objectively characterize code features that are associated with software quality.
-",id,unique identifier,defects,binary class (true or false),false|true,1,0,utf-8
+",id,unique identifier,defects,binary class (true or false),False|True,1,0,utf-8
 binary_classification,51,jm1,JM1,"JM1/software defect prediction
-",id,unique identifier,defects,binary class (true or false),false|true,1,0,utf-8
-binary_classification,52,graduation,On Time Graduation Classification,"This is a GPA dataset gathered from a university in Indonesia. However, this dataset isÊimbalanced",id,unique identifier,tepat,binary class (Tidak or Ya),Ya|Tidak,1,0,utf-8
+",id,unique identifier,defects,binary class (true or false),False|True,1,0,utf-8
+binary_classification,52,graduation,On Time Graduation Classification,"This is a GPA dataset gathered from a university in Indonesia. However, this dataset is imbalanced",id,unique identifier,tepat,binary class (Tidak or Ya),Ya|Tidak,1,0,utf-8
 binary_classification,53,club_loan,Lending Club LoanData,Historical data from 2007 to 2015. Highly imbalanced Dataset,id,unique identifier,not.fully.paid,binary class (0 or 1),0|1,1,0,utf-8
