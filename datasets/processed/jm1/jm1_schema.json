@@ -1,6 +1,6 @@
 {
   "title": "JM1",
-  "description": "JM1/software defect prediction\r\n",
+  "description": "JM1 - software defect prediction\n",
   "modelCategory": "binary_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",

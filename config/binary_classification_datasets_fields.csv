@@ -1,47 +1,4 @@
 model_category,name,field_num,field_name,field_type,data_type,field_description
-binary_classification,qsar_biodegradation,1,id,id,TEXT,unique identifier 
-binary_classification,qsar_biodegradation,2,Class,target,CATEGORICAL,experimental class: ready biodegradable (RB) and not ready biodegradable (NRB)
-binary_classification,qsar_biodegradation,3,V1,feature,NUMERIC,SpMax_L: Leading eigenvalue from Laplace matrix
-binary_classification,qsar_biodegradation,4,V2,feature,NUMERIC,J_Dz(e): Balaban-like index from Barysz matrix weighted by Sanderson electronegativity
-binary_classification,qsar_biodegradation,5,V3,feature,NUMERIC,nHM: Number of heavy atoms
-binary_classification,qsar_biodegradation,6,V4,feature,NUMERIC,F01[N-N]: Frequency of N-N at topological distance 1
-binary_classification,qsar_biodegradation,7,V5,feature,NUMERIC,F04[C-N]: Frequency of C-N at topological distance 4
-binary_classification,qsar_biodegradation,8,V6,feature,NUMERIC,NssssC: Number of atoms of type ssssC
-binary_classification,qsar_biodegradation,9,V7,feature,NUMERIC,nCb-: Number of substituted benzene C(sp2)
-binary_classification,qsar_biodegradation,10,V8,feature,NUMERIC,C%: Percentage of C atoms
-binary_classification,qsar_biodegradation,11,V9,feature,NUMERIC,nCp: Number of terminal primary C(sp3)
-binary_classification,qsar_biodegradation,12,V10,feature,NUMERIC,nO: Number of oxygen atoms
-binary_classification,qsar_biodegradation,13,V11,feature,NUMERIC,F03[C-N]: Frequency of C-N at topological distance 3
-binary_classification,qsar_biodegradation,14,V12,feature,NUMERIC,SdssC: Sum of dssC E-states
-binary_classification,qsar_biodegradation,15,V13,feature,NUMERIC,HyWi_B(m): Hyper-Wiener-like index (log function) from Burden matrix weighted by mass
-binary_classification,qsar_biodegradation,16,V14,feature,NUMERIC,LOC: Lopping centric index
-binary_classification,qsar_biodegradation,17,V15,feature,NUMERIC,SM6_L: Spectral moment of order 6 from Laplace matrix
-binary_classification,qsar_biodegradation,18,V16,feature,NUMERIC,F03[C-O]: Frequency of C - O at topological distance 3
-binary_classification,qsar_biodegradation,19,V17,feature,NUMERIC,Me: Mean atomic Sanderson electronegativity (scaled on Carbon atom)
-binary_classification,qsar_biodegradation,20,V18,feature,NUMERIC,Mi: Mean first ionization potential (scaled on Carbon atom)
-binary_classification,qsar_biodegradation,21,V19,feature,NUMERIC,nN-N: Number of N hydrazines
-binary_classification,qsar_biodegradation,22,V20,feature,NUMERIC,nArNO2: Number of nitro groups (aromatic)
-binary_classification,qsar_biodegradation,23,V21,feature,NUMERIC,nCRX3: Number of CRX3
-binary_classification,qsar_biodegradation,24,V22,feature,NUMERIC,SpPosA_B(p): Normalized spectral positive sum from Burden matrix weighted by polarizability
-binary_classification,qsar_biodegradation,25,V23,feature,NUMERIC,nCIR: Number of circuits
-binary_classification,qsar_biodegradation,26,V24,feature,CATEGORICAL,B01[C-Br]: Presence/absence of C - Br at topological distance 1
-binary_classification,qsar_biodegradation,27,V25,feature,CATEGORICAL,B03[C-Cl]: Presence/absence of C - Cl at topological distance 3
-binary_classification,qsar_biodegradation,28,V26,feature,CATEGORICAL,N-073: Ar2NH / Ar3N / Ar2N-Al / R..N..R
-binary_classification,qsar_biodegradation,29,V27,feature,NUMERIC,SpMax_A: Leading eigenvalue from adjacency matrix (Lovasz-Pelikan index)
-binary_classification,qsar_biodegradation,30,V28,feature,NUMERIC,Psi_i_1d: Intrinsic state pseudoconnectivity index - type 1d
-binary_classification,qsar_biodegradation,31,V29,feature,CATEGORICAL,B04[C-Br]: Presence/absence of C - Br at topological distance 4
-binary_classification,qsar_biodegradation,32,V30,feature,NUMERIC,SdO: Sum of dO E-states
-binary_classification,qsar_biodegradation,33,V31,feature,NUMERIC,TI2_L: Second Mohar index from Laplace matrix
-binary_classification,qsar_biodegradation,34,V32,feature,NUMERIC,nCrt: Number of ring tertiary C(sp3)
-binary_classification,qsar_biodegradation,35,V33,feature,NUMERIC,C-026: R--CX--R
-binary_classification,qsar_biodegradation,36,V34,feature,NUMERIC,F02[C-N]: Frequency of C - N at topological distance 2
-binary_classification,qsar_biodegradation,37,V35,feature,NUMERIC,nHDon: Number of donor atoms for H-bonds (N and O)
-binary_classification,qsar_biodegradation,38,V36,feature,NUMERIC,SpMax_B(m): Leading eigenvalue from Burden matrix weighted by mass
-binary_classification,qsar_biodegradation,39,V37,feature,NUMERIC,Psi_i_A: Intrinsic state pseudoconnectivity index - type S average
-binary_classification,qsar_biodegradation,40,V38,feature,NUMERIC,nN: Number of Nitrogen atoms
-binary_classification,qsar_biodegradation,41,V39,feature,NUMERIC,SM6_B(m): Spectral moment of order 6 from Burden matrix weighted by mass
-binary_classification,qsar_biodegradation,42,V40,feature,NUMERIC,nArCOOR: Number of esters (aromatic)
-binary_classification,qsar_biodegradation,43,V41,feature,NUMERIC,nX: Number of halogen atoms
 binary_classification,ozone_level,1,id,id,TEXT,unique identifier 
 binary_classification,ozone_level,2,Class,target,CATEGORICAL,"2,1 | two classes 2: ozone day, 1: normal day"
 binary_classification,ozone_level,3,V1,feature,NUMERIC,WSR0: All attributes starting with WS indicate the wind speed at various time.
@@ -116,13 +73,6 @@ binary_classification,ozone_level,71,V69,feature,NUMERIC,TT: T-Totals http://www
 binary_classification,ozone_level,72,V70,feature,NUMERIC,SLP: Sea level pressure
 binary_classification,ozone_level,73,V71,feature,NUMERIC,SLP_: SLP change from previous day
 binary_classification,ozone_level,74,V72,feature,NUMERIC,Precp: precipitation
-binary_classification,xor,1,id,id,TEXT,unique identifier 
-binary_classification,xor,2,target,target,CATEGORICAL,binary class (0 or 1)
-binary_classification,xor,3,x1,feature,NUMERIC,feature 1 of synthetic XOR data
-binary_classification,xor,4,x2,feature,NUMERIC,feature 2 of synthetic XOR data
-binary_classification,xor,5,x3,feature,NUMERIC,feature 3 of synthetic XOR data
-binary_classification,xor,6,x4,feature,NUMERIC,feature 4 of synthetic XOR data
-binary_classification,xor,7,x5,feature,NUMERIC,feature 5 of synthetic XOR data
 binary_classification,wilt,1,id,id,TEXT,unique identifier
 binary_classification,wilt,2,class,target,CATEGORICAL,description not available
 binary_classification,wilt,3,GLCM_Pan,feature,NUMERIC,GLCM mean texture (Pan band)
@@ -130,137 +80,6 @@ binary_classification,wilt,4,Mean_G,feature,NUMERIC,Mean green value
 binary_classification,wilt,5,Mean_R,feature,NUMERIC,Mean red value
 binary_classification,wilt,6,Mean_NIR,feature,NUMERIC,Mean NIR value
 binary_classification,wilt,7,SD_Plan,feature,NUMERIC,Standard deviation (Pan band)
-binary_classification,image_segmentation,1,id,id,TEXT,unique identifier 
-binary_classification,image_segmentation,2,binaryClass,target,CATEGORICAL,Positive class (P) and negative class (N)
-binary_classification,image_segmentation,3,region-centroid-col,feature,NUMERIC,the column of the center pixel of the region.
-binary_classification,image_segmentation,4,region-centroid-row,feature,NUMERIC,the row of the center pixel of the region.
-binary_classification,image_segmentation,5,region-pixel-count,feature,NUMERIC,the number of pixels in a region = 9.
-binary_classification,image_segmentation,6,short-line-density-5,feature,NUMERIC,"the results of a line extractoin algorithm that counts how many lines of length 5 (any orientation) with low contrast, less than or equal to 5, go through the region."
-binary_classification,image_segmentation,7,short-line-density-2,feature,NUMERIC,"same as short-line-density-5 but counts lines of high contrast, greater than 5."
-binary_classification,image_segmentation,8,vedge-mean,feature,NUMERIC,"measure the contrast of horizontally adjacent pixels in the region. There are 6, the mean and standard deviation are given. This attribute (mean) is used as a vertical edge detector."
-binary_classification,image_segmentation,9,vegde-sd,feature,NUMERIC,"measure the contrast of horizontally adjacent pixels in the region. There are 6, the mean and standard deviation are given. This attribute (std dev) is used as a vertical edge detector."
-binary_classification,image_segmentation,10,hedge-mean,feature,NUMERIC,measures the contrast of vertically adjacent pixels. This attribute (mean) is used for horizontal line detection.
-binary_classification,image_segmentation,11,hedge-sd,feature,NUMERIC,measures the contrast of vertically adjacent pixels. This attribute (std dev) is used for horizontal line detection.
-binary_classification,image_segmentation,12,intensity-mean,feature,NUMERIC,intensity-mean: the average over the region of (R + G + B)/3
-binary_classification,image_segmentation,13,rawred-mean,feature,NUMERIC,rawred-mean: the average over the region of the R value.
-binary_classification,image_segmentation,14,rawblue-mean,feature,NUMERIC,rawblue-mean: the average over the region of the B value.
-binary_classification,image_segmentation,15,rawgreen-mean,feature,NUMERIC,rawgreen-mean: the average over the region of the G value.
-binary_classification,image_segmentation,16,exred-mean,feature,NUMERIC,exred-mean: measure the excess red: (2R - (G + B))
-binary_classification,image_segmentation,17,exblue-mean,feature,NUMERIC,exblue-mean: measure the excess blue: (2B - (G + R))
-binary_classification,image_segmentation,18,exgreen-mean,feature,NUMERIC,exgreen-mean: measure the excess green: (2G - (R + B))
-binary_classification,image_segmentation,19,value-mean,feature,NUMERIC,"value-mean: 3-d nonlinear transformation of RGB. (Algorithm can be found in Foley and VanDam, Fundamentals of Interactive Computer Graphics)"
-binary_classification,image_segmentation,20,saturation-mean,feature,NUMERIC,"saturation: 3-d nonlinear transformation of RGB. (Algorithm can be found in Foley and VanDam, Fundamentals of Interactive Computer Graphics)"
-binary_classification,image_segmentation,21,hue-mean,feature,NUMERIC,"hue-mean: 3-d nonlinear transformation of RGB. (Algorithm can be found in Foley and VanDam, Fundamentals of Interactive Computer Graphics)"
-binary_classification,mushroom,1,id,id,TEXT,unique identifier 
-binary_classification,mushroom,2,class,target,CATEGORICAL,edible (e) or poisonous (p)
-binary_classification,mushroom,3,cap-shape,feature,CATEGORICAL,"cap-shape: bell=b,conical=c,convex=x,flat=f, knobbed=k,sunken=s "
-binary_classification,mushroom,4,cap-surface,feature,CATEGORICAL,"cap-surface: fibrous=f,grooves=g,scaly=y,smooth=s "
-binary_classification,mushroom,5,cap-color,feature,CATEGORICAL,"cap-color: brown=n,buff=b,cinnamon=c,gray=g,green=r, pink=p,purple=u,red=e,white=w,yellow=y "
-binary_classification,mushroom,6,bruises%3F,feature,CATEGORICAL,"bruises?: bruises=t,no=f "
-binary_classification,mushroom,7,odor,feature,CATEGORICAL,"odor: almond=a,anise=l,creosote=c,fishy=y,foul=f, musty=m,none=n,pungent=p,spicy=s "
-binary_classification,mushroom,8,gill-attachment,feature,CATEGORICAL,"gill-attachment: attached=a,descending=d,free=f,notched=n "
-binary_classification,mushroom,9,gill-spacing,feature,CATEGORICAL,"gill-spacing: close=c,crowded=w,distant=d "
-binary_classification,mushroom,10,gill-size,feature,CATEGORICAL,"gill-size: broad=b,narrow=n "
-binary_classification,mushroom,11,gill-color,feature,CATEGORICAL,"gill-color: black=k,brown=n,buff=b,chocolate=h,gray=g, green=r,orange=o,pink=p,purple=u,red=e, white=w,yellow=y "
-binary_classification,mushroom,12,stalk-shape,feature,CATEGORICAL,"stalk-shape: enlarging=e,tapering=t "
-binary_classification,mushroom,13,stalk-root,feature,CATEGORICAL,"stalk-root: bulbous=b,club=c,cup=u,equal=e, rhizomorphs=z,rooted=r,missing=? "
-binary_classification,mushroom,14,stalk-surface-above-ring,feature,CATEGORICAL,"stalk-surface-above-ring: fibrous=f,scaly=y,silky=k,smooth=s "
-binary_classification,mushroom,15,stalk-surface-below-ring,feature,CATEGORICAL,"stalk-surface-below-ring: fibrous=f,scaly=y,silky=k,smooth=s "
-binary_classification,mushroom,16,stalk-color-above-ring,feature,CATEGORICAL,"stalk-color-above-ring: brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y "
-binary_classification,mushroom,17,stalk-color-below-ring,feature,CATEGORICAL,"stalk-color-below-ring: brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y "
-binary_classification,mushroom,18,veil-type,feature,CATEGORICAL,"veil-type: partial=p,universal=u "
-binary_classification,mushroom,19,veil-color,feature,CATEGORICAL,"veil-color: brown=n,orange=o,white=w,yellow=y "
-binary_classification,mushroom,20,ring-number,feature,CATEGORICAL,"ring-number: none=n,one=o,two=t "
-binary_classification,mushroom,21,ring-type,feature,CATEGORICAL,"ring-type: cobwebby=c,evanescent=e,flaring=f,large=l, none=n,pendant=p,sheathing=s,zone=z "
-binary_classification,mushroom,22,spore-print-color,feature,CATEGORICAL,"spore-print-color: black=k,brown=n,buff=b,chocolate=h,green=r, orange=o,purple=u,white=w,yellow=y "
-binary_classification,mushroom,23,population,feature,CATEGORICAL,"population: abundant=a,clustered=c,numerous=n, scattered=s,several=v,solitary=y "
-binary_classification,mushroom,24,habitat,feature,CATEGORICAL,"habitat: grasses=g,leaves=l,meadows=m,paths=p, urban=u,waste=w,woods=d"
-binary_classification,banknote_authentication,1,id,id,TEXT,unique identifier 
-binary_classification,banknote_authentication,2,Class,target,CATEGORICAL,(target): Presumably 1 for genuine and 2 for forged
-binary_classification,banknote_authentication,3,V1,feature,NUMERIC,variance of Wavelet Transformed image
-binary_classification,banknote_authentication,4,V2,feature,NUMERIC,skewness of Wavelet Transformed image
-binary_classification,banknote_authentication,5,V3,feature,NUMERIC,curtosis of Wavelet Transformed image
-binary_classification,banknote_authentication,6,V4,feature,NUMERIC,entropy of image
-binary_classification,nba,1,Name,id,TEXT,unique identifier
-binary_classification,nba,2,TARGET_5Yrs,target,CATEGORICAL,description not available
-binary_classification,nba,3,GP,feature,NUMERIC,description not available
-binary_classification,nba,4,MIN,feature,NUMERIC,description not available
-binary_classification,nba,5,PTS,feature,NUMERIC,description not available
-binary_classification,nba,6,FGM,feature,NUMERIC,description not available
-binary_classification,nba,7,FGA,feature,NUMERIC,description not available
-binary_classification,nba,8,FG%,feature,NUMERIC,description not available
-binary_classification,nba,9,3P Made,feature,NUMERIC,description not available
-binary_classification,nba,10,3PA,feature,NUMERIC,description not available
-binary_classification,nba,11,3P%,feature,NUMERIC,description not available
-binary_classification,nba,12,FTM,feature,NUMERIC,description not available
-binary_classification,nba,13,FTA,feature,NUMERIC,description not available
-binary_classification,nba,14,FT%,feature,NUMERIC,description not available
-binary_classification,nba,15,OREB,feature,NUMERIC,description not available
-binary_classification,nba,16,DREB,feature,NUMERIC,description not available
-binary_classification,nba,17,REB,feature,NUMERIC,description not available
-binary_classification,nba,18,AST,feature,NUMERIC,description not available
-binary_classification,nba,19,STL,feature,NUMERIC,description not available
-binary_classification,nba,20,BLK,feature,NUMERIC,description not available
-binary_classification,nba,21,TOV,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,1,id,id,TEXT,unique identifier
-binary_classification,cylinder_bands,2,band_type,target,CATEGORICAL,description not available
-binary_classification,cylinder_bands,3,timestamp,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,4,cylinder_number,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,5,customer,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,6,job_number,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,7,grain_screened,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,8,proof_on_ctd_ink,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,9,blade_mfg,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,10,paper_type,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,11,ink_type,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,12,direct_steam,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,13,solvent_type,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,14,type_on_cylinder,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,15,press_type,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,16,press,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,17,unit_number,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,18,cylinder_size,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,19,paper_mill_location,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,20,plating_tank,feature,CATEGORICAL,description not available
-binary_classification,cylinder_bands,21,proof_cut,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,22,viscosity,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,23,caliper,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,24,ink_temperature,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,25,humifity,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,26,roughness,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,27,blade_pressure,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,28,varnish_pct,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,29,press_speed,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,30,ink_pct,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,31,solvent_pct,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,32,ESA_Voltage,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,33,ESA_Amperage,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,34,wax,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,35,hardener,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,36,roller_durometer,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,37,current_density,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,38,anode_space_ratio,feature,NUMERIC,description not available
-binary_classification,cylinder_bands,39,chrome_content,feature,NUMERIC,description not available
-binary_classification,spiral,1,id,id,TEXT,unique identifier 
-binary_classification,spiral,2,target,target,CATEGORICAL,binary class (0 or 1)
-binary_classification,spiral,3,y,feature,NUMERIC,y coordinate
-binary_classification,spiral,4,x,feature,NUMERIC,x coordinate
-binary_classification,eeg_eye_state,1,id,id,TEXT,unique identifier
-binary_classification,eeg_eye_state,2,eyeDetection,target,CATEGORICAL,'1' indicates the eye-closed and '0' the eye-open state
-binary_classification,eeg_eye_state,3,AF3,feature,NUMERIC,recorded measurement at AF3 location
-binary_classification,eeg_eye_state,4,F7,feature,NUMERIC,recorded measurement at F7 location
-binary_classification,eeg_eye_state,5,F3,feature,NUMERIC,recorded measurement at F3 location
-binary_classification,eeg_eye_state,6,FC5,feature,NUMERIC,recorded measurement at FC5 location
-binary_classification,eeg_eye_state,7,T7,feature,NUMERIC,recorded measurement at T7 location
-binary_classification,eeg_eye_state,8,P7,feature,NUMERIC,recorded measurement at P7 location
-binary_classification,eeg_eye_state,9,O1,feature,NUMERIC,recorded measurement at O1 location
-binary_classification,eeg_eye_state,10,O2,feature,NUMERIC,recorded measurement at O2 location
-binary_classification,eeg_eye_state,11,P8,feature,NUMERIC,recorded measurement at P8 location
-binary_classification,eeg_eye_state,12,T8,feature,NUMERIC,recorded measurement at T8 location
-binary_classification,eeg_eye_state,13,FC6,feature,NUMERIC,recorded measurement at FC6 location
-binary_classification,eeg_eye_state,14,F4,feature,NUMERIC,recorded measurement at F4 location
-binary_classification,eeg_eye_state,15,F8,feature,NUMERIC,recorded measurement at F8 location
-binary_classification,eeg_eye_state,16,AF4,feature,NUMERIC,recorded measurement at AF4 location
 binary_classification,thoracic_surgery,1,id,id,TEXT,unique identifier
 binary_classification,thoracic_surgery,2,Class,target,CATEGORICAL,"Risk1Y: 1 year survival period - (T)rue value if died (T,F)"
 binary_classification,thoracic_surgery,3,V1,feature,CATEGORICAL,"DGN: Diagnosis - specific combination of ICD-10 codes for primary and secondary as well multiple tumours if any (DGN3,DGN2,DGN4,DGN6,DGN5,DGN8,DGN1)"
@@ -279,136 +98,6 @@ binary_classification,thoracic_surgery,15,V13,feature,CATEGORICAL,"PRE25: PAD - 
 binary_classification,thoracic_surgery,16,V14,feature,CATEGORICAL,"PRE30: Smoking (T,F)"
 binary_classification,thoracic_surgery,17,V15,feature,CATEGORICAL,"PRE32: Asthma (T,F)"
 binary_classification,thoracic_surgery,18,V16,feature,NUMERIC,AGE: Age at surgery (numeric)
-binary_classification,pc2,1,id,id,TEXT,unique identifier
-binary_classification,pc2,2,c,target,CATEGORICAL,description not available
-binary_classification,pc2,3,BRANCH_COUNT,feature,NUMERIC,description not available
-binary_classification,pc2,4,CALL_PAIRS,feature,NUMERIC,description not available
-binary_classification,pc2,5,LOC_CODE_AND_COMMENT,feature,NUMERIC,description not available
-binary_classification,pc2,6,LOC_COMMENTS,feature,NUMERIC,description not available
-binary_classification,pc2,7,CONDITION_COUNT,feature,NUMERIC,description not available
-binary_classification,pc2,8,CYCLOMATIC_COMPLEXITY,feature,NUMERIC,description not available
-binary_classification,pc2,9,CYCLOMATIC_DENSITY,feature,NUMERIC,description not available
-binary_classification,pc2,10,DECISION_COUNT,feature,NUMERIC,description not available
-binary_classification,pc2,11,DECISION_DENSITY,feature,NUMERIC,description not available
-binary_classification,pc2,12,DESIGN_COMPLEXITY,feature,NUMERIC,description not available
-binary_classification,pc2,13,DESIGN_DENSITY,feature,NUMERIC,description not available
-binary_classification,pc2,14,EDGE_COUNT,feature,NUMERIC,description not available
-binary_classification,pc2,15,ESSENTIAL_COMPLEXITY,feature,NUMERIC,description not available
-binary_classification,pc2,16,ESSENTIAL_DENSITY,feature,NUMERIC,description not available
-binary_classification,pc2,17,LOC_EXECUTABLE,feature,NUMERIC,description not available
-binary_classification,pc2,18,PARAMETER_COUNT,feature,NUMERIC,description not available
-binary_classification,pc2,19,HALSTEAD_CONTENT,feature,NUMERIC,description not available
-binary_classification,pc2,20,HALSTEAD_DIFFICULTY,feature,NUMERIC,description not available
-binary_classification,pc2,21,HALSTEAD_EFFORT,feature,NUMERIC,description not available
-binary_classification,pc2,22,HALSTEAD_ERROR_EST,feature,NUMERIC,description not available
-binary_classification,pc2,23,HALSTEAD_LENGTH,feature,NUMERIC,description not available
-binary_classification,pc2,24,HALSTEAD_LEVEL,feature,NUMERIC,description not available
-binary_classification,pc2,25,HALSTEAD_PROG_TIME,feature,NUMERIC,description not available
-binary_classification,pc2,26,HALSTEAD_VOLUME,feature,NUMERIC,description not available
-binary_classification,pc2,27,MAINTENANCE_SEVERITY,feature,NUMERIC,description not available
-binary_classification,pc2,28,MODIFIED_CONDITION_COUNT,feature,NUMERIC,description not available
-binary_classification,pc2,29,MULTIPLE_CONDITION_COUNT,feature,NUMERIC,description not available
-binary_classification,pc2,30,NODE_COUNT,feature,NUMERIC,description not available
-binary_classification,pc2,31,NORMALIZED_CYLOMATIC_COMPLEXITY,feature,NUMERIC,description not available
-binary_classification,pc2,32,NUM_OPERANDS,feature,NUMERIC,description not available
-binary_classification,pc2,33,NUM_OPERATORS,feature,NUMERIC,description not available
-binary_classification,pc2,34,NUM_UNIQUE_OPERANDS,feature,NUMERIC,description not available
-binary_classification,pc2,35,NUM_UNIQUE_OPERATORS,feature,NUMERIC,description not available
-binary_classification,pc2,36,NUMBER_OF_LINES,feature,NUMERIC,description not available
-binary_classification,pc2,37,PERCENT_COMMENTS,feature,NUMERIC,description not available
-binary_classification,pc2,38,LOC_TOTAL,feature,NUMERIC,description not available
-binary_classification,electrical_grid,1,id,id,TEXT,unique identifier
-binary_classification,electrical_grid,2,stabf,target,CATEGORICAL,the stability label of the system (categorical: stable/unstable)
-binary_classification,electrical_grid,3,tau1,feature,NUMERIC,"reaction time of participant (real from the range [0.5,10]s). Tau1 - the value for electricity producer."
-binary_classification,electrical_grid,4,tau2,feature,NUMERIC,"reaction time of participant (real from the range [0.5,10]s). Tau1 - the value for electricity producer."
-binary_classification,electrical_grid,5,tau3,feature,NUMERIC,"reaction time of participant (real from the range [0.5,10]s). Tau1 - the value for electricity producer."
-binary_classification,electrical_grid,6,tau4,feature,NUMERIC,"reaction time of participant (real from the range [0.5,10]s). Tau1 - the value for electricity producer."
-binary_classification,electrical_grid,7,p1,feature,NUMERIC,"nominal power consumed(negative)/produced(positive)(real). For consumers from the range [-0.5,-2]s^-2; p1 = abs(p2 + p3 + p4)"
-binary_classification,electrical_grid,8,p2,feature,NUMERIC,"nominal power consumed(negative)/produced(positive)(real). For consumers from the range [-0.5,-2]s^-2; p1 = abs(p2 + p3 + p4)"
-binary_classification,electrical_grid,9,p3,feature,NUMERIC,"nominal power consumed(negative)/produced(positive)(real). For consumers from the range [-0.5,-2]s^-2; p1 = abs(p2 + p3 + p4)"
-binary_classification,electrical_grid,10,p4,feature,NUMERIC,"nominal power consumed(negative)/produced(positive)(real). For consumers from the range [-0.5,-2]s^-2; p1 = abs(p2 + p3 + p4)"
-binary_classification,electrical_grid,11,g1,feature,NUMERIC,"coefficient (gamma) proportional to price elasticity (real from the range [0.05,1]s^-1). g1 - the value for electricity producer."
-binary_classification,electrical_grid,12,g2,feature,NUMERIC,"coefficient (gamma) proportional to price elasticity (real from the range [0.05,1]s^-1). g1 - the value for electricity producer."
-binary_classification,electrical_grid,13,g3,feature,NUMERIC,"coefficient (gamma) proportional to price elasticity (real from the range [0.05,1]s^-1). g1 - the value for electricity producer."
-binary_classification,electrical_grid,14,g4,feature,NUMERIC,"coefficient (gamma) proportional to price elasticity (real from the range [0.05,1]s^-1). g1 - the value for electricity producer."
-binary_classification,spambase,1,id,id,TEXT,unique identifier
-binary_classification,spambase,2,class,target,CATEGORICAL,"denotes whether the e-mail was considered spam (1) i.e. an unsolicited commercial e-mail, or not (0)."
-binary_classification,spambase,3,word_freq_make,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,4,word_freq_address,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,5,word_freq_all,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,6,word_freq_3d,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,7,word_freq_our,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,8,word_freq_over,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,9,word_freq_remove,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,10,word_freq_internet,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,11,word_freq_order,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,12,word_freq_mail,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,13,word_freq_receive,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,14,word_freq_will,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,15,word_freq_people,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,16,word_freq_report,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,17,word_freq_addresses,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,18,word_freq_free,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,19,word_freq_business,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,20,word_freq_email,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,21,word_freq_you,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,22,word_freq_credit,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,23,word_freq_your,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,24,word_freq_font,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,25,word_freq_000,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,26,word_freq_money,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,27,word_freq_hp,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,28,word_freq_hpl,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,29,word_freq_george,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,30,word_freq_650,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,31,word_freq_lab,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,32,word_freq_labs,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,33,word_freq_telnet,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,34,word_freq_857,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,35,word_freq_data,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,36,word_freq_415,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,37,word_freq_85,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,38,word_freq_technology,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,39,word_freq_1999,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,40,word_freq_parts,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,41,word_freq_pm,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,42,word_freq_direct,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,43,word_freq_cs,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,44,word_freq_meeting,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,45,word_freq_original,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,46,word_freq_project,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,47,word_freq_re,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,48,word_freq_edu,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,49,word_freq_table,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,50,word_freq_conference,feature,NUMERIC,"Given 'word_freq_WORD': percentage of words in the e-mail that match WORD, i.e. 100 * (number of times the WORD appears in the e-mail) / total number of words in e-mail. A ""word"" in this case is any string of alphanumeric characters bounded by non-alphanumeric characters or end-of-string."
-binary_classification,spambase,51,char_freq_%3B,feature,NUMERIC,"Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail"
-binary_classification,spambase,52,char_freq_%28,feature,NUMERIC,"Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail"
-binary_classification,spambase,53,char_freq_%5B,feature,NUMERIC,"Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail"
-binary_classification,spambase,54,char_freq_%21,feature,NUMERIC,"Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail"
-binary_classification,spambase,55,char_freq_%24,feature,NUMERIC,"Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail"
-binary_classification,spambase,56,char_freq_%23,feature,NUMERIC,"Given 'char_freq_CHAR]', percentage of characters in the e-mail that match CHAR, i.e. 100 * (number of CHAR occurences) / total characters in e-mail"
-binary_classification,spambase,57,capital_run_length_average,feature,NUMERIC,average length of uninterrupted sequences of capital letters
-binary_classification,spambase,58,capital_run_length_longest,feature,NUMERIC,length of longest uninterrupted sequence of capital letters
-binary_classification,spambase,59,capital_run_length_total,feature,NUMERIC,total number of capital letters in the e-mail
-binary_classification,online_shopping,1,id,id,TEXT,unique identifier
-binary_classification,online_shopping,2,Revenue,target,CATEGORICAL,Target variable indicating whether the session resulted in shopping or not.
-binary_classification,online_shopping,3,Administrative,feature,NUMERIC,"Number of different ""Administrative"" pages visited in the session"
-binary_classification,online_shopping,4,Administrative_Duration,feature,NUMERIC,"Total time spent on ""Administrative"" pages in the session"
-binary_classification,online_shopping,5,Informational,feature,NUMERIC,"Number of different ""Informational"" pages visited in the session"
-binary_classification,online_shopping,6,Informational_Duration,feature,NUMERIC,"Total time spent on ""Informational"" pages in the session"
-binary_classification,online_shopping,7,ProductRelated,feature,NUMERIC,"Number of different ""ProductRelated"" pages visited in the session"
-binary_classification,online_shopping,8,ProductRelated_Duration,feature,NUMERIC,"Total time spent on ""ProductRelated"" pages in the session"
-binary_classification,online_shopping,9,BounceRates,feature,NUMERIC,"Bounce Rate metric from Google Analytics - refers to percentage of visitors who enter the site from that page and then leave (""bounce"") without triggering any other requests to the analytics server during that session"
-binary_classification,online_shopping,10,ExitRates,feature,NUMERIC,"Exit Rate metric from Google Analytics. The value of ""Exit Rate"" feature for a specific web page is calculated as for all pageviews to the page, the percentage that were the last in the session."
-binary_classification,online_shopping,11,PageValues,feature,NUMERIC,Page Value metric from google Analytics - represents the average value for a web page that a user visited before completing an e-commerce transaction
-binary_classification,online_shopping,12,SpecialDay,feature,NUMERIC,"Indicates the closeness of the site visiting time to a specific special day (e.g. Mother's Day, Valentine's Day) in which the sessions are more likely to be finalized with transaction"
-binary_classification,online_shopping,13,Month,feature,CATEGORICAL,Month of the year
-binary_classification,online_shopping,14,OperatingSystems,feature,CATEGORICAL,Operating system of the visitor
-binary_classification,online_shopping,15,Browser,feature,CATEGORICAL,Browser type of the visitor
-binary_classification,online_shopping,16,Region,feature,CATEGORICAL,Region of the visitor
-binary_classification,online_shopping,17,TrafficType,feature,CATEGORICAL,Traffic type (categories 1 to 20) - information of types not provided in dataset
-binary_classification,online_shopping,18,VisitorType,feature,CATEGORICAL,Returning or new visitor
-binary_classification,online_shopping,19,Weekend,feature,CATEGORICAL,Is the session on weekend or weekday
 binary_classification,auction,1,id,id,TEXT,unique identifier
 binary_classification,auction,2,verification.result,target,CATEGORICAL,Binary verification result - is the verified outcome possible?
 binary_classification,auction,3,process.b1.capacity,feature,NUMERIC,Capacity (max number of products to win) of Bidder 1.
@@ -418,59 +107,6 @@ binary_classification,auction,6,process.b4.capacity,feature,NUMERIC,Capacity (ma
 binary_classification,auction,7,property.price,feature,NUMERIC,Price currently verified.
 binary_classification,auction,8,property.product,feature,NUMERIC,Product currently verified.
 binary_classification,auction,9,property.winner,feature,NUMERIC,Bidder currently verified as winner of the product (0 if only price verified).
-binary_classification,smoke_test_bc,1,id,id,TEXT,unique identifier
-binary_classification,smoke_test_bc,2,target,target,CATEGORICAL,binary class (0 or 1)
-binary_classification,smoke_test_bc,3,color,feature,CATEGORICAL,color feature
-binary_classification,smoke_test_bc,4,number,feature,NUMERIC,number feature
-binary_classification,telco_churn,1,customerID,id,TEXT,customer id
-binary_classification,telco_churn,2,Churn,target,CATEGORICAL,Whether customer churned within the last month (Yes) or not (No)
-binary_classification,telco_churn,3,gender,feature,CATEGORICAL,"The customer's gender: Male, Female"
-binary_classification,telco_churn,4,SeniorCitizen,feature,CATEGORICAL,"Indicates if the customer is 65 or older: Yes, No"
-binary_classification,telco_churn,5,Partner,feature,CATEGORICAL,"Whether the customer has a partner or not (Yes, No)"
-binary_classification,telco_churn,6,Dependents,feature,CATEGORICAL,"Indicates if the customer lives with any dependents: Yes, No. Dependents could be children, parents, grandparents, etc."
-binary_classification,telco_churn,7,tenure,feature,NUMERIC,Indicates the total amount of months that the customer has been with the company by the end of the quarter specified above.
-binary_classification,telco_churn,8,PhoneService,feature,CATEGORICAL,"Whether the customer has a phone service or not (Yes, No)"
-binary_classification,telco_churn,9,MultipleLines,feature,CATEGORICAL,"Whether the customer has multiple lines or not (Yes, No, No phone service)"
-binary_classification,telco_churn,10,InternetService,feature,CATEGORICAL,"Customers internet service provider (DSL, Fiber optic, No)"
-binary_classification,telco_churn,11,OnlineSecurity,feature,CATEGORICAL,"Whether the customer has online security or not (Yes, No, No internet service)"
-binary_classification,telco_churn,12,OnlineBackup,feature,CATEGORICAL,"Indicates if the customer subscribes to an additional online backup service provided by the company: Yes, No"
-binary_classification,telco_churn,13,DeviceProtection,feature,CATEGORICAL,"Indicates if the customer subscribes to an additional device protection plan for their Internet equipment provided by the company: Yes, No"
-binary_classification,telco_churn,14,TechSupport,feature,CATEGORICAL,"Indicates if the customer subscribes to an additional technical support plan from the company with reduced wait times: Yes, No"
-binary_classification,telco_churn,15,StreamingTV,feature,CATEGORICAL,"Indicates if the customer uses their Internet service to stream television programing from a third party provider: Yes, No. The company does not charge an additional fee for this service."
-binary_classification,telco_churn,16,StreamingMovies,feature,CATEGORICAL,"Indicates if the customer uses their Internet service to stream movies from a third party provider: Yes, No. The company does not charge an additional fee for this service."
-binary_classification,telco_churn,17,Contract,feature,CATEGORICAL,"Indicates the customer's current contract type: Month-to-Month, One Year, Two Year."
-binary_classification,telco_churn,18,PaperlessBilling,feature,CATEGORICAL,"Indicates if the customer has chosen paperless billing: Yes, No"
-binary_classification,telco_churn,19,PaymentMethod,feature,CATEGORICAL,"Indicates how the customer pays their bill: Bank Withdrawal, Credit Card, Mailed Check"
-binary_classification,telco_churn,20,MonthlyCharges,feature,NUMERIC,Indicates the customer's current total monthly charge for all their services from the company.
-binary_classification,telco_churn,21,TotalCharges,feature,NUMERIC,"Indicates the customer's total charges, calculated to the end of the quarter specified above."
-binary_classification,credit_approval,1,id,id,TEXT,unique identifier
-binary_classification,credit_approval,2,A16,target,CATEGORICAL,"class attribute (positive, negative)"
-binary_classification,credit_approval,3,A1,feature,CATEGORICAL,"b, a."
-binary_classification,credit_approval,4,A2,feature,NUMERIC,continuous
-binary_classification,credit_approval,5,A3,feature,NUMERIC,continuous
-binary_classification,credit_approval,6,A4,feature,CATEGORICAL,"u, y, l, t."
-binary_classification,credit_approval,7,A5,feature,CATEGORICAL,"g, p, gg."
-binary_classification,credit_approval,8,A6,feature,CATEGORICAL,"c, d, cc, i, j, k, m, r, q, w, x, e, aa, ff."
-binary_classification,credit_approval,9,A7,feature,CATEGORICAL,"v, h, bb, j, n, z, dd, ff, o."
-binary_classification,credit_approval,10,A8,feature,NUMERIC,continuous
-binary_classification,credit_approval,11,A9,feature,CATEGORICAL,"t, f."
-binary_classification,credit_approval,12,A10,feature,CATEGORICAL,"t, f."
-binary_classification,credit_approval,13,A11,feature,NUMERIC,continuous
-binary_classification,credit_approval,14,A12,feature,CATEGORICAL,"t, f."
-binary_classification,credit_approval,15,A13,feature,CATEGORICAL,"g, p, s."
-binary_classification,credit_approval,16,A14,feature,NUMERIC,continuous
-binary_classification,credit_approval,17,A15,feature,NUMERIC,continuous
-binary_classification,employee_attrition,1,id,id,TEXT,unique identifier
-binary_classification,employee_attrition,2,left,target,CATEGORICAL,"attrition (yes = 1, no = 0)"
-binary_classification,employee_attrition,3,satisfaction_level,feature,NUMERIC,not available
-binary_classification,employee_attrition,4,last_evaluation,feature,NUMERIC,not available
-binary_classification,employee_attrition,5,number_project,feature,NUMERIC,not available
-binary_classification,employee_attrition,6,average_montly_hours,feature,NUMERIC,not available
-binary_classification,employee_attrition,7,time_spend_company,feature,NUMERIC,not available
-binary_classification,employee_attrition,8,Work_accident,feature,CATEGORICAL,not available
-binary_classification,employee_attrition,9,promotion_last_5years,feature,CATEGORICAL,not available
-binary_classification,employee_attrition,10,department,feature,CATEGORICAL,not available
-binary_classification,employee_attrition,11,salary,feature,CATEGORICAL,not available
 binary_classification,satellite,1,id,id,TEXT,unique identifier
 binary_classification,satellite,2,Target,target,CATEGORICAL,description not available
 binary_classification,satellite,3,V1,feature,NUMERIC,description not available
@@ -509,26 +145,6 @@ binary_classification,satellite,35,V33,feature,NUMERIC,description not available
 binary_classification,satellite,36,V34,feature,NUMERIC,description not available
 binary_classification,satellite,37,V35,feature,NUMERIC,description not available
 binary_classification,satellite,38,V36,feature,NUMERIC,description not available
-binary_classification,titanic,1,id,id,TEXT,Unique identifier per passenger
-binary_classification,titanic,2,embarked,target,CATEGORICAL,Port of embarkation
-binary_classification,titanic,3,pclass,feature,CATEGORICAL,Ticket class
-binary_classification,titanic,4,survived,feature,CATEGORICAL,Whether passenger survived or not
-binary_classification,titanic,5,sex,feature,CATEGORICAL,Gender
-binary_classification,titanic,6,age,feature,NUMERIC,Age in years
-binary_classification,titanic,7,sibsp,feature,NUMERIC,# of siblings / spouses aboard the Titanic
-binary_classification,titanic,8,parch,feature,NUMERIC,# of parents / children aboard the Titanic
-binary_classification,titanic,9,fare,feature,NUMERIC,Passanger fare
-binary_classification,concentric_spheres,1,id,id,TEXT,unique identifier
-binary_classification,concentric_spheres,2,target,target,CATEGORICAL,binary class (0 or 1)
-binary_classification,concentric_spheres,3,x,feature,NUMERIC,x coordinate
-binary_classification,concentric_spheres,4,y,feature,NUMERIC,y coordinate
-binary_classification,concentric_spheres,5,z,feature,NUMERIC,z coordinate
-binary_classification,concentric_spheres,6,dummy_1,feature,NUMERIC,dummy feature 1
-binary_classification,concentric_spheres,7,dummy_2,feature,NUMERIC,dummy feature 2
-binary_classification,concentric_spheres,8,dummy_3,feature,NUMERIC,dummy feature 3
-binary_classification,concentric_spheres,9,corr_x,feature,NUMERIC,feature correlated with x coordinate
-binary_classification,concentric_spheres,10,corr_y,feature,NUMERIC,feature correlated with y coordinate
-binary_classification,concentric_spheres,11,corr_z,feature,NUMERIC,feature correlated with z coordinate
 binary_classification,climate_simulation_crashes,1,id,id,TEXT,unique identifier
 binary_classification,climate_simulation_crashes,2,outcome,target,CATEGORICAL,"outcome (0 = failure, 1 = success)"
 binary_classification,climate_simulation_crashes,3,Study,feature,CATEGORICAL,Latin hypercube study ID (study 1 to study 3)
@@ -568,65 +184,6 @@ binary_classification,seismic_bumps,14,nbumps4,feature,NUMERIC,"nbumps4: the num
 binary_classification,seismic_bumps,15,nbumps5,feature,NUMERIC,"nbumps5: the number of seismic bumps (in energy range [10^5,10^6)) registered within the last shift;"
 binary_classification,seismic_bumps,16,energy,feature,NUMERIC,energy: total energy of seismic bumps registered within previous shift;
 binary_classification,seismic_bumps,17,maxenergy,feature,NUMERIC,maxenergy: the maximum energy of the seismic bumps registered within previous shift;
-binary_classification,coupon_recommendations,1,id,id,TEXT,unique identifier
-binary_classification,coupon_recommendations,2,accept_coupon,target,CATEGORICAL,"accept_coupon:1, 0 (whether the coupon is accepted)"
-binary_classification,coupon_recommendations,3,destination,feature,CATEGORICAL,"destination: No Urgent Place, Home, Work"
-binary_classification,coupon_recommendations,4,passenger,feature,CATEGORICAL,"passenger: Alone, Friend(s), Kid(s), Partner (who are the passengers in the car)"
-binary_classification,coupon_recommendations,5,weather,feature,CATEGORICAL,"weather: Sunny, Rainy, Snowy"
-binary_classification,coupon_recommendations,6,temperature,feature,CATEGORICAL,"temperature:55, 80, 30"
-binary_classification,coupon_recommendations,7,time,feature,CATEGORICAL,"time: 2PM, 10AM, 6PM, 7AM, 10PM"
-binary_classification,coupon_recommendations,8,coupon,feature,CATEGORICAL,"coupon: Restaurant(<$20), Coffee House, Carry out & Take away, Bar, Restaurant($20-$50)"
-binary_classification,coupon_recommendations,9,expiration,feature,CATEGORICAL,"expiration: 1d, 2h (the coupon expires in 1 day or in 2 hours)"
-binary_classification,coupon_recommendations,10,gender,feature,CATEGORICAL,"gender: Female, Male"
-binary_classification,coupon_recommendations,11,age,feature,CATEGORICAL,"age: 21, 46, 26, 31, 41, 50plus, 36, below21"
-binary_classification,coupon_recommendations,12,maritalStatus,feature,CATEGORICAL,"maritalStatus: Unmarried partner, Single, Married partner, Divorced, Widowed"
-binary_classification,coupon_recommendations,13,has_children,feature,CATEGORICAL,"has_Children:1, 0"
-binary_classification,coupon_recommendations,14,education,feature,CATEGORICAL,"education: Some college - no degree, Bachelors degree, Associates degree, High School Graduate, Graduate degree (Masters or Doctorate), Some High School"
-binary_classification,coupon_recommendations,15,occupation,feature,CATEGORICAL,"occupation: Unemployed, Architecture & Engineering, Student,"
-binary_classification,coupon_recommendations,16,income,feature,CATEGORICAL,"income: $37500 - $49999, $62500 - $74999, $12500 - $24999, $75000 - $87499,"
-binary_classification,coupon_recommendations,17,car,feature,CATEGORICAL,"$50000 - $62499, $25000 - $37499, $100000 or More, $87500 - $99999, Less than $12500"
-binary_classification,coupon_recommendations,18,Bar,feature,CATEGORICAL,"Bar: never, less1, 1~3, gt8, nan4~8 (feature meaning: how many times do you go to a bar every month?)"
-binary_classification,coupon_recommendations,19,CoffeeHouse,feature,CATEGORICAL,"CoffeeHouse: never, less1, 4~8, 1~3, gt8, nan (feature meaning: how many times do you go to a coffeehouse every month?)"
-binary_classification,coupon_recommendations,20,CarryAway,feature,CATEGORICAL,"CarryAway:n4~8, 1~3, gt8, less1, never (feature meaning: how many times do you get take-away food every month?)"
-binary_classification,coupon_recommendations,21,RestaurantLessThan20,feature,CATEGORICAL,"RestaurantLessThan20: 4~8, 1~3, less1, gt8, never (feature meaning: how many times do you go to a restaurant with an average expense per person of less than $20 every month?)"
-binary_classification,coupon_recommendations,22,Restaurant20To50,feature,CATEGORICAL,"Restaurant20To50: 1~3, less1, never, gt8, 4~8, nan (feature meaning: how many times do you go to a restaurant with average expense per person of $20 - $50 every month?)"
-binary_classification,coupon_recommendations,23,toCoupon_GEQ5min,feature,CATEGORICAL,"toCoupon_GEQ5min:0,1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 5 minutes)"
-binary_classification,coupon_recommendations,24,toCoupon_GEQ15min,feature,CATEGORICAL,"toCoupon_GEQ15min:0,1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 15 minutes)"
-binary_classification,coupon_recommendations,25,toCoupon_GEQ25min,feature,CATEGORICAL,"toCoupon_GEQ25min:0, 1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 25 minutes)"
-binary_classification,coupon_recommendations,26,direction_same,feature,CATEGORICAL,"direction_same:0, 1 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)"
-binary_classification,coupon_recommendations,27,direction_opp,feature,CATEGORICAL,"direction_opp:1, 0 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)"
-binary_classification,phishing_websites,1,id,id,TEXT,unique identifier
-binary_classification,phishing_websites,2,Result,target,CATEGORICAL,Whether it's a phishing website or not
-binary_classification,phishing_websites,3,having_IP_Address,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,4,URL_Length,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,5,Shortining_Service,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,6,having_At_Symbol,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,7,double_slash_redirecting,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,8,Prefix_Suffix,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,9,having_Sub_Domain,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,10,SSLfinal_State,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,11,Domain_registeration_length,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,12,Favicon,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,13,port,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,14,HTTPS_token,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,15,Request_URL,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,16,URL_of_Anchor,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,17,Links_in_tags,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,18,SFH,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,19,Submitting_to_email,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,20,Abnormal_URL,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,21,Redirect,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,22,on_mouseover,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,23,RightClick,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,24,popUpWidnow,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,25,Iframe,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,26,age_of_domain,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,27,DNSRecord,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,28,web_traffic,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,29,Page_Rank,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,30,Google_Index,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,31,Links_pointing_to_page,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
-binary_classification,phishing_websites,32,Statistical_report,feature,CATEGORICAL,Features descriptions are available here: https://github.com/readytensor/rt-smote-project-datasets/blob/main/datasets/raw/Phishing%20Websites/raw/Phishing%20Websites%20Features.docx
 binary_classification,thyroid_disease,1,id,id,TEXT,unique identifier
 binary_classification,thyroid_disease,2,Class,target,CATEGORICAL,description not available
 binary_classification,thyroid_disease,3,age,feature,NUMERIC,description not available
@@ -656,44 +213,6 @@ binary_classification,thyroid_disease,26,T4U,feature,NUMERIC,description not ava
 binary_classification,thyroid_disease,27,FTI_measured,feature,CATEGORICAL,description not available
 binary_classification,thyroid_disease,28,FTI,feature,NUMERIC,description not available
 binary_classification,thyroid_disease,29,referral_source,feature,CATEGORICAL,description not available
-binary_classification,breast_cancer,1,id,id,TEXT,ID number
-binary_classification,breast_cancer,2,diagnosis,target,CATEGORICAL,"diagnosis (M = malignant, B = benign)"
-binary_classification,breast_cancer,3,radius_mean,feature,NUMERIC,mean radius (mean of distances from center to points on the perimeter)
-binary_classification,breast_cancer,4,texture_mean,feature,NUMERIC,mean texture (standard deviation of gray-scale values)
-binary_classification,breast_cancer,5,perimeter_mean,feature,NUMERIC,mean perimeter
-binary_classification,breast_cancer,6,area_mean,feature,NUMERIC,mean area
-binary_classification,breast_cancer,7,smoothness_mean,feature,NUMERIC,mean smoothness (local variation in radius lengths)
-binary_classification,breast_cancer,8,compactness_mean,feature,NUMERIC,mean compactness (perimeter^2 / area - 1.0)
-binary_classification,breast_cancer,9,concavity_mean,feature,NUMERIC,mean concavity (severity of concave portions of the contour)
-binary_classification,breast_cancer,10,concave points_mean,feature,NUMERIC,mean concave points (number of concave portions of the contour)
-binary_classification,breast_cancer,11,symmetry_mean,feature,NUMERIC,mean symmetry
-binary_classification,breast_cancer,12,fractal_dimension_mean,feature,NUMERIC,"mean fractal dimension (""coastline approximation"" - 1)"
-binary_classification,breast_cancer,13,radius_se,feature,NUMERIC,std. error of  radius (mean of distances from center to points on the perimeter)
-binary_classification,breast_cancer,14,texture_se,feature,NUMERIC,std. error of  texture (standard deviation of gray-scale values)
-binary_classification,breast_cancer,15,perimeter_se,feature,NUMERIC,std. error of  perimeter
-binary_classification,breast_cancer,16,area_se,feature,NUMERIC,std. error of  area
-binary_classification,breast_cancer,17,smoothness_se,feature,NUMERIC,std. error of  smoothness (local variation in radius lengths)
-binary_classification,breast_cancer,18,compactness_se,feature,NUMERIC,std. error of  compactness (perimeter^2 / area - 1.0)
-binary_classification,breast_cancer,19,concavity_se,feature,NUMERIC,std. error of  concavity (severity of concave portions of the contour)
-binary_classification,breast_cancer,20,concave points_se,feature,NUMERIC,std. error of  concave points (number of concave portions of the contour)
-binary_classification,breast_cancer,21,symmetry_se,feature,NUMERIC,std. error of  symmetry
-binary_classification,breast_cancer,22,fractal_dimension_se,feature,NUMERIC,"std. error of  fractal dimension (""coastline approximation"" - 1)"
-binary_classification,breast_cancer,23,radius_worst,feature,NUMERIC,worst (largest)  radius (mean of distances from center to points on the perimeter)
-binary_classification,breast_cancer,24,texture_worst,feature,NUMERIC,worst (largest)  texture (standard deviation of gray-scale values)
-binary_classification,breast_cancer,25,perimeter_worst,feature,NUMERIC,worst (largest)  perimeter
-binary_classification,breast_cancer,26,area_worst,feature,NUMERIC,worst (largest)  area
-binary_classification,breast_cancer,27,smoothness_worst,feature,NUMERIC,worst (largest)  smoothness (local variation in radius lengths)
-binary_classification,breast_cancer,28,compactness_worst,feature,NUMERIC,worst (largest)  compactness (perimeter^2 / area - 1.0)
-binary_classification,breast_cancer,29,concavity_worst,feature,NUMERIC,worst (largest)  concavity (severity of concave portions of the contour)
-binary_classification,breast_cancer,30,concave points_worst,feature,NUMERIC,worst (largest)  concave points (number of concave portions of the contour)
-binary_classification,breast_cancer,31,symmetry_worst,feature,NUMERIC,worst (largest)  symmetry
-binary_classification,breast_cancer,32,fractal_dimension_worst,feature,NUMERIC,"worst (largest)  fractal dimension (""coastline approximation"" - 1)"
-binary_classification,blood_transfusion,1,id,id,TEXT,unique identifier
-binary_classification,blood_transfusion,2,Class,target,CATEGORICAL,binary variable representing whether he/she donated blood in March 2007
-binary_classification,blood_transfusion,3,V1,feature,NUMERIC,Recency - months since last donation
-binary_classification,blood_transfusion,4,V2,feature,NUMERIC,Frequency - total number of donation
-binary_classification,blood_transfusion,5,V3,feature,NUMERIC,Monetary - total blood donated in c.c.
-binary_classification,blood_transfusion,6,V4,feature,NUMERIC,Time - months since first donation
 binary_classification,sick_euthyroid,1,id,id,TEXT,unique identifier
 binary_classification,sick_euthyroid,2,f0,feature,NUMERIC,not available
 binary_classification,sick_euthyroid,3,f1,feature,NUMERIC,not available
@@ -790,18 +309,18 @@ binary_classification,car_eval_34,20,f18,feature,NUMERIC,not available
 binary_classification,car_eval_34,21,f19,feature,NUMERIC,not available
 binary_classification,car_eval_34,22,f20,feature,NUMERIC,not available
 binary_classification,car_eval_34,23,target,target,CATEGORICAL,not available
-binary_classification,abalone,1,id,id,TEXT,unique identifier
-binary_classification,abalone,2,f0,feature,NUMERIC,not available
-binary_classification,abalone,3,f1,feature,NUMERIC,not available
-binary_classification,abalone,4,f2,feature,NUMERIC,not available
-binary_classification,abalone,5,f3,feature,NUMERIC,not available
-binary_classification,abalone,6,f4,feature,NUMERIC,not available
-binary_classification,abalone,7,f5,feature,NUMERIC,not available
-binary_classification,abalone,8,f6,feature,NUMERIC,not available
-binary_classification,abalone,9,f7,feature,NUMERIC,not available
-binary_classification,abalone,10,f8,feature,NUMERIC,not available
-binary_classification,abalone,11,f9,feature,NUMERIC,not available
-binary_classification,abalone,12,target,target,CATEGORICAL,not available
+binary_classification,abalone_binarized,1,id,id,TEXT,unique identifier
+binary_classification,abalone_binarized,2,f0,feature,NUMERIC,not available
+binary_classification,abalone_binarized,3,f1,feature,NUMERIC,not available
+binary_classification,abalone_binarized,4,f2,feature,NUMERIC,not available
+binary_classification,abalone_binarized,5,f3,feature,NUMERIC,not available
+binary_classification,abalone_binarized,6,f4,feature,NUMERIC,not available
+binary_classification,abalone_binarized,7,f5,feature,NUMERIC,not available
+binary_classification,abalone_binarized,8,f6,feature,NUMERIC,not available
+binary_classification,abalone_binarized,9,f7,feature,NUMERIC,not available
+binary_classification,abalone_binarized,10,f8,feature,NUMERIC,not available
+binary_classification,abalone_binarized,11,f9,feature,NUMERIC,not available
+binary_classification,abalone_binarized,12,target,target,CATEGORICAL,not available
 binary_classification,pie_chart,1,id,id,TEXT,unique identifier
 binary_classification,pie_chart,2,a,feature,NUMERIC,not available
 binary_classification,pie_chart,3,b,feature,NUMERIC,not available

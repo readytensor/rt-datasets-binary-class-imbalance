@@ -1,2 +1,3 @@
 # rt-smote-project-datasets
-Datasets for Binary Classification used for SMOTE Project
+
+Datasets for Binary Classification used for SMOTE Project on Ready Tensor.

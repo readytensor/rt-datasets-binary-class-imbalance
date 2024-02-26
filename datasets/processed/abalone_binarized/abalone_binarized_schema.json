@@ -1,6 +1,6 @@
 {
-  "title": "Page Blocks",
-  "description": "not available",
+  "title": "Abalone Binarized",
+  "description": "Predicting the age of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain, are used to predict the age. Further information, such as weather patterns and location (hence food availability) may be required to solve the problem. From the original data examples with missing values were removed (the majority having the predicted value missing), and the ranges of the continuous values have been scaled for use with an ANN (by dividing by 200).",
   "modelCategory": "binary_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",
@@ -10,82 +10,82 @@
     "description": "unique identifier"
   },
   "target": {
-    "name": "Class",
-    "description": "binary class (negative or positive)",
+    "name": "target",
+    "description": "binary class (-1 or 1)",
     "classes": [
-      "negative",
-      "positive"
+      "-1",
+      "1"
     ]
   },
   "features": [
     {
-      "name": "Height",
+      "name": "f0",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 5,
+      "example": 0.0,
       "nullable": false
     },
     {
-      "name": "Lenght",
+      "name": "f1",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 7,
+      "example": 0.0,
       "nullable": false
     },
     {
-      "name": "Area",
+      "name": "f2",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 35.0,
+      "example": 1.0,
       "nullable": false
     },
     {
-      "name": "Eccen",
+      "name": "f3",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 1.4,
+      "example": 0.455,
       "nullable": false
     },
     {
-      "name": "P_black",
+      "name": "f4",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 0.4,
+      "example": 0.365,
       "nullable": false
     },
     {
-      "name": "P_and",
+      "name": "f5",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 0.657,
+      "example": 0.095,
       "nullable": false
     },
     {
-      "name": "Mean_tr",
+      "name": "f6",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 2.33,
+      "example": 0.514,
       "nullable": false
     },
     {
-      "name": "Blackpix",
+      "name": "f7",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 14,
+      "example": 0.2245,
       "nullable": false
     },
     {
-      "name": "Blackand",
+      "name": "f8",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 23,
+      "example": 0.101,
       "nullable": false
     },
     {
-      "name": "Wb_trans",
+      "name": "f9",
       "description": "not available",
       "dataType": "NUMERIC",
-      "example": 6,
+      "example": 0.15,
       "nullable": false
     }
   ]

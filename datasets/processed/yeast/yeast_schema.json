@@ -13,8 +13,8 @@
     "name": "Class",
     "description": "binary class (negative or positive)",
     "classes": [
-      " negative",
-      " positive"
+      "negative",
+      "positive"
     ]
   },
   "features": [
