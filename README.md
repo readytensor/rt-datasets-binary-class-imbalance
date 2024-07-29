@@ -2,7 +2,7 @@
 
 This repo contains files related to the datasets used for the smote analysis project. There are a total of 31 benchmarking datasets used in this project. The list of datasets is as follows:
 | Dataset | # of features | # of samples | % of minority class | source |
-|-------------------------------------------------------|:---------------------------:|:----------------:|:----------------|
+|-------------------------------------------------------|:---------------------------:|:----------------:|:----------------:|:----------------:|
 | abalone_binarized | 9 | 4177 | 9.3% | https://www.openml.org/search?type=data&status=any&qualities.NumberOfClasses=%3D_2&id=720 |
 | auction | 7 | 2043 | 12.8% | https://www.openml.org/search?type=data&status=active&id=44958 |
 | car_eval_binarized | 21 | 1728 | 7.7% | https://imbalanced-learn.org/stable/datasets/index.html |
