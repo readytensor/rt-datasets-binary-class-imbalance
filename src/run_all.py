@@ -1,10 +1,10 @@
 import os
 import pandas as pd
 
-from generate_schemas import generate_schema_for_dataset
+from schema_gen import generate_schema_for_dataset
 from utils import load_metadata, load_features_config, strip_quotes, save_json
-from preprocess_raw_datasets import get_main_dataset_df
-from create_train_test_key_files import create_stratified_kfolds, \
+from raw_datasets_processing import get_main_dataset_df
+from train_test_key_files_gen import create_stratified_kfolds, \
     save_train_test_testkey_files
 import paths
 
@@ -71,7 +71,3 @@ def process_all_datasets():
 
 if __name__ == "__main__":
     process_all_datasets()
-
-
-
-        
