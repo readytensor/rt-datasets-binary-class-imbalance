@@ -76,7 +76,6 @@ The project is organized as follows:
     - Files with suffix "\_test.csv" are used for testing (without the targets).
     - Files with suffix "\_test_key.csv" contain the ids and targets for the test data, used to generate scores by comparing with predictions.
     - Files with suffix "\_schema.json" are the schema files for the corresponding datasets.
-    - Files with suffix "\_inference_request_sample.json" contain sample JSON objects for making inference requests to the /infer endpoint.
   - `raw/`: Contains the original data files from the source.
 
 - `src/`: Contains the source code for processing the datasets.
