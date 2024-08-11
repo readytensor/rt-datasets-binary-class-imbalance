@@ -6,6 +6,21 @@ import ast
 import paths
 
 
+def strip_whitespace(data: pd.DataFrame) -> pd.DataFrame:
+    """Strip whitespace from all cell values in the dataset.
+
+    Args:
+        data (pd.DataFrame): The dataset to clean.
+
+    Returns:
+        pd.DataFrame: The dataset with stripped whitespace.
+    """
+    for col in data.columns:
+        if data[col].dtype == 'object':
+            data[col] = data[col].str.strip()
+    return data
+
+
 def convert_numeric_columns_to_feature_strings(data: pd.DataFrame) -> pd.DataFrame:
     """Convert columns named as integers (0, 1, 2, ...) to feature strings (f0, f1, ...).
 
@@ -112,6 +127,7 @@ def get_main_dataset_df(dataset_cfg: pd.Series)->pd.DataFrame:
     )
     data = pd.read_csv(raw_data_fpath)
 
+    data = strip_whitespace(data)
     data = convert_numeric_columns_to_feature_strings(data)
     data = insert_id_col_if_not_exists(data, id_field)
     data = convert_byte_strings_to_strings(data)
