@@ -56,3 +56,11 @@ The `datasets` folder contains the main data files and the schema files for all 
 - `run_all.py`: This is used to run the above three scripts in sequence.
 
 Note again that the main files for all the datasets are in the `./datasets/processed` folder.
+
+# License
+
+The code in this repository is licensed under the MIT License. See the LICENSE file for details.
+
+The datasets included in this repository are provided for convenience and are subject to their respective licenses as provided by the original authors and distributors. For more details on the licenses and to access the original datasets, please refer to the original sources listed above.
+
+Please ensure compliance with the respective licenses when using these datasets.
