@@ -86,7 +86,7 @@ The project is organized as follows:
   - `raw_datasets_processing.py`: Code to read and preprocess the original source data into the required pandas dataframe format.
   - `schema_gen.py`: Code to generate the schema files for each dataset.
   - `train_test_key_files_gen.py`: Code to save the train, test, and test-key files for each dataset.
-  - `run_all.py`: Main script that functions in the above three scripts to generate processed dataset files.
+  - `run_all.py`: Main script that uses functions in the above three scripts to generate processed dataset files.
 
 Note that the main files for all datasets are located in the `./datasets/processed` folder.
 
