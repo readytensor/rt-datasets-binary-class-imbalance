@@ -1,66 +1,99 @@
-# SMOTE Analysis datasets
+# SMOTE Analysis Project Datasets
 
-This repo contains files related to the datasets used for the smote analysis project. There are a total of 31 benchmarking datasets used in this project. The list of datasets is as follows:
-| Dataset | # of features | # of samples | % of minority class | source |
-|-------------------------------------------------------|:---------------------------:|:----------------:|:----------------:|:------------------------------:|
-| abalone_binarized | 9 | 4177 | 9.3% | https://imbalanced-learn.org/stable/datasets/index.html#imbalanced-datasets-for-benchmark |
-| auction | 7 | 2043 | 12.8% | https://archive.ics.uci.edu/dataset/713/auction+verification |
-| car_eval_binarized | 21 | 1728 | 7.7% | https://imbalanced-learn.org/stable/datasets/index.html#imbalanced-datasets-for-benchmark |
-| chess | 6 | 2901 | 3.6% | https://sci2s.ugr.es/keel/dataset.php?cod=1334 |
-| climate_simulation_crashes | 20 | 540 | 8.5% | https://www.openml.org/search?type=data&status=any&id=1467 |
-| club_loan | 13 | 9578 | 16% | https://www.kaggle.com/datasets/swetashetye/lending-club-loan-data-imbalance-dataset |
-| coil_2000 | 85 | 9822 | 5.9% | https://imbalanced-learn.org/stable/datasets/index.html |
-| graduation | 4 | 1687 | 8% | https://www.kaggle.com/datasets/oddyvirgantara/on-time-graduation-classification |
-| jm1 | 21 | 10885 | 19.3% | https://www.openml.org/search?type=data&status=active&qualities.NumberOfClasses=%3D_2&id=1053 |
-| kc1 | 21 | 2109 | 15.4% | https://www.openml.org/search?type=data&status=active&id=1067 |
-| letter_img | 16 | 20000 | 3.6% | https://imbalanced-learn.org/stable/datasets/index.html |
-| mammography | 6 | 11183 | 3.6% | https://imbalanced-learn.org/stable/datasets/index.html |
-| optical_digits | 64 | 5620 | 9.8% | https://imbalanced-learn.org/stable/datasets/index.html |
-| ozone_level | 72 | 2536 | 6.3% | https://imbalanced-learn.org/stable/datasets/index.html |
-| page_blocks | 10 | 5472 | 10.2% | https://archive.ics.uci.edu/dataset/78/page+blocks+classification |
-| pc1 | 21 | 1109 | 6.9% | https://www.openml.org/search?type=data&status=any&id=1068 |
-| pen_digits | 16 | 10,992 | 9.5% | https://imbalanced-learn.org/stable/datasets/index.html |
-| pie_chart | 37 | 1077 | 12.4% | https://www.openml.org/search?type=data&status=active&id=1453 |
-| satellite | 36 | 5100 | 1.4% | https://www.openml.org/search?type=data&status=active&id=40900 |
-| satimage | 36 | 6435 | 9.7% | https://imbalanced-learn.org/stable/datasets/index.html |
-| seismic_bumps | 15 | 2584 | 6.5% | https://www.openml.org/search?type=data&status=active&id=45562 |
-| shuttle | 9 | 1829 | 6.7% | https://sci2s.ugr.es/keel/dataset.php?cod=125|
-| sick_euthyroid | 42 | 3163 | 9.2% | https://imbalanced-learn.org/stable/datasets/index.html |
-| solar_flare | 32 | 1389 | 4.9% | https://imbalanced-learn.org/stable/datasets/index.html |
-| thoracic_surgery | 16 | 470 | 14.8% | https://archive.ics.uci.edu/dataset/277/thoracic+surgery+data |
-| thyroid_disease | 27 | 3772 | 6.1% | https://imbalanced-learn.org/stable/datasets/index.html |
-| us_crime | 100 | 1994 | 7.5% | https://imbalanced-learn.org/stable/datasets/index.html |
-| vowel | 13 | 988 | 9.1% | https://sci2s.ugr.es/keel/dataset.php?cod=127 |
-| wilt | 5 | 4839 | 5.3% | https://www.openml.org/search?type=data&status=active&id=40983 |
-| wine_quality | 11 | 4898 | 3.7% | https://imbalanced-learn.org/stable/datasets/index.html |
-| yeast | 8 | 1484 | 10.9% | https://sci2s.ugr.es/keel/dataset.php?cod=154 |
+This repository contains files related to the datasets used for the SMOTE analysis project. There are a total of 31 benchmarking datasets used in this project. It creates 5-fold cross-validation sets for each of the 31 included datasets under the Binary Classification category.
 
-## Repository Structure
+## Datasets
 
-The `datasets` folder contains the main data files and the schema files for all the benchmark datasets under Binary Classification category.
+The list of datasets is as follows:
 
-- `processed` folder contains the processed files. These files are used in algorithm evaluations.
+| Dataset                    | # of features | # of samples | % of minority class |                                                source                                                 |
+| -------------------------- | :-----------: | :----------: | :-----------------: | :---------------------------------------------------------------------------------------------------: |
+| abalone_binarized          |       9       |     4177     |        9.3%         |   [link](https://imbalanced-learn.org/stable/datasets/index.html#imbalanced-datasets-for-benchmark)   |
+| auction                    |       7       |     2043     |        12.8%        |                 [link](https://archive.ics.uci.edu/dataset/713/auction+verification)                  |
+| car_eval_binarized         |      21       |     1728     |        7.7%         |   [link](https://imbalanced-learn.org/stable/datasets/index.html#imbalanced-datasets-for-benchmark)   |
+| chess                      |       6       |     2901     |        3.6%         |                        [link](https://sci2s.ugr.es/keel/dataset.php?cod=1334)                         |
+| climate_simulation_crashes |      20       |     540      |        8.5%         |                  [link](https://www.openml.org/search?type=data&status=any&id=1467)                   |
+| club_loan                  |      13       |     9578     |         16%         |     [link](https://www.kaggle.com/datasets/swetashetye/lending-club-loan-data-imbalance-dataset)      |
+| coil_2000                  |      85       |     9822     |        5.9%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| graduation                 |       4       |     1687     |         8%          |       [link](https://www.kaggle.com/datasets/oddyvirgantara/on-time-graduation-classification)        |
+| jm1                        |      21       |    10885     |        19.3%        | [link](https://www.openml.org/search?type=data&status=active&qualities.NumberOfClasses=%3D_2&id=1053) |
+| kc1                        |      21       |     2109     |        15.4%        |                 [link](https://www.openml.org/search?type=data&status=active&id=1067)                 |
+| letter_img                 |      16       |    20000     |        3.6%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| mammography                |       6       |    11183     |        3.6%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| optical_digits             |      64       |     5620     |        9.8%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| ozone_level                |      72       |     2536     |        6.3%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| page_blocks                |      10       |     5472     |        10.2%        |               [link](https://archive.ics.uci.edu/dataset/78/page+blocks+classification)               |
+| pc1                        |      21       |     1109     |        6.9%         |                  [link](https://www.openml.org/search?type=data&status=any&id=1068)                   |
+| pen_digits                 |      16       |    10,992    |        9.5%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| pie_chart                  |      37       |     1077     |        12.4%        |                 [link](https://www.openml.org/search?type=data&status=active&id=1453)                 |
+| satellite                  |      36       |     5100     |        1.4%         |                [link](https://www.openml.org/search?type=data&status=active&id=40900)                 |
+| satimage                   |      36       |     6435     |        9.7%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| seismic_bumps              |      15       |     2584     |        6.5%         |                [link](https://www.openml.org/search?type=data&status=active&id=45562)                 |
+| shuttle                    |       9       |     1829     |        6.7%         |                         [link](https://sci2s.ugr.es/keel/dataset.php?cod=125)                         |
+| sick_euthyroid             |      42       |     3163     |        9.2%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| solar_flare                |      32       |     1389     |        4.9%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| thoracic_surgery           |      16       |     470      |        14.8%        |                 [link](https://archive.ics.uci.edu/dataset/277/thoracic+surgery+data)                 |
+| thyroid_disease            |      27       |     3772     |        6.1%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| us_crime                   |      100      |     1994     |        7.5%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| vowel                      |      13       |     988      |        9.1%         |                         [link](https://sci2s.ugr.es/keel/dataset.php?cod=127)                         |
+| wilt                       |       5       |     4839     |        5.3%         |                [link](https://www.openml.org/search?type=data&status=active&id=40983)                 |
+| wine_quality               |      11       |     4898     |        3.7%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
+| yeast                      |       8       |     1484     |        10.9%        |                         [link](https://sci2s.ugr.es/keel/dataset.php?cod=154)                         |
 
-  - The CSV file with suffix "\_train.csv" is used for training
-  - "\_test.csv" is used for testing (without the targets)
-  - "\_test_key.csv" contains the ids and targets for the test data. This test key file is used to generate scores by comparing with predictions.
-  - The JSON file with suffix "\_schema.json" is the schema file for the corresponding dataset.
-  - The json file with the suffix "\_inference_requeest_sample.json" contains a sample JSON object with the data to make an inference request to the /infer endpoint.
+## Usage
 
-- The `raw` folder contains the original data files from the source (see source urls in table above).
+1. Clone the repository:
 
-- The folder `.src/config` contains two csv files - one called `binary_classification_datasets_metadata.csv` which contains the dataset level attribute information. The second csv called `binary_classification_datasets_fields.csv` contains information regarding all the fields in each of the datasets.
-- `raw_datasets_processing.py`: contains the code to read and preprocess the original source data into the required pandas dataframe format.
-- `schema_gen.py`: contains the code to generate the schema files for each dataset.
-- `train_test_key_files_gen.py`: contains the code to save the train, test, and test-key files for each dataset.
-- `run_all.py`: This is used to run the above three scripts in sequence.
+   ```bash
+   git clone https://github.com/your-username/smote-analysis-project-datasets.git
+   cd smote-analysis-project-datasets
+   ```
 
-Note again that the main files for all the datasets are in the `./datasets/processed` folder.
+2. Create a virtual environment and install dependencies:
 
-# License
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install -r requirements.txt
+   ```
+
+3. Run the following command to generate the processed files:
+
+   ```bash
+   python src/run_all.py
+   ```
+
+   This will create the processed files in the `datasets/processed` folder. There are 5-folds created for each of the 31 datasets, resulting in 155 folders in total. Each folder contains the train, test, and test-key files (which are CSVs) along with the schema file (JSON).
+
+## Project Structure
+
+The project is organized as follows:
+
+- `datasets/`: Contains the main data files and schema files for all benchmark datasets under the Binary Classification category.
+
+  - `processed/`: Contains the processed files used in algorithm evaluations.
+    - Files with suffix "\_train.csv" are used for training.
+    - Files with suffix "\_test.csv" are used for testing (without the targets).
+    - Files with suffix "\_test_key.csv" contain the ids and targets for the test data, used to generate scores by comparing with predictions.
+    - Files with suffix "\_schema.json" are the schema files for the corresponding datasets.
+    - Files with suffix "\_inference_request_sample.json" contain sample JSON objects for making inference requests to the /infer endpoint.
+  - `raw/`: Contains the original data files from the source.
+
+- `src/`: Contains the source code for processing the datasets.
+  - `config/`: Contains two CSV files:
+    - `binary_classification_datasets_metadata.csv`: Contains dataset-level attribute information.
+    - `binary_classification_datasets_fields.csv`: Contains information about all fields in each dataset.
+  - `raw_datasets_processing.py`: Code to read and preprocess the original source data into the required pandas dataframe format.
+  - `schema_gen.py`: Code to generate the schema files for each dataset.
+  - `train_test_key_files_gen.py`: Code to save the train, test, and test-key files for each dataset.
+  - `run_all.py`: Main script that functions in the above three scripts to generate processed dataset files.
+
+Note that the main files for all datasets are located in the `./datasets/processed` folder.
+
+## License
 
 The code in this repository is licensed under the MIT License. See the LICENSE file for details.
 
-The datasets included in this repository are provided for convenience and are subject to their respective licenses as provided by the original authors and distributors. For more details on the licenses and to access the original datasets, please refer to the original sources listed above.
+The datasets included in this repository are provided for convenience and are subject to their respective licenses as provided by the original authors and distributors. For more details on the licenses and to access the original datasets, please refer to the original sources listed in the table above.
 
 Please ensure compliance with the respective licenses when using these datasets.
