@@ -521,17 +521,6 @@ binary_classification,kc1,20,total_Op,feature,NUMERIC,total_Op : numeric % total
 binary_classification,kc1,21,total_Opnd,feature,NUMERIC,total_Opnd : numeric % total operands
 binary_classification,kc1,22,branchCount,feature,NUMERIC,branchCount : numeric % of the flow graph
 binary_classification,kc1,23,defects,target,CATEGORICAL,"problems : {false,true} % module has/has not one or more reported defects"
-binary_classification,shuttle,1,id,id,TEXT,unique identifier
-binary_classification,shuttle,2,A1,feature,NUMERIC,not available
-binary_classification,shuttle,3,A2,feature,NUMERIC,not available
-binary_classification,shuttle,4,A3,feature,NUMERIC,not available
-binary_classification,shuttle,5,A4,feature,NUMERIC,not available
-binary_classification,shuttle,6,A5,feature,NUMERIC,not available
-binary_classification,shuttle,7,A6,feature,NUMERIC,not available
-binary_classification,shuttle,8,A7,feature,NUMERIC,not available
-binary_classification,shuttle,9,A8,feature,NUMERIC,not available
-binary_classification,shuttle,10,A9,feature,NUMERIC,not available
-binary_classification,shuttle,11,Class,target,CATEGORICAL,not available
 binary_classification,optical_digits,1,id,id,TEXT,unique identifier
 binary_classification,optical_digits,2,f1,feature,NUMERIC,not available
 binary_classification,optical_digits,3,f2,feature,NUMERIC,not available

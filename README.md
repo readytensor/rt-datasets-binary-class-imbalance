@@ -1,6 +1,6 @@
 # SMOTE Analysis Project Datasets
 
-This repository contains files related to the datasets used for the SMOTE analysis project. There are a total of 31 benchmarking datasets used in this project. It creates 5-fold cross-validation sets for each of the 31 included datasets under the Binary Classification category.
+This repository contains files related to the datasets used for the SMOTE analysis project. There are a total of 30 benchmarking datasets used in this project. It creates 5-fold cross-validation sets for each of the 30 included datasets under the Binary Classification category.
 
 ## Datasets
 
@@ -29,7 +29,6 @@ The list of datasets is as follows:
 | satellite                  |      36       |     5100     |        1.4%         |                [link](https://www.openml.org/search?type=data&status=active&id=40900)                 |
 | satimage                   |      36       |     6435     |        9.7%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
 | seismic_bumps              |      15       |     2584     |        6.5%         |                [link](https://www.openml.org/search?type=data&status=active&id=45562)                 |
-| shuttle                    |       9       |     1829     |        6.7%         |                         [link](https://sci2s.ugr.es/keel/dataset.php?cod=125)                         |
 | sick_euthyroid             |      42       |     3163     |        9.2%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
 | solar_flare                |      32       |     1389     |        4.9%         |                    [link](https://imbalanced-learn.org/stable/datasets/index.html)                    |
 | thoracic_surgery           |      16       |     470      |        14.8%        |                 [link](https://archive.ics.uci.edu/dataset/277/thoracic+surgery+data)                 |
@@ -63,7 +62,7 @@ The list of datasets is as follows:
    python src/run_all.py
    ```
 
-   This will create the processed files in the `datasets/processed` folder. There are 5-folds created for each of the 31 datasets, resulting in 155 folders in total. Each folder contains the train, test, and test-key files (which are CSVs) along with the schema file (JSON).
+   This will create the processed files in the `datasets/processed` folder. There are 5-folds created for each of the 30 datasets, resulting in 150 folders in total. Each folder contains the train, test, and test-key files (which are CSVs) along with the schema file (JSON).
 
 ## Project Structure
 
