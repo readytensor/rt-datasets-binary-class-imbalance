@@ -1,6 +1,6 @@
-# SMOTE Analysis Project Datasets
+# Binary Class Imbalance Study Datasets
 
-This repository contains files related to the datasets used for the SMOTE analysis project. There are a total of 30 benchmarking datasets used in this project. It creates 5-fold cross-validation sets for each of the 30 included datasets under the Binary Classification category.
+This repository contains files related to the datasets used for the Binary Class Imbalance Study. There are a total of 30 benchmarking datasets used in this project. It creates 5-fold cross-validation sets for each of the 30 included datasets under the Binary Classification category.
 
 ## Datasets
 
@@ -44,8 +44,8 @@ The list of datasets is as follows:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/smote-analysis-project-datasets.git
-   cd smote-analysis-project-datasets
+   git clone https://github.com/your-username/rt-datasets-binary-imbalance.git
+   cd rt-datasets-binary-imbalance
    ```
 
 2. Create a virtual environment and install dependencies:
