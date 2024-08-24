@@ -44,8 +44,8 @@ The list of datasets is as follows:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/rt-datasets-binary-imbalance.git
-   cd rt-datasets-binary-imbalance
+   git clone https://github.com/your-username/rt-datasets-binary-class-imbalance.git
+   cd rt-datasets-binary-class-imbalance
    ```
 
 2. Create a virtual environment and install dependencies:
